@@ -1,0 +1,165 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: A switch is participating in a VTP domain and configured as a VTP server. The switch needs to propagate VLAN 10 (used by the Manufacturing department) throughout the VTP domain, but does not have any directly connected hosts using that particular VLAN. Which configuration would satisfy this requirement?
+A: vlan 10<br />
+name Manufacturing<br />
+exit*
+Q: Which command should the network administrator implement to prevent the transfer of DTP frames between a Cisco switch and a non-Cisco switch?
+A: S1(config-if)# switchport nonegotiate*
+Q: While configuring inter-VLAN routing on a multilayer switch, a network administrator issues the no switchport command on an interface that is connected to another switch. What is the purpose of this command?
+A: to create a routed port for a single network*
+Q: What happens to switch ports after the VLAN to which they are assigned is deleted?
+A: The ports stop communicating with the attached devices.*
+Q: Given the following configuration, which two statements are true? (Choose two.)<br />
+switch(vlan)# vtp version 2<br />
+switch(vlan)# vtp mode server<br />
+switch(vlan)# vtp domain Cisco<br />
+switch(vlan)# vtp password mypassword
+A: This switch can send and receive advertisements from only the Cisco domain.*
+A: This switch can create, modify, and delete all VLANs within the Cisco domain.*
+Q: What is a characteristic of a routed port on a Layer 3 switch?
+Q: It is not assigned to a VLAN.
+Q: Where is the vlan.dat file stored on a switch?
+A: in flash memory*
+Q: How are IP addressing designs affected by VLAN implementations?
+A: Each VLAN must have a different network number.*
+Q: What is a disadvantage of using multilayer switches for inter-VLAN routing?
+A: Multilayer switches are more expensive than router-on-a-stick implementations.*
+Q: Refer to the exhibit. The switch does the routing for the hosts that connect to VLAN 5. If the PC accesses a web server from the Internet, at what point will a VLAN number be added to the frame?
+A: No VLAN number is added to the frame in this design.*
+Q: Fill in the blank.
+Q: Correct Answer: running configuration
+Q: Which three actions can cause problems with a VTP implementation? (Choose three.)
+A: using a non-trunk link to connect switches*
+A: using lowercase on one switch and uppercase on another switch for domain names*
+A: using non-Cisco switches*
+Q: Which two events will cause the VTP revision number on a VTP server to change? (Choose two.)
+A: adding VLANs*
+A: changing the VTP domain name*
+Q: On a Cisco switch, where is extended range VLAN information stored?
+A: running configuration file*
+Q: Refer to the exhibit. PC1 is unable to communicate with server 1. The network administrator issues the show interfaces trunk command to begin troubleshooting. What conclusion can be made based on the output of this command?
+A: Interface G0/2 is not configured as a trunk.*
+Q: Refer to the exhibit. Communication between the VLANs is not occurring. What could be the issue?
+A: The Gi1/1 switch port is not in trunking mode.*
+Q: Which two VTP parameters must be identical on all switches in the network in order to participate in the same VTP domain? (Choose two.)
+A: VTP domain password*
+A: VTP domain name*
+Q: What is a characteristic of VTP?
+A: Switches in VTP transparent mode forward VTP advertisements.*
+Q: Under which two occasions should an administrator disable DTP while managing a local area network? (Choose two.)
+A: when connecting a Cisco switch to a non-Cisco switch*
+A: on links that should not be trunking*
+Q: Refer to the exhibit. A network administrator is configuring inter-VLAN routing. However, the communication between VLAN 10 and VLAN 20 fails. Based on the output of the show vlancommand, what is the cause of the problem?
+A: Gi1/1 and Gi1/2 are not assigned to their respective VLANs.*
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. Fill in the blank. Do not use abbreviations.Which command is missing on the Layer 3 switch to restore the full connectivity between PC1 and the web server? (Note that typing no shutdown will not fix this problem.)
+Q: Correct Answer: ip address 192.168.20.1 255.255.255.0
+Q: How is traffic routed between multiple VLANs on a multilayer switch?
+A: Traffic is routed via internal VLAN interfaces.*
+Q: Refer to the exhibit. A network administrator is verifying the configuration of inter-VLAN routing. Users complain that PC2 cannot communicate with PC1. Based on the output, what is the possible cause of the problem?
+A: The encapsulation dot1Q 5 command contains the wrong VLAN.*
+Q: Refer to the exhibit. A router-on-a-stick configuration was implemented for VLANs 15, 30, and 45, according to the show running-config command output. PCs on VLAN 45 that are using the 172.16.45.0 /24 network are having trouble connecting to PCs on VLAN 30 in the 172.16.30.0 /24 network. Which error is most likely causing this problem?
+A: There is an incorrect IP address configured on GigabitEthernet 0/0.30.*
+Q: Refer to the exhibit. After attempting to enter the configuration that is shown in router RTA, an administrator receives an error and users on VLAN 20 report that they are unable to reach users on VLAN 30. What is causing the problem?
+A: RTA is using the same subnet for VLAN 20 and VLAN 30.*
+Q: Which command displays the encapsulation type, the voice VLAN ID, and the access mode VLAN for the Fa0/1 interface?
+A: show interfaces Fa0/1 switchport*
+Q: Question as presented: Match the DTP mode with its function. (Not all options are used.)
+Q: Which two network design features require Spanning Tree Protocol (STP) to ensure correct network operation? (Choose two.)
+A: redundant links between Layer 2 switches*
+A: removing single points of failure with multiple Layer 2 switches*
+Q: What is a characteristic of a Layer 2 loop?
+A: Broadcast frames are forwarded back to the sending switch.*
+Q: What is the outcome of a Layer 2 broadcast storm?
+A: New traffic is discarded by the switch because it is unable to be processed.*
+Q: What additional information is contained in the 12-bit extended system ID of a BPDU?
+A: VLAN ID*
+Q: Which three components are combined to form a bridge ID?
+A: extended system ID*
+A: MAC address *
+A: bridge priority*
+Q: Which STP priority configuration would ensure that a switch would always be the root switch?
+A:  spanning-tree vlan 10 priority 0*
+Q: Which protocol provides up to 16 instances of RSTP, combines many VLANs with the same physical and logical topology into a common RSTP instance, and provides support for PortFast, BPDU guard, BPDU filter, root guard, and loop guard?
+A: MST*
+Q: Which two types of spanning tree protocols can cause suboptimal traffic flows because they assume only one spanning-tree instance for the entire bridged network? (Choose two.)
+A: STP*
+A: RSTP*
+Q: What is an advantage of PVST+?
+A: PVST+ optimizes performance on the network through load sharing.*
+Q: In which two port states does a switch learn MAC addresses and process BPDUs in a PVST network? (Choose two.)
+A: forwarding *
+A: learning*
+Q: If no bridge priority is configured in PVST, which criteria is considered when electing the root bridge?
+A: lowest MAC address*
+Q: Which RSTP ports are connected to end devices?
+A: edge ports*
+Q: A network administrator is preparing the implementation of Rapid PVST+ on a production network. How are the Rapid PVST+ link types determined on the switch interfaces?
+A: Link types are determined automatically.*
+Q: Which port state will switch ports immediately transition to when configured for PortFast?
+A: forwarding*
+Q: To obtain an overview of the spanning tree status of a switched network, a network engineer issues the show spanning-tree command on a switch. Which two items of information will this command display? (Choose two.)
+A: The root bridge BID.*
+A: The role of the ports in all VLANs.*
+Q: What is the purpose of HSRP?
+A: It provides a continuous network connection when a router fails.*
+Q: Which nonproprietary protocol provides router redundancy for a group of routers which support IPv4 LANs?
+A: VRRPv2*
+Q: Refer to the exhibit. Which protocol information is being displayed in the output?
+A: GLBP*
+Q: Refer to the exhibit. A network engineer is troubleshooting host connectivity on a LAN that uses a first hop redundancy protocol. Which IPv4 gateway address should be configured on the host?
+A: 192.168.2.100*
+Q: Fill in the blank. Do not use abbreviations.
+Q: mode rapid-pvst
+Q: Fill in the blank.
+Q: virtual
+Q: What could be the effect of duplicate unicast frames arriving at a destination device due to multiple active alternative physical paths?
+A: Application protocols malfunction.*
+Q: Refer to the exhibit. Which trunk link will not forward any traffic after the root bridge election process is complete?
+A: Trunk2*
+Q: Which STP port role is adopted by a switch port if there is no other port with a lower cost to the root bridge?
+A: root port*
+Q: Which is the default STP operation mode on Cisco Catalyst switches?
+A: PVST+*
+Q: What value determines the root bridge when all switches connected by trunk links have default STP configurations?
+A: MAC address*
+Q: Which two concepts relate to a switch port that is intended to have only end devices attached and intended never to be used to connect to another switch? (Choose two.)
+A: edge port*
+A: PortFast*
+Q: Which Cisco switch feature ensures that configured switch edge ports do not cause Layer 2 loops if a port is mistakenly connected to another switch?
+A: BPDU guard*
+Q: Refer to the exhibit. A network administrator configured routers R1 and R2 as part of HSRP group 1. After the routers have been reloaded, a user on Host1 complained of lack of connectivity to the Internet The network administrator issued the show standby brief command on both routers to verify the HSRP operations. In addition, the administrator observed the ARP table on Host1. Which entry should be seen in the ARP table on Host1 in order to gain connectivity to the Internet?
+A: the virtual IP address and the virtual MAC address for the HSRP group 1*
+Q: Fill in the blank. Do not abbreviate.
+Q: rapid-pvst
+Q: Fill in the blank. Use a number.
+Q: 2
+Q: Launch PT. Hide and Save PT<br />
+Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.<br />
+Which switch is the root bridge?â€‹
+A: Switch_4*
+Q: Match the step number to the sequence of stages that occur during the HSRP failover process.
+Q: Place the options in the following order:
+Q: The new forwarding router assumes both the IP and MAC address of the virtual router. -&gt; <span style="color: #ff0000;">Step 4 </span>
+Q: â€“ not scored â€“
+Q: The standby router assumes the role of the forwarding router. -&gt; <span style="color: #ff0000;">Step 3 </span>
+Q: The forwarding router fails. -&gt; <span style="color: #ff0000;">Step 1</span>
+Q: The standby router stops seeing hello messages from the forwarding router. -&gt; <span style="color: #ff0000;">Step 2</span>
+Q: Match the spanning-tree feature with the protocol type. (Not all options are used.)
+Q: Place the options in the following order:
+Q: Cisco implementation of IEEE 802.1D</span> ==&gt; PVST+
+Q: Fast converging enhancement of IEEE 802.1D</span> ==&gt; RSTP
+Q: IEEE standard that reduces the number of STP instances</span> ==+&gt; MSTP
+Q: â€“ not scored</span> ==&gt; MST
+Q: Proprietary per VLAN implementation of IEEE 802.1w</span> ==&gt; Rapid PVST+
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-3-v5-0-3-v6-0-chapter-2-answers-full-pdf?wpdmdl=23646&refresh=5cd0f200688981557197312';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

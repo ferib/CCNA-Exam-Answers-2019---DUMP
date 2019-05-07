@@ -1,0 +1,150 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: Refer to the exhibit. Based on the command output shown, what is the status of the EtherChannel?
+A: The EtherChannel is in use and functional as indicated by the SU and P flags in the command output.*
+Q: Refer to the exhibit. A network engineer is troubleshooting host connectivity on a LAN that uses a first hop redundancy protocol. Which IPv4 gateway address should be configured on the host?
+A: 192.168.2.100*
+Q: What is the purpose of HSRP?
+A: It provides a continuous network connection when a router fails.*
+Q: Refer to the exhibit. An EtherChannel was configured between switches S1 and S2, but the interfaces do not form an EtherChannel. What is the problem?
+A: The EtherChannel was not configured with the same allowed range of VLANs on each interface.*
+Q: What is an advantage of using LACP?
+A: allows automatic formation of EtherChannel links*
+Q: What is a requirement to configure a trunking EtherChannel between two switches?
+A: The allowed range of VLANs must be the same on both switches.*
+Q: A network administrator would like to ensure that router R1 is always elected the active router for an HSRP group. Which set of commands would ensure the required results?
+A: R1(config-if)# ip address 192.168.1.100 255.255.255.0<br />
+R1(config-if)# standby 1 ip 192.168.1.1<br />
+R1(config-if)# standby 1 priority 255<br />
+R1(config-if)# standby 1 preempt<br />
+R1(config-if)# no shutdown*
+Q: Refer to the exhibit. A network administrator configured routers R1 and R2 as part of HSRP group 1. After the routers have been reloaded, a user on Host1 complained of lack of connectivity to the Internet The network administrator issued the show standby brief command on both routers to verify the HSRP operations. In addition, the administrator observed the ARP table on Host1. Which entry should be seen in the ARP table on Host1 in order to gain connectivity to the Internet?
+A: the virtual IP address and the virtual MAC address for the HSRP group 1*
+Q: Fill in the blank.
+A: Correct Answer: virtual*
+Q: What is a best practice to use before beginning an EtherChannel implementation?
+A: Shut down each of the affected interfaces.*
+Q: Which statement describes an EtherChannel implementation?
+A: A trunked port can be part of an EtherChannel bundle.*
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. What are two reasons why the ping messages that are issued from Laptop0 towards Laptop1 are failing? (Choose two.)
+A: The two interfaces on each of the switches belong to different VLANs.*
+A: The channel group should be configured as a trunk on each switch.*
+Q: Refer to the exhibit. A network administrator issued the show etherchannel summary command on the switch S1. What conclusion can be drawn?
+A: The EtherChannel is not functional.*
+Q: Which PAgP mode combination will establish an EtherChannel?
+A: switch 1 set to desirable; switch 2 set to desirable.*
+Q: Refer to the exhibit. What statement is true about the output of the show standby command?
+A: The router is currently forwarding packets.*
+Q: Which three options must match in order to establish an EtherChannel between two directly connected switches? (Choose three.)
+A: duplex settings of the interfaces that are used for EtherChannel*
+A: VLAN memberships of the interfaces that are used for EtherChannel*
+A: speed of the interfaces that are used for EtherChannel*
+Q: Which two protocols are used to implement EtherChannel? (Choose two.)
+A: Link Aggregation Control Protocol*
+A: Port Aggregation Protocol*
+Q: In FHRP terminology, what represents a set of routers that present the illusion of a single router to hosts?
+A: virtual router*
+Q: Which command must be used on SW2 to enable this EtherChannel?
+A: SW2(config-if-range)# channel-group 1 mode desirable*
+Q: An EtherChannel link using LACP was formed between two switches, S1 and S2. While verifying the configuration, which mode combination could be utilized on both switches?
+A: S1-passive and S2-active*
+Q: Which statement describes a characteristic of EtherChannel?
+A: It is made by combining multiple physical links that are seen as one link between two switches.*
+Q: Refer to the exhibit. Which switching technology would allow each access layer switch link to be aggregated to provide more bandwidth between each Layer 2 switch and the Layer 3 switch?
+A: EtherChannel*
+Q: Which statement is true regarding the use of PAgP to create EtherChannels?
+A: It is Cisco proprietary.*
+Q: Refer to the exhibit. A network administrator has decided that an EtherChannel between ports 0/1 and 0/2 on switches S1 and S2 would help performance. After making the configuration, the administrator notices no performance gain. Based on the output that is shown, what two possible assumptions could a network administrator make? (Choose two.)
+A: One of the ports on S2 was not configured correctly.*
+A: The EtherChannel bundle is not working.*
+Q: Which nonproprietary protocol provides router redundancy for a group of routers which support IPv4 LANs?
+A: VRRPv2*
+Q: A network administrator is configuring an EtherChannel link between switches SW1 and SW2 by using the command SW1(config-if-range)# channel-group 1 mode passive. Which command must be used on SW2 to enable this EtherChannel?
+A: SW2(config-if-range)# channel-group 1 mode active*
+Q: Match the description to the correct command. (Not all options are used.)
+Q: Which IEEE wireless standard is known as WiGig and operates using a tri-band solution in the 2.4, 5, and 60 GHz ranges?
+A: 802.11ad*
+Q: Which two roles are typically performed by a wireless router that is used in a home or small business? (Choose two.)
+A: access point*
+A: Ethernet switch*
+Q: A supervisor needs wireless access in the construction office during the construction of a new building. The construction office is in the new building and directly across the road from headquarters. What could be used to satisfy this requirement of needing a narrow area of coverage?
+A: Yagi*
+Q: A student uses a laptop to upload an assignment to a file server. Which wireless frame type did the laptop send to locate and associate with the campus access point?
+A: management frame*
+Q: During which stage of establishing connectivity between a WLAN client and an AP does the client learn the MAC address of the AP?
+A: association*
+Q: For which discovery mode will an AP generate the most traffic on a WLAN?
+A:  passive mode*
+Q: What is the purpose of the Distributed Coordination Function in an IEEE 802.11 WLAN environment?
+A: It allows a client to detect whether or not a channel is clear prior to transmission.*
+Q: What is an advantage of SSID cloaking?â€‹
+A: Clients will have to manually identify the SSID to connect to the network.â€‹*
+Q: If three 802.11b access points need to be deployed in close proximity, which three frequency channels should be used? (Choose three.)
+A: 1*
+A: 6*
+A: 11*
+Q: Which three Wi-Fi standards operate in the 2.4GHz range of frequencies? (Choose three.)
+A: 802.11b *
+A: 802.11g *
+A: 802.11n*
+Q: An employee connects wirelessly to the company network using a cell phone. The employee then configures the cell phone to act as a wireless access point that will allow new employees to connect to the company network. Which type of security threat best describes this situation?
+A: rogue access point*
+Q: Which security mode is the least secure choice when a home wireless router is configured?
+A: WEP*
+Q: Which parameter is commonly used to identify a wireless network name when a home wireless AP is being configured?
+A: SSID*
+Q: A company has recently implemented an 802.11n wireless network. Some users are complaining that the wireless network is too slow. Which solution is the best method to enhance the performance of the wireless network?
+A: Split the traffic between the 2.4 GHz and 5 GHz frequency bands.*
+Q: Fill in the blank. Do not use abbreviations.
+Q: tethering
+Q: Fill in the blank.
+Q:  man-in -the -middle
+Q: Fill in the blank. Use the acronym.
+A: AES*
+Q: Which organization certifies vendors for adherence to the 802.11 standards to improve interoperability of 802.11 products?
+A: Wi-Fi Alliance*
+Q: What type of wireless antenna is best suited for providing coverage in large open spaces, such as hallways or large conference rooms?
+A: omnidirectional*
+Q: Which feature of 802.11n wireless access points allows them to transmit data at faster speeds than previous versions of 802.11 Wi-Fi standards did?
+A: MIMO*
+Q: What is a difference between Cisco APs that operate in a home environment and Cisco APs that operate in a corporate environment?
+A: Some corporate AP models can operate in either autonomous mode or controller-based mode.*
+Q: Which type of wireless topology is created when two or more Basic Service Sets are interconnected by Ethernet?
+A: ESS*
+Q: Which type of management frame may regularly be broadcast by an AP?
+A:  beacon*
+Q: Which statement defines the control frame operation between two stations?
+A: After receiving a data frame, the receiving station will send an ACK frame to the sending station if no errors are found.*
+Q: A administrator wishes to extend the range of the existing IEEE 802.11n network without changing the AP. What can the administrator do to accomplish this?
+A: Deploy a Wi-Fi Range Extender.*
+Q: Launch PT Hide and Save PT. Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. What is the SSID of the connected network and which message is displayed in the browser window?
+A: SSID: Home-Net<br />
+Message:Congratulations! You were able to connect it!*
+Q: Match the type of attack to its description. (Not all options are used.)
+Q: Place the options in the following order: 
+Q:  â€“ not scored â€“ 
+Q: MITM
+Q: spoofed disconnct DoS
+Q: CTS flood DoS
+Q: Place the following actions in the order in which they occur in a shared key authentication process. (Not all options are used.)
+Q: Place the options in the following order: 
+Q:  â€“ not scored â€“ 
+Q: Step 2</span>
+Q: Step 5</span>
+Q: Step 1</span>
+Q: Step 3</span>
+Q:  â€“ not scored â€“ 
+Q: Step 4</span>
+Q: A WLAN user wants to allocate an optimal amount of bandwidth to a specific online game. What is a Linksys Smart Wi-Fi tool that will allow the user to do this?
+A: Media Prioritization*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-3-v5-0-3-v6-0-chapter-4-answers-full-pdf?wpdmdl=23654&refresh=5cd0f6e7b48c81557198567';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

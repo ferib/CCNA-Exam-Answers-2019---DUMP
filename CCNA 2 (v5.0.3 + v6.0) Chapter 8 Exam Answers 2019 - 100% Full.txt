@@ -1,0 +1,167 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: Which DHCPv4 message will a client send to accept an IPv4 address that is offered by a DHCP server?
+A: broadcast DHCPREQUEST*
+Q: A company uses DHCP servers to dynamically assign IPv4 addresses to employee workstations. The address lease duration is set as 5 days. An employee returns to the office after an absence of one week. When the employee boots the workstation, it sends a message to obtain an IP address. Which Layer 2 and Layer 3 destination addresses will the message contain?
+A: FF-FF-FF-FF-FF-FF and 255.255.255.255*
+Q: Which is a DHCPv4 address allocation method that assigns IPv4 addresses for a limited lease period?
+A: dynamic allocation*
+Q: Which address does a DHCPv4 server target when sending a DHCPOFFER message to a client that makes an address request?
+A: client hardware address*
+Q: As a DHCPv4 client lease is about to expire, what is the message that the client sends the DHCP server?
+A: DHCPREQUEST*
+Q: What is an advantage of configuring a Cisco router as a relay agent?
+A: It can provide relay services for multiple UDP services.*
+Q: An administrator issues the commands:<br />
+Router(config)# interface g0/1<br />
+Router(config-if)# ip address dhcp<br />
+What is the administrator trying to achieve?
+A: configuring the router to obtain IP parameters from a DHCPv4 server*
+Q: Under which two circumstances would a router usually be configured as a DHCPv4 client? (Choose two.)
+A: The router is intended to be used as a SOHO gateway.*
+A: This is an ISP requirement.*
+Q: A company uses the SLAAC method to configure IPv6 addresses for the employee workstations. Which address will a client use as its default gateway?â€‹
+A: the link-local address of the router interface that is attached to the network*
+Q: A network administrator configures a router to send RA messages with M flag as 0 and O flag as 1. Which statement describes the effect of this configuration when a PC tries to configure its IPv6 address?
+A: It should use the information that is contained in the RA message and contact a DHCPv6 server for additional information*
+Q: A company implements the stateless DHCPv6 method for configuring IPv6 addresses on employee workstations. After a workstation receives messages from multiple DHCPv6 servers to indicate their availability for DHCPv6 service, which message does it send to a server for configuration information?
+A: DHCPv6 INFORMATION-REQUEST*
+Q: An administrator wants to configure hosts to automatically assign IPv6 addresses to themselves by the use of Router Advertisement messages, but also to obtain the DNS server address from a DHCPv6 server. Which address assignment method should be configured?
+A: stateless DHCPv6Â *
+Q: How does an IPv6 client ensure that it has a unique address after it configures its IPv6 address using the SLAAC allocation method?
+A: It sends an ICMPv6 Neighbor Solicitation message with the IPv6 address as the target IPv6 address.*
+Q: What is used in the EUI-64 process to create an IPv6 interface ID on an IPv6 enabled interface?
+A: the MAC address of the IPv6 enabled interface*
+Q: What two methods can be used to generate an interface ID by an IPv6 host that is using SLAAC? (Choose two.)
+A: EUI-64*
+A: random generation*
+Q: Refer to the exhibit. Based on the output that is shown, what kind of IPv6 addressing is being configured?<br />
+
+A: stateless DHCPv6*
+Q: What is the result of a network technician issuing the command ip dhcp excluded-address 10.0.15.1 10.0.15.15 on a Cisco router?
+A: The Cisco router will exclude 15 IP addresses from being leased to DHCP clients.*
+Q: Refer to the exhibit. What should be done to allow PC-A to receive an IPv6 address from the DHCPv6 server?
+A: Add the ipv6 dhcp relay command to interface Fa0/0.*
+Q: Refer to the exhibit. A network administrator is implementing stateful DHCPv6 operation for the company. However, the clients are not using the prefix and prefix-length information that is configured in the DHCP pool. The administrator issues a show ipv6 interface command. What could be the cause of the problem?
+A: The router is configured for stateless DHCPv6 operation*
+Q: Refer to the exhibit. A network administrator is implementing the stateless DHCPv6 operation for the company. Clients are configuring IPv6 addresses as expected. However, the clients are not getting the DNS server address and the domain name information configured in the DHCP pool. What could be the cause of the problem?
+A: The router is configured for SLAAC operation*
+Q: Fill in the blank. Do not abbreviate<br />
+Type a command to exclude the first fifteen useable IP addresses from a DHCPv4 address pool of the network 10.0.15.0/24.<br />
+Router(config)# ip dhcp
+A: excluded-address 10.0.15.1 10.0.15.15*
+Q: Order the steps of configuring a router as a DHCPv4 Server. (Not all options are used.)
+Q: Match the description to the corresponding DHCPv6 server type. (Not all options are used.)
+Q: A router is participating in an OSPFv2 domain. What will always happen if the dead interval expires before the router receives a hello packet from an adjacent DROTHER OSPF router?
+A: OSPF will remove that neighbor from the router link-state database.*
+Q: Which three statements describe the similarities between OSPFv2 and OSPFv3? (Choose three.)
+A:  They both are link-state protocols.*
+A: They both share the concept of multiple areas.*
+A: They both use the same DR/BDR election process.*
+Q: Which OSPF component is identical in all routers in an OSPF area after convergence?
+A: link-state database*
+Q: Which three statements describe features of the OSPF topology table? (Choose three.)
+A:  It is a link-state database that represents the network topology.*
+A: When converged, all routers in an area have identical topology tables.*
+A: The table can be viewed via the show ip ospf database command.*
+Q: What is used to create the OSPF neighbor table?
+A:  adjacency database*
+Q: What is a function of OSPF hello packets?
+A: to discover neighbors and build adjacencies between them*
+Q: Which OPSF packet contains the different types of link-state advertisements?
+A: LSU*
+Q: What are the two purposes of an OSPF router ID? (Choose two.)
+A: to uniquely identify the router within the OSPF domain*
+A: to facilitate router participation in the election of the designated router*
+Q: What is the first criterion used by OPSF routers to elect a DR?
+A:  highest priority*
+Q: Which wildcard mask would be used to advertise the 192.168.5.96/27 network as part of an OSPF configuration?
+A: 0.0.0.31*
+Q: What are two reasons that will prevent two routers from forming an OSPFv2 adjacency? (Choose two.)
+A: mismatched OSPF Hello or Dead timers*
+A: mismatched subnet masks on the link interfaces*
+Q: Refer to the exhibit. A network administrator issued the command show ip ospf interface on the router R2. What conclusion can be drawn?
+A: R2 has not formed an adjacency with any other router.*
+Q: What command would be used to determine if a routing protocol-initiated relationship had been made with an adjacent router?
+A: show ip ospf neighbor*
+Q: Which OSPFv3 function works differently from OSPFv2?
+A: authentication*
+Q: Which three addresses could be used as the destination address for OSPFv3 messages? (Choose three.)
+A: FE80::1*
+A: FF02::5*
+A: FF02::6*
+Q: What does a Cisco router use automatically to create link-local addresses on serial interfaces when OSPFv3 is implemented?
+A: an Ethernet interface MAC address available on the router, the FE80::/10 prefix, and the EUI-64 process*
+Q: A network administrator enters the command ipv6 router ospf 64in global configuration mode. What is the result of this command?
+A: The OSPFv3 process will be assigned an ID of 64.*
+Q: Single area OSPFv3 has been enabled on a router via the ipv6 router ospf 20 command. Which command will enable this OSPFv3 process on an interface of that router?
+A: ipv6 ospf 20 area 0*
+Q: Which command will verify that a router that is running OSPFv3 has formed an adjacency with other routers in its OSPF area?
+A: show ipv6 ospf neighbor*
+Q: Fill in the blank. Do not use abbreviations.
+Q: show ipv6 protocols</span>
+Q: Fill in the blank.
+Q: multiaccess </span>
+Q: Fill in the blank.
+Q: cost</span>
+Q: Match the information to the command that is used to obtain the information. (Not all options are used.)
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then complete the task. What message is displayed on www.ciscoville.com?
+A: Completion!*
+Q: Which criterion is preferred by the router to choose a router ID?
+A: the router-id rid command*
+Q: Which command should be used to check the OSPF process ID, the router ID, networks the router is advertising, the neighbors the router is receiving updates from, and the default administrative distance?
+A: show ip protocols*
+Q: A network administrator enters the command ipv6 router ospf 64 in global configuration mode. What is the result of this command?
+A: The OSPFv3 process will be assigned an ID of 64.*
+Q: When a network engineer is configuring OSPFv3 on a router, which command would the engineer issue immediately before configuring the router ID?
+A: ipv6 router ospf 10*
+Q: Which command will provide information specific to OSPFv3 routes in the routing table?
+A: show ipv6 route ospf*
+Q: Fill in the blank.
+Q: multiaccess
+Q: Launch PT â€“ Hide and Save PT. Open the PT Activity. Perform the tasks in the activity instructions and then complete the task. What message is displayed on www.ciscoville.com?
+A: Completion!*
+Q: By order of precedence, match the selection of router ID for an OSFP-enabled router to the possible router ID options. (Not all options are used.)
+Q: Place the options in the following order:
+Q: Third precedence -&gt; Loopback interface address 10.1.1.1
+Q: Fourth precedence -&gt; Serial interface address 192.168.10.1
+Q: â€“ not scored â€“
+Q: First precedence -&gt; Configured router ID 1.1.1.1
+Q: Second precedence -&gt; loopback interface IP address 172.16.1.1
+Q: Match the description to the term. (Not all options are used.)
+Q: Place the options in the following order:
+Q: This is where the details of the neighboring routers can be found.<span style="color: #000000;"> -&gt; adjacency database</span>
+Q: This is the algorithm used by OSPF. <span style="color: #000000;">-&gt; Shortest Path First</span>
+Q: <span style="color: red;">All the routers are in the backbone area.</span> <span style="color: #000000;">-&gt; Single-area OSPF</span>
+Q:  â€“ not scored â€“ 
+Q: <span style="color: red;">This is where you can find the topology table.</span> <span style="color: #000000;">-&gt; link-state database</span>
+Q:  â€“ not scored â€“
+Q: What is the first criterion used by OSPF routers to elect a DR?
+A: Highest priority*
+Q: What are two reasons that will prevent routers from forming an OSPFv2 adjacency? (Choose two.)
+A: mismatched subnet masks on the link interfaces*
+A: mismatched OSPF Hello or Dead timers*
+Q: What command would be issued to determine if a routing protocol-initiated relationship has been made with an adjacent router?
+A: show ip ospf neighbor*
+Q: Match the OSPF state with the order in which it occurs. (Not all options are used.)
+Q: Place the options in the following order:
+Q: second state -&gt; Init state
+Q: â€“ not scored â€“
+Q: seventh state -&gt; Full state
+Q: fifth state -&gt; Exchange state
+Q: first state -&gt; Down state
+Q: fourth state -&gt; Exstart state
+Q: â€“ not scored â€“
+Q: third state -&gt; Two-way state
+Q: sixth state -&gt; Loading state
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-2-v5-1-v6-0-chapter-8-exam-answers-full-pdf?wpdmdl=20497&refresh=5cd0f05e501271557196894';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

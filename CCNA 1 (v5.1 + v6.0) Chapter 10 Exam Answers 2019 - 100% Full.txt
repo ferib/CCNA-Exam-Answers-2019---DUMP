@@ -1,0 +1,162 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: Which two definitions accurately describe the associated application layer protocol? (Choose two.)
+A: Telnet â€“ provides remote access to servers and networking devices*
+A: DNS â€“ resolves Internet names to IP addresses*
+Q: Explain:
+Q: The application layer of the TCP/IP model performs the functions of what three layers of the OSI model? (Choose three.)
+A: session*
+A: presentation*
+A: application*
+Q: Explain:
+Q: Which layer in the TCP/IP model is used for formatting, compressing, and encrypting data?
+A: application*
+Q: Explain:
+Q: What are two characteristics of the application layer of the TCP/IP model? (Choose two.)
+A: the creation and maintenance of dialogue between source and destination applications *
+A: closest to the end user*
+Q: Explain:
+Q: A manufacturing company subscribes to certain hosted services from its ISP. The services that are required include hosted world wide web, file transfer, and e-mail. Which protocols represent these three key applications? (Choose three.)
+A: FTP*
+A: HTTP*
+A: SMTP*
+Q: Explain:
+Q: What is an example of network communication that uses the client-server model?
+A: A workstation initiates a DNS request when the user types www.cisco.com in the address bar of a web browser.*
+Q: Explain:
+Q: Two students are working on a network design project. One student is doing the drawing, while the other student is writing the proposal. The drawing is finished and the student wants to share the folder that contains the drawing so that the other student can access the file and copy it to a USB drive. Which networking model is being used?
+A:  peer-to-peer*
+Q: Explain:
+Q: What do the client/server and peer-to-peer network models have in common?
+A: Both models support devices in server and client roles.*
+Q: Explain:
+Q: What is an advantage for small organizations of adopting IMAP instead of POP?
+A: Messages are kept in the mail servers until they are manually deleted from the email client.*
+Q: Explain:
+Q: Which application layer protocol uses message types such as GET, PUT, and POST?
+A: HTTP*
+Q: Explain:
+Q: When retrieving email messages, which protocol allows for easy, centralized storage and backup of emails that would be desirable for a small- to medium-sized business?
+A: IMAP*
+Q: Explain:
+Q: What is the function of the Nslookup utility?
+A: to manually query the name servers to resolve a given host name*
+Q: Explain:
+Q: What message type is used by an HTTP client to request data from a web server?
+A: GET*
+Q: Explain:
+Q: Which protocol is used by a client to communicate securely with a web server?
+A: HTTPS*
+Q: Explain:
+Q: Which three statements describe a DHCP Discover message? (Choose three.)
+A: The destination IP address is 255.255.255.255.*
+A: The message comes from a client seeking an IP address.*
+A: All hosts receive the message, but only a DHCP server replies.*
+Q: Explain:
+Q: What part of the URL, http://www.cisco.com/index.html, represents the top-level DNS domain?
+A: .com*
+Q: Explain:
+Q: Which two tasks can be performed by a local DNS server? (Choose two.)
+A: mapping name-to-IP addresses for internal hosts*
+A: forwarding name resolution requests between servers*
+Q: Explain:
+Q: Which phrase describes an FTP daemon?
+A: a program that is running on an FTP server*
+Q: Explain:
+Q: Which statement is true about FTP?
+A: The client can download data from or upload data to the server.*
+Q: Explain:
+Q: What is true about the Server Message Block protocol?
+A: Clients establish a long term connection to servers.*
+Q: Explain:
+Q: Which application layer protocol is used to provide file-sharing and print services to Microsoft applications?
+A: SMB*
+Q: Explain:
+Q: Fill in the blank.
+Q: HTTPS
+Q: Explain:
+Q: Fill in the blank.
+Q: GET
+Q: Explain:
+Q: Open the PT Activity.
+Q: Perform the tasks in the activity instructions and then answer the question.
+Q: Which PC or PCs are sending FTP packets to the server?
+A: PC_2*
+Q: Explain:
+Q: Fill in the blank.
+Q: Refer to the exhibit. What command was used to resolve a given host name by querying the name servers?
+Q: nslookup
+Q: Explain:
+Q: Match a statement to the related network model. (Not all options are used.)
+Q: Place the options in the following order:
+Q: peer-to-peer network
+Q: [+] no dedicated server is required 
+Q: [+] client and server roles are set on a per request basis
+Q: peer-to-peer aplication
+Q: [#] requires a specific user interface 
+Q: [#] a background service is required
+Q: Explain:
+Q: Match the functions to the name of the application. (Not all options are used.)
+Q: Place the options in the following order:
+Q: â€” not scored â€”
+Q: DHCP -&gt; <span style="color: #ff0000;">dynamically assigns IP address to clients</span>
+Q: DNS -&gt; <span style="color: #ff0000;">maps URLs to numerical addresses</span>
+Q: IMAP -&gt; <span style="color: #ff0000;">allows viewing of messages on email clients</span>
+Q: HTTP -&gt; <span style="color: #ff0000;">displays web pages</span>
+Q: SMTP -&gt; <span style="color: #ff0000;">sends email messages</span>
+Q: â€” not scored â€”
+Q: Which three layers of the OSI model provide similar network services to those provided by the application layer of the TCP/IP model? (Choose three.)
+A: session layer*
+A: application layer*
+A: presentation layer*
+Q: Which two tasks are functions of the presentation layer? (Choose two.)
+A: compression*
+A: encryption*
+Q: Select three protocols that operate at the Application Layer of the OSI model. (Choose three.)
+A: FTP *
+A: POP3 *
+A: DHCP*
+Q: A manufacturing company subscribes to certain hosted services from their ISP. The services required include hosted world wide web, file transfer, and e-mail. Which protocols represent these three key applications? (Choose three.)
+A:  FTP *
+A: HTTP*
+A: SMTP*
+Q: What are two characteristics of peer-to-peer networks? (Choose two.)
+A: decentralized resources*
+A: resource sharing without a dedicated server*
+Q: Which two actions are taken by SMTP if the destination email server is busy when email messages are sent? (Choose two.)
+A: SMTP tries to send the messages at a later time.*
+A: SMTP periodically checks the queue for messages and attempts to send them again.*
+Q: A DHCP-enabled client PC has just booted. During which two steps will the client PC use broadcast messages when communicating with a DHCP server? (Choose two.)
+A: DHCPDISCOVER*
+A: DHCPREQUEST*
+Q: A user accessed the game site www.nogamename.com last week. The night before the user accesses the game site again, the site administrator changes the site IP address. What will be the consequence of that action for the user?
+A: The user will access the site without problems.*
+Q: Which DNS server in the DNS hierarchy would be considered authoritative for the domain name records of a company named netacad?
+A: netacad.com*
+Q: When would it be more efficient to use SMB to transfer files instead of FTP?
+A: when downloading large numbers of files from the same server*
+Q: Fill in the blank.
+Q:  HTTPS
+Q: Match the DNS record type to the corresponding description. (Not all options are used.)
+Q: Place the options in the following order:
+Q: end device address
+Q: authoritative name server
+Q: canonical name
+Q: mail exchange record
+Q: Match the purpose with its DHCP message type. (Not all options are used.)
+Q: Place the options in the following order:
+Q: a message that is used to identify the explicit server and lease offer to accept
+Q: a message that is used to locate any available DHCP server on a network
+Q: a message that is used to suggest a lease to a client
+Q: a message that is used to acknowledge that the lease is successful
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-1-v5-1-v6-0-chapter-10-exam-answers-full-pdf?wpdmdl=20455&refresh=5cd0efc9e114f1557196745';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

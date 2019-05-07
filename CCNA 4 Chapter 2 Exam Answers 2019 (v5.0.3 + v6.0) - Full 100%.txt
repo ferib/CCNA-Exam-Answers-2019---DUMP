@@ -1,0 +1,160 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: Which three are types of LCP frames used with PPP? (Choose three.)
+A: link-establishment frames*
+A: link-termination frames*
+A: link-maintenance frames*
+Q: Which command can be used to view the cable type that is attached to a serial interface?
+A: Router(config)# show controllers*
+Q: How does PPP interface with different network layer protocols?
+A: by using separate NCPs*
+Q: Which address is used in the Address field of a PPP frame?
+A: a single byte of binary 11111111*
+Q: Which field marks the beginning and end of an HDLC frame?
+A: Flag*
+Q: In which situation would the use of PAP be preferable to the use of CHAP?
+A: when plain text passwords are needed to simulate login at the remote host*
+Q: When configuring Multilink PPP, where is the IP address for the multilink bundle configured?
+A: on a multilink interface*
+Q: Refer to the exhibit. Based on the debug command output that is shown, which statement is true of the operation of PPP.
+A: A PPP session was successfully established.*
+Q: The exhibit has two boxes. The first box shows the following partial command output:<br />
+Refer to the exhibit. A network administrator is configuring the PPP link between the two routers. However, the PPP link cannot be established. Based on the partial output of the show running-config command, what is the cause of the problem?
+A: The passwords do not match.*
+Q: Which protocol will terminate the PPP link after the exchange of data is complete?
+A: LCP*
+Q: Which serial 0/0/0 interface state will be shown if no serial cable is attached to the router, but everything else has been correctly configured and turned on?
+A: Serial 0/0/0 is down, line protocol is down*
+Q: How much total bandwidth is provided by a T1 line?
+A: 1.544 Mb/s*
+Q: A network engineer is monitoring an essential, but poor quality, PPP WAN link that periodically shuts down. An examination of the interface configurations shows that the ppp quality 90 command has been issued. What action could the engineer take to reduce the frequency with which the link shuts down?
+A: Issue the command ppp quality 70.*
+Q: A network engineer is troubleshooting the loss of MPEG video viewing quality as MPEG video files cross a PPP WAN link. What could be causing this loss of quality?
+A: The compress command was used when PPP was configured on the interfaces.*
+Q: Which PPP option can detect links that are in a looped-back condition?
+A: Magic Number*
+Q: Refer to the exhibit. A network engineer has issued the show interfaces serial 0/0/0 command on a router to examine the open NCPs on a PPP link to another router. The command output displays that the encapsulation is PPP and that the LCP is open. However, the IPV6CP NCP is not shown as open. What does the engineer need to configure to open the IPV6CP NCP on the link?
+A: Configure an IPv6 address on each interface on the link.*
+Q: Which three physical layer interfaces support PPP? (Choose three.)
+A: synchronous serial*
+A: asynchronous serial*
+A: HSSI*
+Q: What are three components of PPP? (Choose three.)
+A: NCP*
+A: HDLC-like framing*
+A: LCP*
+Q: Refer to the exhibit. What type of Layer 2 encapsulation will be used for connection D on the basis of this configuration on a newly installed router:
+A: HDLC*
+Q: Which two statements describe a PPP connection between two Cisco routers? (Choose two.)
+A: LCP tests the quality of the link.*
+A: LCP manages compression on the link.*
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.<br />
+Why is the serial link between router R1 and router R2 not operational?
+A: In each case the expected username is not the same as the remote router hostname.*
+Q: Question as presented:
+Q: Place the options in the following order:
+Q: <span style="color: #ff0000;">Maximum Receive Unit </span>-&gt;Â The maximum size of the PPP frame.
+Q: <span style="color: #ff0000;">Authentication ProtocolÂ </span>-&gt;Â The two choices are Password Authentication Protocol (PAP) and Challenge Handshake Authentication Protocol (CHAP).
+Q: <span style="color: #ff0000;">MultilinkÂ </span>-&gt;Â Provides load balancing over the router interfaces.
+Q: <span style="color: #ff0000;">CompressionÂ </span>-&gt;Â Increases the effective throughput on PPP connections by reducing the amount of data in the frame that must travel across the link.
+Q: Not used, Helps to ensure a reliable loop-free data ink layer.
+Q: Question as presented:
+Q: Place the options in the following order:
+Q: phase 1
+Q: -&gt;Â establish the link and negotiate configuration options
+Q: <span style="color: #ff0000;">phase 2Â </span>-&gt;Â determine the quality of the link
+Q: <span style="color: #ff0000;">phase 3Â </span>-&gt;Â negotiate with the network layer to configure L3 protlcol
+Q: Question as presented:
+Q: Place the options in the following order:
+Q: Â -&gt;Â use LCP to negotiate the type of authentication
+Q: Â -&gt;Â calculate the ID and random number
+Q: Â -&gt;Â calculate the MD5 hash
+Q: Â -&gt;Â send the challenge ID, hash, and username
+Q: Â -&gt;Â calculate the hash based on received information
+Q: Â -&gt;Â compare the received hash with the calculated hash
+Q: Which is an advantage of using PPP on a serial link instead of HDLC?
+A: option for authentication*
+Q: A small company with 10 employees uses a single LAN to share information between computers. Which type of connection to the Internet would be appropriate for this company?
+A: a broadband service, such as DSL, through their local service provider*
+Q: Which network scenario will require the use of a WAN?
+A: Employees need to connect to the corporate email server through a VPN while traveling.*
+Q: Which two devices are needed when a digital leased line is used to provide a connection between the customer and the service provider? (Choose two.)
+A: CSU*
+A: DSU*
+Q: What are two advantages of packet switching over circuit switching? (Choose two.)
+A: The communication costs are lower.*
+A: Multiple pairs of nodes can communicate over the same network channel.*
+Q: What is a requirement of a connectionless packet-switched network?
+A: Full addressing information must be carried in each data packet.*
+Q: What is a long distance fiber-optic media technology that supports both SONET and SDH, and assigns incoming optical signals to specific wavelengths of light?
+A: DWDM*
+Q: What are two common high-bandwidth fiber-optic media standards? (Choose two.)
+A: SDH *
+A: SONET*
+Q: What is the recommended technology to use over a public WAN infrastructure when a branch office is connected to the corporate site?
+A: VPN *
+Q: What is a feature of dense wavelength-division multiplexing (DWDM) technology?
+A: It enables bidirectional communications over one strand of fiber.*
+Q: Which WAN technology establishes a dedicated constant point-to-point connection between two sites?
+A: leased lines*
+Q: Which WAN technology is cell-based and well suited to carry voice and video traffic?
+A: ATM*
+Q: Which two technologies use the PSTN network to provide an Internet connection? (Choose two.)
+A: ISDN*
+A: dialup*
+Q: A company needs to interconnect several branch offices across a metropolitan area. The network engineer is seeking a solution that provides high-speed converged traffic, including voice, video, and data on the same network infrastructure. The company also wants easy integration to their existing LAN infrastructure in their office locations. Which technology should be recommended?
+A: Ethernet WAN*
+Q: A customer needs a WAN virtual connection that provides high-speed, dedicated bandwidth between two sites. Which type of WAN connection would best fulfill this need?
+A: Ethernet WAN*
+Q: Which WAN connectivity method would be used in a remote location where there are no service provider networks?
+A: VSAT*
+Q: A home user lives within 10 miles (16 kilometers) of the Internet provider network. Which type of technology provides high-speed broadband service with wireless access for this home user?
+A: WiMAX*
+Q: Which connectivity method would be best for a corporate employee who works from home two days a week, but needs secure access to internal corporate databases?
+A: VPN*
+Q: Which wireless technology provides Internet access through cellular networks?
+A: LTE*
+Q: Which geographic scope requirement would be considered a distributed WAN scope?
+A: many-to-many*
+Q: A new corporation needs a data network that must meet certain requirements. The network must provide a low cost connection to sales people dispersed over a large geographical area. Which two types of WAN infrastructure would meet the requirements? (Choose two.)
+A: public infrastructure*
+A: Internet*
+Q: Match the type of WAN device or service to the description. (Not all options are used.)
+Q: Place the options in the following order:
+Q: â€” not scored â€”
+Q: CPE -&gt; <span style="color: red;">devices and inside wiring that are located on the enterprise edge and connect to a carrier link.</span>
+Q: LOcal Loop -&gt; <span style="color: red;">a physical connection from the customer to the service provider POP</span>
+Q: â€” not scored â€”
+Q: DTE -&gt; <span style="color: red;">customer devices that pass the data from a customer network for transmission over the WAN</span>
+Q: DCE -&gt; <span style="color: red;">devices that provide an interface for customers to connect to within the WAN cloud</span>
+Q: Match the connectivity type to the description. (Not all options are used.)
+Q: uses traditional video network <span style="color: #000000;">-&gt; cable</span>
+Q: uses traditional phone network <span style="color: #000000;">-&gt; DSL </span>
+Q: set up by a city to provide free Internet access <span style="color: #000000;">-&gt; Municipal Wi-Fi</span>
+Q: <span style="color: red;">slow access (upload speed is about one-tenth download speed)</span> <span style="color: #000000;">-&gt;</span> <span style="color: #000000;">Satellite Internet</span>
+Q:  â€“ not scored â€“
+Q: Which statement describes a characteristic of a WAN?
+A: WAN networks are owned by service providers.*
+Q: Which feature is used when connecting to the Internet using DSL?
+A: DSLAM*
+Q: Which equipment is needed for an ISP to provide Internet connections through cable service?
+A: CMTS*
+Q: Which solution can provide Internet access to remote locations where no regular WAN services are available?
+A: VSAT*
+Q: A corporation is looking for a solution to connect multiple, newly established remote branch offices. Which consideration is important when selecting a private WAN connection rather than a public WAN connection?
+A: data security and confidentiality during transmission*
+Q: Which statement describes cable?
+A: Delivering services over a cable network requires downstream frequencies in the 50 to 860 MHz range, and upstream frequencies in the 5 to 42 MHz range.*
+Q: What is an advantage of packet-switched technology over circuit-switched technology?
+A: Packet-switched networks can efficiently use multiple routes inside a service provider network.*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-4-v5-0-3-v6-0-chapter-2-exam-answers-full-pdf?wpdmdl=23731&refresh=5cd0ef8519b491557196677';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

@@ -1,0 +1,482 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: Refer to the exhibit. Assuming that the routing tables are up to date and no ARP messages are needed, after a packet leaves H1, how many times is the L2 header rewritten in the path to H2?
+A: 2*
+Q: Refer to the exhibit. Which highlighted value represents a specific destination network in the routing table?
+A: 10.16.100.128*
+Q: Which type of static route is configured with a greater administrative distance to provide a backup route to a route learned from a dynamic routing protocol?
+A: floating static route *
+Q: Refer to the exhibit. Which route was configured as a static route to a specific network using the next-hop address?
+A: S 10.17.2.0/24 [1/0] via 10.16.2.2*
+Q: What network prefix and prefix-length combination is used to create a default static route that will match any IPv6 destination?
+A: ::/0*
+Q: A router has used the OSPF protocol to learn a route to the 172.16.32.0/19 network. Which command will implement a backup floating static route to this network?
+A: ip route 172.16.32.0 255.255.224.0 S0/0/0 200*
+Q: Refer to the exhibit. Currently router R1 uses an EIGRP route learned from Branch2 to reach the 10.10.0.0/16 network. Which floating static route would create a backup route to the 10.10.0.0/16 network in the event that the link between R1 and Branch2 goes down?
+A: ip route 10.10.0.0 255.255.0.0 209.165.200.225 100*
+Q: Which statement describes a route that has been learned dynamically?
+A: It is automatically updated and maintained by routing protocols.*
+Q: Compared with dynamic routes, what are two advantages of using static routes on a router? (Choose two.)
+A: They Improve network security*
+A: They use fewer router resources*
+Q: To enable RIPv1 routing for a specific subnet, the configuration command network 172.16.64.32 was entered by the network administrator. What address, if any, appears in the running configuration file to identify this network?
+A: 172.16.0.0*
+Q: A network administrator adds the default-information originate command to the configuration of a router that uses RIP as the routing protocol. What will result from adding this command?
+A: The router will propagate a static default route in its RIP updates, if one is present*
+Q: Refer to the exhibit. What is the administrative distance value that indicates the route for R2 to reach the 10.10.0.0/16 network?
+A: 1*
+Q: Which route will a router use to forward an IPv4 packet after examining its routing table for the best match with the destination address?
+A: a level 1 ultimate route*
+Q: Refer to the exhibit. An administrator is attempting to install an IPv6 static route on router R1 to reach the network attached to router R2. After the static route command is entered, connectivity to the network is still failing. What error has been made in the static route configuration?
+A: The interface is incorrect*
+Q: A network administrator reviews the routing table on the router and sees a route to the destination network 172.16.64.0/18 with a next-hop IP address of 192.168.1.1. What are two descriptions of this route? (Choose two.)
+A: level 2 child route*
+A: ultimate route*
+Q: Which two factors are important when deciding which interior gateway routing protocol to use? (Choose two.)
+A: scalability*
+A: speed of convergence*
+Q: Employees of a company connect their wireless laptop computers to the enterprise LAN via wireless access points that are cabled to the Ethernet ports of switches. At which layer of the three-layer hierarchical network design model do these switches operate?
+A: access *
+Q: What is a basic function of the Cisco Borderless Architecture access layer?
+A: provides access to the user*
+Q: What is a characteristic of the distribution layer in the three layer hierarchical model?
+A: provides access to the rest of the network through switching, routing, and network access policies*
+Q: Which information does a switch use to populate the MAC address table?
+A: the source MAC address and the incoming port*
+Q: Which statement is correct about Ethernet switch frame forwarding decisions?
+A: Frame forwarding decisions are based on MAC address and port mappings in the CAM table*
+Q: What is the name of the layer in the Cisco borderless switched network design that would have more switches deployed than other layers in the network design of a large organization?
+A: access*
+Q: Which switching method drops frames that fail the FCS check?
+A: store-and-forward switching*
+Q: In what situation would a Layer 2 switch have an IP address configured?
+A: when the Layer 2 switch needs to be remotely managed*
+Q: Refer to the exhibit. A network engineer is examining a configuration implemented by a new intern who attached an IP phone to a switch port and configured the switch. Identify the issue, if any, with the configuration.
+A: The configuration is correct.*
+Q: A network administrator is configuring a new Cisco switch for remote management access. Which three items must be configured on the switch for the task? (Choose three.)
+A: vty lines*
+A: default gateway*
+A: IP address*
+Q: A network technician has been asked to secure all switches in the campus network. The security requirements are for each switch to automatically learn and add MAC addresses to both the address table and the running configuration. Which port security configuration will meet these requirements?
+A: sticky secure MAC addresses*
+Q: A network administrator is configuring port security on a Cisco switch. When a violation occurs, which violation mode that is configured on an interface will cause packets with an unknown source address to be dropped with no notification sent?
+A: protect*
+Q: Two employees in the Sales department work different shifts with their laptop computers and share the same Ethernet port in the office. Which set of commands would allow only these two laptops to use the Ethernet port and create violation log entry without shutting down the port if a violation occurs?
+A: switchport mode access*
+A: switchport port-security*
+A: switchport port-security maximum 2*
+A: switchport port-security mac-address sticky*
+A: switchport port-security violation restrict*
+Q: Refer to the exhibit. What protocol should be configured on SW-A Port 0/1 if it is to send traffic from multiple VLANs to switch SW-B?
+A: IEEE 802.1Q*
+Q: A Cisco Catalyst switch has been added to support the use of multiple VLANs as part of an enterprise network. The network technician finds it necessary to clear all VLAN information from the switch in order to incorporate a new network design. What should the technician do to accomplish this task?
+A: Delete the startup configuration and the vlan.dat file in the flash memory of the switch and reboot the switch*
+Q: What will a Cisco LAN switch do if it receives an incoming frame and the destination MAC address is not listed in the MAC address table?
+A: Forward the frame out all ports except the port where the frame is received.*
+Q: What VLANs are allowed across a trunk when the range of allowed VLANs is set to the default value?
+A: All VLANs will be allowed across the trunk*
+Q: Refer to the exhibit. A network administrator is configuring inter-VLAN routing on a network. For now, only one VLAN is being used, but more will be added soon. What is the missing parameter that is shown as the highlighted question mark in the graphic?
+A: It identifies the VLAN number *
+Q: A network administrator is designing an ACL. The networks 192.168.1.0/25, 192.168.0.0/25, 192.168.0.128/25, 192.168.1.128/26, and 192.168.1.192/26 are affected by the ACL. Which wildcard mask, if any, is the most efficient to use when specifying all of these networks in a single ACL permit entry?
+A: 0.0.1.255*
+Q: The computers used by the network administrators for a school are on the 10.7.0.0/27 network. Which two commands are needed at a minimum to apply an ACL that will ensure that only devices that are used by the network administrators will be allowed Telnet access to the routers? (Choose two.)
+A: access-class 5 in*
+A: access-list 5 permit 10.7.0.0 0.0.0.31*
+Q: A network engineer has created a standard ACL to control SSH access to a router. Which command will apply the ACL to the VTY lines?
+A: access-class 11 in*
+Q: What is the reason why the DHCPREQUEST message is sent as a broadcast during the DHCPv4 process?
+A: to notify other DHCP servers on the subnet that the IP address was leased *
+Q:  Which set of commands will configure a router as a DHCP server that will assign IPv4 addresses to the 192.168.100.0/23 LAN while reserving the first 10 and the last addresses for static assignment?
+A: ip dhcp excluded-address 192.168.100.1 192.168.100.10<br />
+ip dhcp excluded-address 192.168.101.254<br />
+ip dhcp pool LAN POOL-100<br />
+network 192.168.100.0 255.255.254.0<br />
+default-router 192.168.100.1*
+Q: Which command, when issued in the interface configuration mode of a router, enables the interface to acquire an IPv4 address automatically from an ISP, when that link to the ISP is enabled?
+A: ip address dhcp*
+Q: Refer to the exhibit. A network administrator is configuring a router as a DHCPv6 server. The administrator issues a show ipv6 dhcp pool command to verify the configuration. Which statement explains the reason that the number of active clients is 0?
+A: The state is not maintained by the DHCPv6 server under stateless DHCPv6 operation.*
+Q: Refer to the exhibit. R1 has been configured as shown. However, PC1 is not able to receive an IPv4 address. What is the problem?â€‹
+A: The ip helper-address command was applied on the wrong interface.*
+Q: Refer to the exhibit. Which statement shown in the output allows router R1 to respond to stateless DHCPv6 requests?
+A: ipv6 nd other-config-flag *
+Q: Refer to the exhibit. NAT is configured on Remote and Main. The PC is sending a request to the web server. What IPv4 address is the source IP address in the packet between Main and the web server?
+A: 203.0.113.5*
+Q: Which type of traffic would most likely have problems when passing through a NAT device?
+A: IPsec*
+Q: Refer to the exhibit. Which two statements are correct based on the output as shown in the exhibit? (Choose two.)
+A: The output is the result of the show ip nat translations command*
+A: The host with the address 209.165.200.235 will respond to requests by using a source address of 192.168.10.10.*
+Q: Refer to the exhibit. A network administrator has configured R2 for PAT. Why is the configuration incorrect?
+A: NAT-POOL2 is bound to the wrong ACL*
+Q: A small company has a web server in the office that is accessible from the Internet. The IP address 192.168.10.15 is assigned to the web server. The network administrator is configuring the router so that external clients can access the web server over the Internet. Which item is required in the NAT configuration?
+A: the ip nat inside source command to link the inside local and inside global addresses*
+Q: A college marketing department has a networked storage device that uses the IP address 10.18.7.5, TCP port 443 for encryption, and UDP port 4365 for video streaming. The college already uses PAT on the router that connects to the Internet. The router interface has the public IP address of 209.165.200.225/30. The IP NAT pool currently uses the IP addresses ranging from 209.165.200.228.236. Which configuration would the network administrator add to allow this device to be accessed by the marketing personnel from home?
+A: ip nat inside source static tcp 10.18.7.5 443 209.165.200.225 443<br />
+ip nat inside source static udp 10.18.7.5 4365 209.165.200.225 4365*
+Q: Refer to the exhibit. Based on the output that is shown, what type of NAT has been implemented?
+A: PAT using an external interface*
+Q: Refer to the exhibit. An administrator is trying to configure PAT on R1, but PC-A is unable to access the Internet. The administrator tries to ping a server on the Internet from PC-A and collects the debugs that are shown in the exhibit. Based on this output, what is most likely the cause of the problem?
+A: The inside global address is not on the same subnet as the ISP*
+Q: A network engineer is interested in obtaining specific information relevant to the operation of both distribution and access layer Cisco devices. Which command provides common information relevant to both types of devices?
+A: show cdp neighbors*
+Q: Which two statements are correct if a configured NTP master on a network cannot reach any clock with a lower stratum number? (Choose two.)
+A: The NTP master will claim to be synchronized at the configured stratum number.*
+A: Other systems will be willing to synchronize to that master using NTP.*
+Q: What are three functions provided by the syslog service? (Choose three.)
+A: to specify the destinations of captured messages*
+A: to select the type of logging information that is captured*
+A: to gather logging information for monitoring and troubleshooting*
+Q: Refer to the exhibit. Which three hosts will receive ARP requests from host A, assuming that port Fa0/4 on both switches is configured to carry traffic for multiple VLANs? (Choose three.)
+A: host C*
+A: host D*
+A: host F*
+Q: Refer to the exhibit. An administrator is examining the message in a syslog server. What can be determined from the message?
+A: This is a notification message for a normal but significant condition *
+Q: When a customer purchases a Cisco IOS 15.0 software package, what serves as the receipt for that customer and is used to obtain the license as well?
+A: Product Activation Key*
+Q: Refer to the exhibit. The network administrator enters these commands into the R1 router:
+Q: R1# copy running-config tftp<br />
+Address or name of remote host [ ]<br />
+When the router prompts for an address or remote host name, what IP address should the administrator enter at the prompt?
+A: 192.168.11.252*
+Q: Which configuration would be appropriate for a small business that has the public IP address of 209.165.200.225/30 assigned to the external interface on the router that connects to the Internet?
+A: access-list 1 permit 10.0.0.0 0.255.255.255<br />
+ip nat inside source list 1 interface serial 0/0/0 overload*
+Q: Match the router memory type that provides the primary storage for the router feature. (Not all options are used.)
+Q: Match each borderless switched network principle to its description (Not all options are used)
+Q: Match the description to the correct VLAN type (Not all options are used )
+Q: Answers:
+Q: Refer to the exhibit. Host A has sent a packet to host B. What will be the source MAC and IP addresses on the packet when it arrives at host B?
+A: Source MAC: 00E0.FE91.7799<br />
+Source IP: 10.1.1.10*
+Q: What benefit does NAT64 provide?
+A: It allows sites to connect IPv6 hosts to an IPv4 network by translating the IPv6 addresses to IPv4 addresses.*
+Q: What is the effect of configuring the ipv6 unicast-routing command on a router?
+A: to enable the router as an IPv6 router*
+Q: What is a characteristic of a static route that creates a gateway of last resort?
+A: It identifies the gateway IP address to which the router sends all IP packets for which it does not have a learned or static route*
+Q: Refer to the exhibit. Which route was configured as a static route to a specific network using the next-hop address?
+A: S 192.168.2.0/24 [1/0] via 172.16.2.2 *
+Q: Refer to the exhibit. Which command will properly configure an IPv6 static route on R2 that will allow traffic from PC2 to reach PC1 without any recursive lookups by router R2?
+A: R2(config)# ipv6 route 2001:db8:10:12::/64 S0/0/0*
+Q: Which network design may be recommended for a small campus site that consists of a single building with a few users?
+A: a collapsed core network design*
+Q: Which information does a switch use to keep the MAC address table information current?
+A: the source MAC address and the incoming port*
+Q: Which advantage does the store-and-forward switching method have compared with the cut-through switching method?
+A: frame error checking*
+Q: Which characteristic describes cut-through switching?
+A: Frames are forwarded without any error checking.*
+Q: What is a result of connecting two or more switches together?
+A: The size of the broadcast domain is increased.*
+Q: Which commands are used to re-enable a port that has been disabled as a result of a port security violation?
+A: shutdown<br />
+no shutdown*
+Q: Which two characteristics describe the native VLAN? (Choose two.)
+A: The native VLAN traffic will be untagged across the trunk link.*
+A: The native VLAN provides a common identifier to both ends of a trunk.*
+Q: Which type of traffic is designed for a native VLAN?
+A: untagged*
+Q: An administrator is trying to remove configurations from a switch. After using the command erase startup-config and reloading the switch, the administrator finds that VLANs 10 and 100 still exist on the switch. Why were these VLANs not removed?
+A: Because these VLANs are stored in a file that is called vlan.dat that is located in flash memory, this file must be manually deleted.*
+Q: Refer to the exhibit. Inter-VLAN communication between VLAN 10, VLAN 20, and VLAN 30 is not successful. What is the problem?
+A: The switch interface FastEthernet0/1 is configured as an access interface and should be
+configured as a trunk interface.*
+Q: A network administrator is configuring an ACL with the command access-list 10 permit 172.16.32.0 0.0.15.255. Which IPv4 address matches the ACE?
+A: 172.16.36.255*
+A: 172.16.47.254*
+Q: Refer to the exhibit. A PC at address 10.1.1.45 is unable to access the Internet. What is the most likely cause of the problem?
+A: The NAT pool has been exhausted.*
+Q: A network administrator is verifying a configuration that involves network monitoring. What is the purpose of the global configuration command logging trap 4?
+A: System messages that match logging levels 0-4 will be forwarded to a specified logging device.*
+Q: What is indicated by the M in the Cisco IOS image name c1900-universalk9-mz.SPA.153-3.M.bin?
+A: an extended maintenance release*
+Q: Refer to the exhibit. A network engineer is preparing to upgrade the IOS system image on a Cisco 2901 router. Based on the output shown, how much space is available for the new image?
+A: 221896413 bytes*
+Q: Refer to the exhibit. Based on the exhibited configuration and output, what are two reasons VLAN 99 missing? (Choose two.)
+Q: because VLAN 99 needs to be entered as a VLAN under an interface before it can become an active interface
+A: because the VLAN 99 has not been manually entered into the VLAN database with the vlan 99 command*
+Q: Order the DHCP process steps. (Not all options are used.)
+Q: Refer to the exhibit. Assuming that the routing tables are up to date and no ARP messages are needed, after a packet leaves H1, how many times is the L2 header rewritten in the path to H3?
+A: 2*
+Q: Refer to the exhibit. Which highlighted value represents a specific destination network in the routing table?
+A: 172.16.100.64*
+Q: On which two routers would a default static route be configured? (Choose two.)
+A: stub router connection to the rest of the corporate or campus network*
+A: edge router connection to the ISP*
+Q: The exhibit shows two PCs called PC A and PC B, two routes called R1 and R2, and two switches. PC A has the address 172.16.1.1/24 and is connected to a switch and into an interface on R1 that has the IP address 172.16.1.254. PC B has the address 172.16.2.1/24 and is connected to a switch that is connected to another interface on R1 with the IP address 172.16.2.254. The serial interface on R1 has the address 172.16.3.1 and is connected to the serial interface on R2 that has the address 172.16.3.2/24. R2 is connected to the internet cloud. Which command will create a static route on R2 in order to reach PC B? 
+A: R2(config)# ip route 172.16.2.0 255.255.255.0 172.16.3.1*
+Q: Refer to the exhibit. R1 was configured with the static route command ip route 209.165.200.224 255.255.255.224 S0/0/0 and consequently users on network 172.16.0.0/16 are unable to reach resources on the Internet. How should this static route be changed to allow user traffic from the LAN to reach the Internet?
+A: Change the destination network and mask to 0.0.0.0 0.0.0.0*
+Q: Refer to the exhibit. Router R1 has an OSPF neighbor relationship with the ISP router over the 192.168.0.32 network. The 192.168.0.36 network link should serve as a backup when the OSPF link goes down. The floating static route command ip route 0.0.0.0 0.0.0.0 S0/0/1 100 was issued on R1 and now traffic is using the backup link even when the OSPF link is up and functioning. Which change should be made to the static route command so that traffic will only use the OSPF link when it is up?
+A: Change the administrative distance to 120.*
+Q: Refer to the exhibit. All hosts and router interfaces are configured correctly. Pings to the server from both H1 and H2 and pings between H1 and H2 are not successful. What is causing this problem?
+A: RIPv2 is misconfigured on router R2.*
+Q: What caused the following error message to appear?
+Q: 01:11:12: %PM-4-ERR_DISABLE: psecure-violation error detected on Fa0/8, putting Fa0/8 in err-disable state
+Q: 01:11:12: %PORT_SECURITY-2-PSECURE_VIOLATION: Security violation occurred, caused by MAC address 0011.a0d4.12a0 on port FastEthernet0/8.
+Q: 01:11:13: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/8, changed state to down
+Q: 01:11:14: %LINK-3-UPDOWN: Interface FastEthernet0/8, changed state to down
+A: Port security was enabled on the switch port, and an unauthorized connection was made on switch port Fa0/8.*
+Q: Refer to the exhibit. A small business uses VLANs 2, 3, 4, and 5 between two switches that have a trunk link between them. What native VLAN should be used on the trunk if Cisco best practices are being implemented?
+A: 5*
+Q: Which statement describes a characteristic of the extended range VLANs that are created on a Cisco 2960 switch?
+A: They are not stored in the vlan.dat file.*
+Q: A network administrator is using the router-on-a-stick method to configure inter-VLAN routing. Switch port Gi1/1 is used to connect to the router. Which command should be entered to prepare this port for the task?
+A: Switch(config)# interface gigabitethernet 1/1 *
+A: Switch(config-if)# switchport mode trunk*
+Q: What will be the result of adding the command ip dhcp excluded-address 172.16.4.1 172.16.4.5 to the configuration of a local router that has been configured as a DHCP server?
+A: The DHCP server function of the router will not issue the addresses from 172.16.4.1through 172.16.4.5 inclusive.*
+Q: A host on the 10.10.100.0/24 LAN is not being assigned an IPv4 address by an enterprise DHCP server with the address 10.10.200.10/24. What is the best way for the network engineer to resolve this problem?
+A: Issue the command ip helper-address 10.10.200.10 on the router interface that is the 10.10.100.0/24 gateway.*
+Q: What is used in the EUI-64 process to create an IPv6 interface ID on an IPv6 enabled interface?
+A: the MAC address of the IPv6 enabled interface*
+Q: Refer to the exhibit. NAT is configured on RT1 and RT2. The PC is sending a request to the web server. What IPv4 address is the source IP address in the packet between RT2 and the web server?
+A: 209.165.200.245*
+Q: Refer to the exhibit. A company has an internal network of 172.16.25.0/24 for their employee workstations and a DMZ network of 172.16.12.0/24 to host servers. The company uses NAT when inside hosts connect to outside network. A network administrator issues the show ip nat translations command to check the NAT configurations. Which one of source IPv4 addresses is translated by R1 with PAT?
+A: 172.16.25.35*
+Q: What is the purpose of the Cisco PAK?
+A: It is a key for enabling an IOS feature set.*
+Q: What is the major release number in the IOS image name c1900-universalk9-mz.SPA.152-3.T.bin?
+A: 15*
+Q: What is the reason that an ISP commonly assigns a DHCP address to a wireless router in a SOHO environment?
+A: easy IP address management*
+Q: Refer to the exhibit. What does the number 17:46:26:143 represent?
+A: the time when the syslog massage was issued*
+Q: What statement describes a Cisco IOS image with the â€œuniversalk9_npeâ€ designation for Cisco ISR G2 routers?
+A: It is an IOS version that, at the request of some countries, removes any strong cryptographic functionality.â€‹*
+Q: Refer to the exhibit. Routers R1 and R2 are connected via a serial link. One router is configured as the NTP master, and the other is an NTP client. Which two pieces of information can be obtained from the partial output of the show ntp associations detail command on R2? (Choose two. )
+A: Router R1 is the master, and R2 is the client.*
+A: The IP address of R2 is 192. 168. 1. 2.*
+Q: A network administrator configures a router with the command sequence:<br />
+R1(config)# boot system tftp://c1900-universalk9-mz.SPA.152-4.M3.bin<br />
+R1(config)# boot system rom<br />
+What is the effect of the command sequence?
+A: The router will load IOS from the TFTP server. If the image fails to load, it will load the IOS image from ROM*
+Q: What is used as the default event logging destination for Cisco routers and switches?
+A: console line**
+Q: Refer to the exhibit. Which two ACLs would permit only the two LAN networks attached to R2 to access the network that connects to R1 G0/0 interface? (Choose two.)
+A: access-list 2 permit host 192.168.10.131<br />
+access-list 2 permit host 192.168.10.201*
+A: access-list 5 permit 192.168.10.128 0.0.0.63*<br />
+access-list 5 permit 192.168.10.192 0.0.0.63*
+Q: A network administrator configures a router to provide stateful DHCPv6 operation. However, users report that workstations do not receive IPv6 addresses within the scope. Which configuration command should be checked to ensure that statefull DHCPv6 is implemented?
+A: The dns-server line is included in the ipv6 dhcp pool section.*
+Q: Which kind of message is sent by a DHCP client when its IP address lease has expired?â€‹
+A: a DHCPREQUEST unicast messageâ€‹*
+Q: What is a disadvantage of NAT?
+A: There is no end-to-end addressing.*
+Q: Refer to the exhibit. The Gigabit interfaces on both routers have been configured with subinterface numbers that match the VLAN numbers connected to them. PCs on VLAN 10 should be able to print to the P1 printer on VLAN 12. PCs on VLAN 20 should print to the printers on VLAN 22. What interface and in what direction should you place a standard ACL that allows printing to P1 from data VLAN 10, but stops the PCs on VLAN 20 from using the P1 printer? (Choose two.)
+A: R1 Gi0/1.12*
+A: outbound*
+Q: Which two packet filters could a network administrator use on an IPv4 extended ACL? (Choose two.)
+A: ICMP message type*
+A: destination UDP port number*
+Q: A network administrator is explaining to a junior colleague the use of the lt and gt keywords when filtering packets using an extended ACL. Where would the lt or gt keywords be used?
+A: in an IPv4 extended ACL that allows packets from a range of TCP ports destined for a specific network device*
+Q: Which three values or sets of values are included when creating an extended access control list entry? (Choose three.)
+A: access list number between 100 and 199*
+A: destination address and wildcard mask*
+A: source address and wildcard mask*
+Q: A network administrator is adding ACLs to a new IPv6 multirouter environment. Which IPv6 ACE is automatically added implicitly at the end of an ACL so that two adjacent routers can discover each other?
+A: permit icmp any any nd-na*
+Q: Refer to the exhibit. How did the router obtain the last route that is shown?
+A: Another router in the same organization provided the default route by using a dynamic routing protocol.*
+Q: Which statement is correct about IPv6 routing?
+A: IPv6 uses the link-local address of neighbors as the next-hop address for dynamic routes.*
+Q: Refer to the exhibit. Which type of route is 172.16.0.0/16?
+A: level 1 parent route*
+Q: Refer to the exhibit. Which type of IPv6 static route is configured in the exhibit?
+A: recursive static route*
+Q: Which summary IPv6 static route statement can be configured to summarize only the routes to networks 2001:db8:cafe::/58 through 2001:db8:cafe:c0::/58?
+A: ipv6 route 2001:db8:cafe::/56 S0/0/0*
+Q: Refer to the exhibit. If RIPng is enabled, how many hops away does R1 consider the 2001:0DB8:ACAD:1::/64 network to be?
+A: 3*
+Q: Which statement is true about the difference between OSPFv2 and OSPFv3?
+A: OSPFv3 routers do not need to have matching subnets to form neighbor adjacencies.*
+Q: What happens immediately after two OSPF routers have exchanged hello packets and have formed a neighbor adjacency?
+A: They exchange abbreviated lists of their LSDBs.*
+Q: What does the cost of an OSPF link indicate?
+A: A lower cost indicates a better path to the destination than a higher cost does.*
+Q: Which three pieces of information does a link-state routing protocol use initially as link-state information for locally connected links? (Choose three.)
+A: the link router interface IP address and subnet mask*
+A: the type of network link*
+A: the cost of that link*
+Q: Which three requirements are necessary for two OSPFv2 routers to form an adjacency? (Choose three.)
+A: The two routers must include the inter-router link network in an OSPFv2 network command.*
+A: The OSPF hello or dead timers on each router must match.*
+Q: <span style="color: black;">The OSPFv2 process ID must be the same on each router.*</span>
+A: The link interface subnet masks must match.*
+Q: A router needs to be configured to route within OSPF area 0. Which two commands are required to accomplish this? (Choose two.)
+A: RouterA(config)# router ospf 1*
+A: RouterA(config-router)# network 192.168.2.0 0.0.0.255 area 0*
+Q: What are two features of a link-state routing protocol? (Choose two.)
+A: Routers send triggered updates in response to a change.*
+A: Routers create a topology of the network by using information from other routers.*
+Q: Why would an administrator use a network security auditing tool to flood the switch MAC address table with fictitious MAC addresses?
+A: to determine which ports are not correctly configured to prevent MAC address flooding*
+Q: Which problem is evident if the show ip interface command shows that the interface is down and the line protocol is down?
+A: A cable has not been attached to the port.*
+Q: While analyzing log files, a network administrator notices reoccurring native VLAN mismatches. What is the effect of these reoccurring errors?
+A: The control and management traffic on the error-occurring trunk port is being misdirected or dropped.*
+Q: Which three pairs of trunking modes will establish a functional trunk link between two Cisco switches? (Choose three.)
+A: dynamic desirable â€“ dynamic desirable*
+A: dynamic desirable â€“ dynamic auto*
+A: dynamic desirable â€“ trunk*
+Q: What are two ways of turning off DTP on a trunk link between switches? (Choose two.)
+A: Configure attached switch ports with the nonegotiate command option.*
+A: Place the two attached switch ports in access mode.*
+Q: On a switch that is configured with multiple VLANs, which command will remove only VLAN 100 from the switch?
+A: Switch(config)# no vlan 100*
+Q: What is the purpose of setting the native VLAN separate from data VLANs?
+A: A separate VLAN should be used to carry uncommon untagged frames to avoid bandwidth contention on data VLANs.*
+Q: A network contains multiple VLANs spanning multiple switches. What happens when a device in VLAN 20 sends a broadcast Ethernet frame?
+A: Only devices in VLAN 20 see the frame.*
+Q: Refer to the exhibit. The partial configuration that is shown was used to configure router on a stick for VLANS 10, 30, and 50. However, testing shows that there are some connectivity problems between the VLANs. Which configuration error is causing this problem?
+A: The wrong VLAN has been configured on subinterface Fa0/0.50.â€‹*
+Q: What is the purpose of an access list that is created as part of configuring IP address translation?
+A: The access list defines the private IP addresses that are to be translated.*
+Q: Match the order in which the link-state routing process occurs on a router. (Not all options are used.)
+Q: Beginning with the Cisco IOS Software Release 15.0, which license is a prerequisite for installing additional technology pack licenses?
+A: IPBase*
+Q: Refer to the exhibit. How many broadcast and collision domains exist in the topology?
+A: 5 broadcast domains and 10 collision domains*
+Q: What is a function of the distribution layer?
+A: interconnection of large-scale networks in wiring closets*
+Q: Fill in the blank.
+A: __1__*
+Q: Fill in the blank.
+A: __ip route__*
+Q: Fill in the blank.
+A: __Hello__ *
+Q: Fill in the blank.
+A: __1__*
+Q: When a Cisco switch receives untagged frames on a 802.1Q trunk port, which VLAN ID is the traffic switched to by default?
+A: native VLAN ID*
+Q: Refer to the exhibit. A Layer 3 switch routes for three VLANs and connects to a router for Internet connectivity. Which two configurations would be applied to the switch? (Choose two.)
+A: (config)# interface gigabitethernet 1/1<br />
+(config-if)# no switchport*
+A: (config)# ip routing*
+Q: How is the router ID for an OSPFv3 router determined?
+A: the highest IPv4 address on an active interface**
+Q: Which two statements are characteristics of routed ports on a multilayer switch? (Choose two.)
+A: In a switched network, they are mostly configured between switches at the core and distribution layers.*
+A: They are not associated with a particular VLAN.*
+Q: Match the switching characteristic to the correct term. (Not all options are used.)
+Q: A small-sized company has 20 workstations and 2 servers. The company has been assigned a group of IPv4 addresses 209.165.200.224/29 from its ISP. What technology should the company implement in order to allow the workstations to access the services over the Internet?
+A: dynamic NAT*
+Q: What best describes the operation of distance vector routing protocols?
+A: They send their routing tables to directly connected neighbors.*
+Q: Which three advantages are provided by static routing? (Choose three.)
+A: The path a static route uses to send data is known.*
+A: Static routing does not advertise over the network, thus providing better security.*
+A: Static routing typically uses less network bandwidth and fewer CPU operations than dynamic routing does.*
+Q: When configuring a switch to use SSH for virtual terminal connections, what is the purpose of the crypto key generate rsa command?
+A: create a public and private key pair*
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. What is the problem preventing PC0 and PC1 from communicating with PC2 and PC3?
+A: The serial interfaces of the routers are in different subnets.*
+Q: Which two commands can be used to verify the content and placement of access control lists? (Choose two.)
+A: show access-lists*
+A: show running-config*
+Q: Refer to the exhibit.
+Q: What summary static address would be configured on R1 to advertise to R3?
+A: 192.168.0.0/22*
+Q: Which value represents the â€œtrustworthinessâ€ of a route and is used to determine which route to install into the routing table when there are multiple routes toward the same destination?
+A: administrative distance*
+Q: Which type of router memory temporarily stores the running configuration file and ARP table?
+A: RAM*
+Q: Refer to the exhibit. If the switch reboots and all routers have to re-establish OSPF adjacencies, which routers will become the new DR and BDR?
+A: Router R4 will become the DR and router R3 will become the BDR.*
+Q: Refer to the exhibit. The Branch Router has an OSPF neighbor relationship with the HQ router over the 198.51.0.4/30 network. The 198.51.0.8/30 network link should serve as a backup when the OSPF link goes down. The floating static route command ip route 0.0.0.0 0.0.0.0 S0/1/1 100 was issued on Branch and now traffic is using the backup link even when the OSPF link is up and functioning. Which change should be made to the static route command so that traffic will only use the OSPF link when it is up?
+A: Change the administrative distance to 120.*
+Q: Refer to the exhibit. An attacker on PC X sends a frame with two 802.1Q tags on it, one for VLAN 40 and another for VLAN 12. What will happen to this frame?
+A: SW-A will remove both tags and forward the rest of the frame across the trunk link, where SW-B will forward the frame to hosts on VLAN 40.*
+Q: A new network policy requires an ACL to deny HTTP access from all guests to a web server at the main office. All guests use addressing from the IPv6 subnet 2001:DB8:19:C::/64. The web server is configured with the address 2001:DB8:19:A::105/64. Implementing the NoWeb ACL on the interface for the guest LAN requires which three commands? (Choose three.)
+A: deny tcp any host 2001:DB8:19:A::105 eq 80*
+A: permit ipv6 any any*
+A: ipv6 traffic-filter NoWeb in*
+Q: An OSPF router has three directly connected networks; 172.16.0.0/16, 172.16.1.0/16, and 172.16.2.0/16. Which OSPF network command would advertise only the 172.16.1.0 network to neighbors?
+A: router(config-router)# network 172.16.1.0 0.0.255.255 area 0*
+Q: Which subnet mask would be used as the classful mask for the IP address 192.135.250.27?
+A: 255.255.255.0**
+Q: Refer to the exhibit. A small business uses VLANs 8, 20, 25, and 30 on two switches that have a trunk link between them. What native VLAN should be used on the trunk if Cisco best practices are being implemented?
+A: 5*
+Q: The buffers for packet processing and the running configuration file are temporarily stored in which type of router memory?
+A: RAM*
+Q: A standard ACL has been configured on a router to allow only clients from the 10.11.110.0/24 network to telnet or to ssh to the VTY lines of the router. Which command will correctly apply this ACL?
+A: access-class 11 in*
+Q: Refer to the exhibit.What address will summarize the LANs attached to routers 2-A and 3-A and can be configured in a summary static route to advertise them to an upstream neighbor?
+A: 10.0.0.0/21*
+Q: A security specialist designs an ACL to deny access to a web server from all sales staff. The sales staff are assigned addressing from the IPv6 subnet 2001:db8:48:2c::/64. The web server is assigned the address 2001:db8:48:1c::50/64. Configuring the WebFilter ACL on the LAN interface for the sales staff will require which three commands? (Choose three.)
+A: deny tcp host 2001:db8:48:1c::50 any eq 80*
+A: deny tcp any host 2001:db8:48:1c::50 eq 80*
+A: deny ipv6 any any*
+Q: To enable RIP routing for a specific subnet, the configuration command network 192.168.5.64 was entered by the network administrator. What address, if any, appears in the running configuration file to identify this network?
+A: 192.168.5.0*
+Q: Refer to the exhibit. An ACL preventing FTP and HTTP access to the interval web server from all teaching assistants has been implemented in the Board Office. The address of the web server is 172.20.1.100 and all teaching assistants are assigned addresses in the 172.21.1.0/24 network. After implement the ACL, access to all servers is denied. What is the problem?
+A: named ACLs requite the use of port numbers*
+Q: A router learns of multiple toward the same destination. Which value in a routing table represents the trustworthiness of learned routes and is used by the router to determine which route to install into the routing table for specific situation?
+A: Metric*
+Q: What is the minimum configuration for a router interface that is participating in IPv6 routing?
+A: To have only a link-local IPv6 address*
+Q: Which two statements are true about half-duplex and full-duplex communications? (Choose two.)
+A: Full duplex offers 100 percent potential use of the bandwidth.*
+A: Full duplex allows both ends to transmit and receive simultaneously.*
+Q: Fill in the blank.
+A: VoIP*
+Q: Which two commands should be implemented to return a Cisco 3560 trunk port to its default configuration? (Choose two.)
+A: S1(config-if)# no switchport trunk allowed vlan*
+A: S1(config-if)# no switchport trunk native vlan*
+Q: Which command will enable auto-MDIX on a device?
+A: S1(config-if)# mdix auto*
+Q: What is the effect of issuing the passive-interface default command on a router that is configured for OSPF?
+A: It prevents OSPF messages from being sent out any OSPF-enabled interface.*
+Q: A network administrator is implementing a distance vector routing protocol between neighbors on the network. In the context of distance vector protocols, what is a neighbor?
+A: routers that share a link and use the same routing protocol*
+Q: Refer to the exhibit. A network administrator has just configured address translation and is verifying the configuration. What three things can the administrator verify? (Choose three.)
+A: Address translation is working.*
+A: A standard access list numbered 1 was used as part of the configuration process.*
+A: Two types of NAT are enabled.*
+Q: Which two methods can be used to provide secure management access to a Cisco switch? (Choose two.)
+A: Configure specific ports for management traffic on a specific VLAN.*
+A: Configure SSH for remote management.*
+Q: A router learns of multiple routes toward the same destination. Which value in a routing table represents the trustworthiness of learned routes and is used by the router to determine which route to install into the routing table for this specific situation?
+A: administrative distance*
+Q: Which value in a routing table represents trustworthiness and is used by the router to determine which route to install into the routing table when there are multiple routes toward the same destination?
+A: administrative distance*
+Q: The network address 172.18.9.128 with netmask 255.255.255.128 is matched by which wildcard mask?
+A: 0.0.0.127*
+Q: Which three addresses could be used as the destination address for OSPFv3 messages? (Choose three.)
+A: FF02::5*
+A: FF02::6*
+A: FE80::1*
+Q: Refer to the exhibit. What is the OSPF cost to reach the West LAN 172.16.2.0/24 from East?â€‹
+A: 65*
+Q: Refer to the exhibit. What is the OSPF cost to reach the R2 LAN 172.16.2.0/24 from R1?
+Q: What are two reasons that will prevent two routers from forming an OSPFv2 adjacency? (Choose two.)
+A: mismatched subnet masks on the link interfaces*
+A: mismatched OSPF Hello or Dead timers*
+Q: Refer to the exhibit. The network administrator needs as many switch ports as possible for end devices and the business is using the most common type of inter-VLAN method. What type of inter-VLAN interconnectivity is best to use between the switch and the router if R1 routes for all VLANs?
+Q: Refer to the exhibit. An ACL preventing FTP and HTTP access to the internal web server from all teaching assistants has been implemented in the Board office. The address of the web server is 172.20.1.100 and all teaching assistants are assigned addresses in the 172.21.1.0/24 network. After implementing the ACL, access to all servers is denied. What is the problem?
+A: The ACL is implicitly denying access to all the servers.*
+Q: Refer to the exhibit. A new network policy requires an ACL denying FTP and Telnet access to a Corp file server from all interns. The address of the file server is 172.16.1.15 and all interns are assigned addresses in the 172.18.200.0/24 network. After implementing the ACL, no one in the Corp network can access any of the servers. What is the problem?
+A: Inbound ACLs must be routed before they are processed.*
+A: The ACL is implicitly denying access to all the servers.*
+Q: Router R1 routes traffic to the 10.10.0.0/16 network using an EIGRP learned route from Branch2. The administrator would like to install a floating static route to create a backup route to the 10.10.0.0/16 network in the event that the link between R1 and Branch2 goes down. Which static route meets this goal?
+A: ip route 10.10.0.0 255.255.0.0 209.165.200.225 100*
+Q: Refer to the exhibit. Based on the exhibited configuration and output, why is VLAN 99 missing?
+A: because VLAN 99 has not yet been created*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-2-v5-1-v6-0-final-exam-answers-full-pdf?wpdmdl=20466&refresh=5cd149e320a241557219811';return false;">Download</a>
+Q: &#8212;> correct answer
+Q: â€”> correct answer
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

@@ -1,0 +1,158 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: In which configuration would an outbound ACL placement be preferred over an inbound ACL placement?
+A: when the ACL is applied to an outbound interface to filter packets coming from multiple inbound interfaces before the packets exit the interface*
+Q: Which address is required in the command syntax of a standard ACL?
+A: source IP address*
+Q: Which statement describes a difference between the operation of inbound and outbound ACLs?
+A: Inbound ACLs are processed before the packets are routed while outbound ACLs are processed after the routing is completed.*
+Q: Which three statements describe ACL processing of packets? (Choose three.)
+A: An implicit deny any rejects any packet that does not match any ACE.*
+A: A packet can either be rejected or forwarded as directed by the ACE that is matched.*
+A: Each statement is checked only until a match is detected or until the end of the ACE list.*
+Q: What single access list statement matches all of the following networks?<br />
+192.168.16.0<br />
+192.168.17.0<br />
+192.168.18.0<br />
+192.168.19.0
+A: access-list 10 permit 192.168.16.0 0.0.3.255*
+Q: A network administrator needs to configure a standard ACL so that only the workstation of the administrator with the IP address 192.168.15.23 can access the virtual terminal of the main router. Which two configuration commands can achieve the task? (Choose two.)
+A: Router1(config)# access-list 10 permit host 192.168.15.23*
+A: Router1(config)# access-list 10 permit 192.168.15.23 0.0.0.0*
+Q: If a router has two interfaces and is routing both IPv4 and IPv6 traffic, how many ACLs could be created and applied to it?
+A: 8*
+Q: Which three statements are generally considered to be best practices in the placement of ACLs? (Choose three.)
+A: Filter unwanted traffic before it travels onto a low-bandwidth link.*
+A: Place extended ACLs close to the source IP address of the traffic.*
+A: Place standard ACLs close to the destination IP address of the traffic.*
+Q: Refer to the exhibit. Which command would be used in a standard ACL to allow only devices on the network attached to R2 G0/0 interface to access the networks attached to R1?
+A: access-list 1 permit 192.168.10.96 0.0.0.31*
+Q: Refer to the exhibit. If the network administrator created a standard ACL that allows only devices that connect to the R2 G0/0 network access to the devices on the R1 G0/1 interface, how should the ACL be applied?
+A: outbound on the R1 G0/1 interface*
+Q: Refer to the following output. What is the significance of the 4 match(es) statement?
+Q: R1# &lt;output omitted&gt;<br />
+10 permit 192.168.1.56 0.0.0.7<br />
+20 permit 192.168.1.64 0.0.0.63 (4 match(es))<br />
+30 deny any (8 match(es))
+A: Four packets have been allowed through the router from PCs in the network of 192.168.1.64.*
+Q: On which router should the show access-lists command be executed?
+A: on the router that has the ACL configured*
+Q: What is the quickest way to remove a single ACE from a named ACL?
+Q: <span style="color: red;">Use the no keyword and the sequence number of the ACE to be removed.*</span>
+Q: Which feature will require the use of a named standard ACL rather than a numbered standard ACL?
+A: the ability to add additional ACEs in the middle of the ACL without deleting and re-creating the list*
+Q: An administrator has configured an access list on R1 to allow SSH administrative access from host 172.16.1.100. Which command correctly applies the ACL?
+A: R1(config-line)# access-class 1 in*
+Q: Which type of router connection can be secured by the access-class command?
+A: vty*
+Q: Consider the following output for an ACL that has been applied to a router via the access-class in command. What can a network administrator determine from the output that is shown?
+A: Two devices were able to use SSH or Telnet to gain access to the router.*
+Q: Refer to the exhibit. A router has an existing ACL that permits all traffic from the 172.16.0.0 network. The administrator attempts to add a new ACE to the ACL that denies packets from host 172.16.0.1 and receives the error message that is shown in the exhibit. What action can the administrator take to block packets from host 172.16.0.1 while still permitting all other traffic from the 172.16.0.0 network?
+A: Manually add the new deny ACE with a sequence number of 5.*
+Q: A network administrator issues the show vlan brief command while troubleshooting a user support ticket. What output will be displayed?
+Q: <span style="color: red;">the VLAN assignment and membership for all switch ports*</span>
+Q: Refer to the exhibit. An ACL was configured on R1 with the intention of denying traffic from subnet 172.16.4.0/24 into subnet 172.16.3.0/24. All other traffic into subnet 172.16.3.0/24 should be permitted. This standard ACL was then applied outbound on interface Fa0/0. Which conclusion can be drawn from this configuration?â€‹
+Q: <span style="color: red;">All traffic will be blocked, not just traffic from the 172.16.4.0/24 subnet.*</span>
+Q: Refer to the exhibit. What will happen to the access list 10 ACEs if the router is rebooted before any other commands are implemented?
+A: The ACEs of access list 10 will be renumbered.*
+Q: What is the effect of configuring an ACL with only ACEs that deny traffic?
+A: The ACL will block all traffic.*
+Q: Which type of ACL statements are commonly reordered by the Cisco IOS as the first ACEs?
+A: host*
+Q: A network administrator is configuring an ACL to restrict access to certain servers in the data center. The intent is to apply the ACL to the interface connected to the data center LAN. What happens if the ACL is incorrectly applied to an interface in the inbound direction instead of the outbound direction?
+A: The ACL does not perform as designed.*
+Q: When would a network administrator use the clear access-list counters command?
+A: when troubleshooting an ACL and needing to know how many packets matched*
+Q: Match each statement with the example subnet and wildcard that it describes. (Not all options are used.)
+Q: Place the options in the following order:
+Q: 192.168.15.65 255.255.255.240 ==&gt; <span style="color: red;">the first valid host address in a subnet</span>
+Q: 192.168.15.144 0.0.0.15 ==&gt; <span style="color: red;">subnetwork address of a subnet with 14 valid host addreses</span>
+Q: host 192.168.15.2 ==&gt; <span style="color: red;">all IP address bits must match exactly</span>
+Q: 192.168.5.0 0.0.3.255 ==&gt; <span style="color: red;">hosts in a subnet with SM 255.255.252.0</span>
+Q: 192.168.3.64 0.0.0.7 ==&gt; <span style="color: red;">address with a subnet 255.255.255.248</span>
+Q: What two tasks do dynamic routing protocols perform? (Choose two.)
+A: update and maintain routing tables*
+A: network discovery*
+Q: What is a disadvantage of using dynamic routing protocols?
+A: They send messages about network status insecurely across networks by default.*
+Q: Which two statements are true regarding classless routing protocols? (Choose two.)
+A: sends subnet mask information in routing updates*
+A: allows for use of both 192.168.1.0/30 and 192.168.1.16/28 subnets in the same topology*
+Q: An OSPF enabled router is processing learned routes to select best paths to reach a destination network. What is the OSPF algorithm evaluating as the metric?
+A: The cumulative bandwidth that is used along the routing path.*
+Q: After a network topology change occurs, which distance vector routing protocol can send an update message directly to a single neighboring router without unnecessarily notifying other routers?
+A: EIGRP*
+Q: What is the purpose of the passive-interface command?
+A: allows a router to receive routing updates on an interface but not send updates via that interface*
+Q: Refer to the exhibit. Based on the partial output from the show ip route command, what two facts can be determined about the RIP routing protocol? (Choose two.)
+A: RIP version 2 is running on this router and its RIP neighbor.*
+A: The command no auto-summary has been used on the RIP neighbor router.*
+Q: While configuring RIPv2 on an enterprise network, an engineer enters the command network 192.168.10.0 into router configuration mode.
+A: The interface of the 192.168.10.0 network is sending only version 2 updates.*
+Q: Refer to the exhibit. A network administrator has issued the exhibited commands in an attempt to activate RIPng on interface gig0/0. What is causing the console message that is shown after RIP is enabled?
+A: IPv6 unicast routing has not been enabled on this router.*
+Q: Refer to the exhibit. OSPF is used in the network. Which path will be chosen by OSPF to send data packets from Net A to Net B?
+A: R1, R3, R5, R7*
+Q: Which two events will trigger the sending of a link-state packet by a link-state routing protocol? (Choose two.)
+A: a change in the topology *
+A: the initial startup of the routing protocol process*
+Q: Which two requirements are necessary before a router configured with a link-state routing protocol can build and send its link-state packets? (Choose two.)
+A: The router has determined the costs associated with its active links.*
+A: The router has established its adjacencies.*
+Q: When does a link-state router send LSPs to its neighbors?
+A: immediately after receiving an LSP from neighbors with updates*
+Q: Which routing protocol uses link-state information to build a map of the topology for computing the best path to each destination network?
+A: OSPF*
+Q: A destination route in the routing table is indicated with a code D. Which kind of route entry is this?
+A: a route dynamically learned through the EIGRP routing protocol*
+Q: Refer to the exhibit. Which interface will be the exit interface to forward a data packet with the destination IP address 172.16.0.66?
+A: Serial0/0/1*
+Q: Which two requirements are used to determine if a route can be considered as an ultimate route in a routerâ€™s routing table? (Choose two.)
+A: contain an exit interface*
+A: contain a next-hop IP address*
+Q: Which route is the best match for a packet entering a router with a destination address of 10.16.0.2?
+A: S 10.16.0.0/24 [1/0] via 192.168.0.9*
+Q: Which type of route will require a router to perform a recursive lookup?
+A: an ultimate route that is using a next hop IP address on a router that is not using CEF*
+Q: A router is configured to participate in multiple routing protocol: RIP, EIGRP, and OSPF. The router must send a packet to network 192.168.14.0. Which route will be used to forward the traffic?
+A: a 192.168.14.0 /26 route that is learned via RIP*
+Q: Fill in the blank. Do not abbreviate.
+Q: default-information originate
+Q: Match the features of link-state routing protocols to their advantages and disadvantages. (Not all options are used.)
+Q: Match the characteristic to the corresponding type of routing. (Not all options are used.)
+Q: Which two statements describe the OSPF routing protocol? (Choose two.)
+A: calculates its metric using bandwidth *
+A: uses Dijkstraâ€™s algorithm to build the SPF tree*
+Q: What two actions result from entering the network 192.168.1.0 command in RIP configuration mode on a router? (Choose two
+A: The network address 192.168.1.0 is advertised to the neighbor routers. *
+A: Routing updates are sent through all the interfaces belonging to 192.168.1.0.*
+Q: Which dynamic routing protocol was developed as an exterior gateway protocol to interconnect different Internet provider
+A: BGP*
+Q: In the context of routing protocols, what is a definition for time to convergence?
+A: the amount of time for the routing tables to achieve a consistent state after a topology change*
+Q: A destination route in the routing table is indicated witha code D. Which kind of route entry is this?
+A: a route dynamically learned through the EIGRP routing protocol*
+Q: Match the router protocol to the corresponding category. (Not all options are used.)
+Q: Distance vector
+Q: RIOv2
+Q: EIGRP
+Q: Link state
+Q: OSPF
+Q: IS-IS
+Q: Which route is the best match for a packet entering a router with a destination address of 10.16.0.2?
+A: S 10.16.0.0/24 [1/0] via 192.168.0.9*
+Q: What is different between IPv6 routing table entries compared to IPv4 routing table entries?
+A: By design IPv6 is classless so all routes are effectively level 1 ultimate routes.*
+Q: Which route will a router use to forward an IPv4 packet after examining its routing table for the best match with the destination address?
+A: a level 1 ultimate route*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-2-v5-1-v6-0-chapter-7-exam-answers-full-pdf?wpdmdl=20494&refresh=5cd0f04606b5e1557196870';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

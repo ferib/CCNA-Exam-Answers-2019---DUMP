@@ -1,0 +1,152 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: Which two characteristics are associated with UDP sessions? (Choose two.)
+A: Destination devices receive traffic with minimal delay.*
+A: Received data is unacknowledged.*
+Q: Explain:
+Q: What happens if part of an FTP message is not delivered to the destination?
+A: The part of the FTP message that was lost is re-sent.*
+Q: Explain:
+Q: A host device needs to send a large video file across the network while providing data communication to other users. Which feature will allow different communication streams to occur at the same time, without having a single data stream using all available bandwidth?
+A: multiplexing*
+Q: Explain:
+Q: What kind of port must be requested from IANA in order to be used with a specific application?
+A: registered port*
+Q: Explain:
+Q: What type of information is included in the transport header?
+A: destination and source port numbers*
+Q: Explain:
+Q: What is a socket?
+A: the combination of a source IP address and port number or a destination IP address and port number*
+Q: Explain:
+Q: What is the complete range of TCP and UDP well-known ports?
+A: 0 to 1023*
+Q: Explain:
+Q: Which flag in the TCP header is used in response to a received FIN in order to terminate connectivity between two network devices?
+A: ACK*
+Q: Explain:
+Q: What is a characteristic of a TCP server process?
+A: There can be many ports open simultaneously on a server, one for each active server application.*
+Q: Explain:
+Q: Which two flags in the TCP header are used in a TCP three-way handshake to establish connectivity between two network devices? (Choose two.)
+A:  ACK*
+A: SYN*
+Q: Explain:
+Q: A PC is downloading a large file from a server. The TCP window is 1000 bytes. The server is sending the file using 100-byte segments. How many segments will the server send before it requires an acknowledgment from the PC?
+A: 10 segments*
+Q: Explain:
+Q: Which factor determines TCP window size?
+A: the amount of data the destination can process at one time*
+Q: Explain:
+Q: During a TCP session, a destination device sends an acknowledgment number to the source device. What does the acknowledgment number represent?
+A: the next byte that the destination expects to receive*
+Q: What information is used by TCP to reassemble and reorder received segments?
+A: sequence numbers*
+Q: Explain:
+Q: What does TCP do if the sending source detects network congestion on the path to the destination?
+A: The source will decrease the amount of data that it sends before it must receive acknowledgements from the destination.*
+Q: Explain:
+Q: What is a characteristic of UDP?
+A: UDP reassembles the received datagrams in the order they were received.*
+Q: Explain:
+Q: What does a client do when it has UDP datagrams to send?
+A: It just sends the datagrams.*
+Q: Explain:
+Q: What happens if the first packet of a TFTP transfer is lost?
+A: The TFTP application will retry the request if a reply is not received.*
+Q: Explain:
+Q: A host device is receiving live streaming video. How does the device account for video data that is lost during transmission?
+A: The device will continue receiving the streaming video, but there may be a momentary disruption.*
+Q: Explain:
+Q: Why does HTTP use TCP as the transport layer protocol?
+A: because HTTP requires reliable delivery*
+Q: Explain:
+Q: When is UDP preferred to TCP?
+A: when an application can tolerate some loss of data during transmission*
+Q: Explain:
+Q: Which three application layer protocols use TCP? (Choose three.)
+A: SMTP*
+A: FTP*
+A: HTTP*
+Q: Explain:
+Q: Refer to the exhibit. Consider a datagram that originates on the PC and that is destined for the web server. Match the IP addresses and port numbers that are in that datagram to the description. (Not all options are used.)
+Q: destination IP address -&gt; <span style="color: #ff0000;">192.168.2.2</span>
+Q: destination port number -&gt; <span style="color: #ff0000;">80</span> 
+Q: source IP address -&gt; <span style="color: #ff0000;">192.168.1.2</span> 
+Q: source port number -&gt; <span style="color: #ff0000;">2578</span>
+Q: Explain:
+Q: Refer to the exhibit. How many broadcast domains are there?
+A: 4*
+Q: How many usable host addresses are there in the subnet 192.168.1.32/27?
+A: 30*
+Q: How many host addresses are available on the network 172.16.128.0 with a subnet mask of 255.255.252.0?
+A: 1022*
+Q: A network administrator is variably subnetting a network. The smallest subnet has a mask of 255.255.255.248. How many host addresses will this subnet provide??
+A: 6*
+Q: Refer to the exhibit. A company uses the address block of 128.107.0.0/16 for its network. What subnet mask would provide the maximum number of equal size subnets while providing enough host addresses for each subnet in the exhibit?
+A: 255.255.255.128*
+Q: Refer to the exhibit. The network administrator has assigned the LAN of LBMISS an address range of 192.168.10.0. This address range has been subnetted using a /29 prefix. In order to accommodate a new building, the technician has decided to use the fifth subnet for configuring the new network (subnet zero is the first subnet). By company policies, the router interface is always assigned the first usable host address and the workgroup server is given the last usable host address. Which configuration should be entered into the properties of the workgroup server to allow connectivity to the Internet?
+A: IP address: 192.168.10.38 subnet mask: 255.255.255.248, default gateway: 192.168.10.33*
+Q: How many bits must be borrowed from the host portion of an address to accommodate a router with five connected networks?
+A: three*
+Q: A company has a network address of 192.168.1.64 with a subnet mask of 255.255.255.192. The company wants to create two subnetworks that would contain 10 hosts and 18 hosts respectively. Which two networks would achieve that? (Choose two.)
+A: 192.168.1.64/27*
+A: 192.168.1.96/28*
+Q: In a network that uses IPv4, what prefix would best fit a subnet containing 100 hosts?
+A: /25*
+Q: Refer to the exhibit.
+Q: Given the network address of 192.168.5.0 and a subnet mask of 255.255.255.224, how many total host addresses are unused in the assigned subnets?
+A: 72*
+Q: When developing an IP addressing scheme for an enterprise network, which devices are recommended to be grouped into their own subnet or logical addressing group?
+A: hosts accessible from the Internet*
+Q: A network administrator needs to monitor network traffic to and from servers in a data center. Which features of an IP addressing scheme should be applied to these devices?
+A: predictable static IP addresses for easier identification*
+Q: Which two reasons generally make DHCP the preferred method of assigning IP addresses to hosts on large networks? (Choose two.)
+A: It eliminates most address configuration errors.*
+A: It reduces the burden on network support staff.*
+Q: Refer to the exhibit. A computer that is configured with the IPv6 address as shown in the exhibit is unable to access the internet. What is the problem?
+A: The gateway address is in the wrong subnet.*
+Q: When subnetting a /64 IPv6 network prefix, which is the preferred new prefix length?
+A: /72*
+Q: What is the subnet address for the address 2001:DB8:BC15:A:12AB::1/64?
+A: 2001:DB8:BC15:A::0*
+Q: Which two notations are useable nibble boundaries when subnetting in IPv6? (Choose two.)
+A: /64*
+A: /68*
+Q: Fill in the blank.
+Q:  172.25.0.126
+Q: Fill in the blank.
+Q: 255.255.254.0
+Q: /60
+Q: Fill in the blank.
+Q: 4
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. What issue is causing Host A to be unable to communicate with Host B?
+A: Host A and host B are on overlapping subnets.*
+Q: Refer to the exhibit. Given the network address of 192.168.5.0 and a subnet mask of 255.255.255.224, how many addresses are wasted in total by subnetting each network with a subnet mask of 255.255.255.224?
+A: 72*
+Q: Match the subnetwork to a host address that would be included within the subnetwork. (Not all option are used.)
+Q: <br />
+â€“ not scored â€“<br />
+192.168.1.64/27<br />
+â€“ not scored â€“<br />
+192.168.1.32/27<br />
+192.168.1.96/27
+Q: Refer to the exhibit. Match the network with the correct IP address and prefix that will satisfy the usable host addressing requirements for each network. (Not all options are used.)
+Q: Place the options in the following order:
+Q: â€“ not scored â€“<br />
+Network C<br />
+â€“ not scored â€“<br />
+Network A<br />
+Network D<br />
+Network B
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-1-v5-1-v6-0-chapter-9-exam-answers-full-pdf?wpdmdl=20453&refresh=5cd14e2826ab81557220904';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

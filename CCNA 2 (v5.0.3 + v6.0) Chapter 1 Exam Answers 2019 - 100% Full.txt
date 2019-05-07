@@ -1,0 +1,187 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: A network administrator enters the command copy running-config startup-config. Which type of memory will the startup configuration be placed into?
+A: NVRAM**
+Q: Which packet-forwarding method does a router use to make switching decisions when it is using a forwarding information base and an adjacency table?
+A: Cisco Express Forwarding*
+Q: Fill in the blank.
+Q: Correct Answer: Routing
+Q: What are two functions of a router? (Choose two.)
+A: A router connects multiple IP networks*
+A: It determines the best path to send packets*
+Q: In order for packets to be sent to a remote destination, what three pieces of information must be configured on a host? (Choose three.)
+A: IP address*
+A: subnet mask*
+A: default gateway*
+Q: Which software is used for a network administrator to make the initial router configuration securely?
+A: terminal emulation client software*
+Q: The exhibit consists of a network diagram that shows R1 with three network connections: two Ethernet segments and a WAN link. The WAN link connects R1 to a second router R2. R2 is the DCE on the WAN link. The configuration shown is as follows:
+Q: Refer to the exhibit. A network administrator has configured R1 as shown. When the administrator checks the status of the serial interface, the interface is shown as being administratively down. What additional command must be entered on the serial interface of R1 to bring the interface up?
+A: no shutdown*
+Q: What is a characteristic of an IPv4 loopback interface on a Cisco IOS router?â€‹
+A: It is a logical interface internal to the router*
+Q: What two pieces of information are displayed in the output of the show ip interface brief command? (Choose two.)
+A: IP addresses*
+A: Layer 1 statuses*
+Q: When a router receives a packet, what information must be examined in order for the packet to be forwarded to a remote destination?
+A: destination IP address*
+Q: Explain:
+Q: Which two items are used by a host device when performing an ANDing operation to determine if a destination address is on the same local network? (Choose two.)
+A: destination IP address*
+A: subnet mask*
+Q: PC A is connected to switch S1, which in turn is connected to router R1. Router R1 is connected to a cloud, and the cloud is connected to Server B.
+Q: Refer to the exhibit. PC A sends a request to Server B. What IPv4 address is used in the destination field in the packet as the packet leaves PC A?
+A: 192.168.12.16*
+Q: Server B is connected to switch S1, which in turn is connected to router R1. Router R1 is connected to a cloud, and the cloud is connected to PC A.
+Q: Refer to the exhibit. What does R1 use as the MAC address of the destination when constructing the frame that will go from R1 to Server B?
+A: If the destination MAC address that corresponds to the IPv4 address is not in the ARP cache, R1 sends an ARP request*
+Q: Refer to the exhibit. If PC1 is sending a packet to PC2 and routing has been configured between the two routers, what will R1 do with the Ethernet frame header attached by PC1?
+A: remove the Ethernet header and configure a new Layer 2 header before sending it out S0/0/0*
+Q: The exhibit shows the following router output:
+Q: Refer to the exhibit. What will the router do with a packet that has a destination IP address of 192.168.12.227?
+A: Send the packet out the Serial0/0/0 interface*
+Q: Which two statements correctly describe the concepts of administrative distance and metric? (Choose two.)
+A: Administrative distance refers to the trustworthiness of a particular route*
+A: Routes with the smallest metric to a destination indicate the best path*
+Q: Which two parameters are used by EIGRP as metrics to select the best path to reach a network? (Choose two.)â€‹
+A: bandwidth*
+A: delay*
+Q: What route would have the lowest administrative distance?
+A: a directly connected network*
+Q: Which two statements correctly describe the concepts of administrative distance and metric? (Choose two.)
+A: Administrative distance refers to the trustworthiness of a particular route*
+A: Routes with the smallest metric to a destination indicate the best path*
+Q: Consider the following routing table entry for R1:<br />
+D 10.1.1.0/24 [90/2170112] via 209.165.200.226, 00:00:05, Serial0/0/0<br />
+What is the significance of the Serial0/0/0?
+A: It is the interface on R1 used to send data that is destined for 10.1.1.0/24*
+Q: The exhibit contains CLI output that says:
+Q: Refer to the exhibit. A network administrator issues the show ipv6 route command on R1. What two conclusions can be drawn from the routing table? (Choose two.)
+A: R1 does not know a route to any remote networks*
+A: The interface Fa0/1 is configured with IPv6 address 2001:DB8:ACAD:A::12*
+Q: A network administrator configures the interface fa0/0 on the router R1 with the command ip address 172.16.1.254 255.255.255.0. However, when the administrator issues the command show ip route, the routing table does not show the directly connected network. What is the possible cause of the problem?
+A: The interface fa0/0 has not been activated*
+Q: A network administrator configures a router by the command ip route 0.0.0.0 0.0.0.0 209.165.200.226. What is the purpose of this command?
+A: to provide a route to forward packets for which there is no route in the routing table*
+Q: What are two common types of static routes in routing tables? (Choose two)
+A: a default static route*
+A: a static route to a specific network*
+Q: What is the effect of configuring the ipv6 unicast-routing command on a router?
+A: to enable the router as an IPv6 router*
+Q: Refer to the exhibit. Match the description with the routing table entries. (Not all options are used.)
+Q: What is a basic function of the Cisco Borderless Architecture distribution layer?
+A: aggregating Layer 3 routing boundaries**
+Q: A network designer must provide a rationale to a customer for a design which will move an enterprise from a flat network topology to a hierarchical network topology. Which two features of the hierarchical design make it the better choice? (Choose two.)
+A: easier to provide redundant links to ensure higher availability**
+A: simpler deployment for additional switch equipment**
+Q: What is a collapsed core in a network design?
+A: a combination of the functionality of the distribution and core layers**
+Q: Which two previously independent technologies should a network administrator attempt to combine after choosing to upgrade to a converged network infrastructure? (Choose two.)
+A: user data traffic**
+A: analog and VoIP phone traffic**
+Q: What is a definition of a two-tier LAN network design?
+A: distribution and core layers collapsed into one tier, and the access layer on a separate tier**
+Q: A local law firm is redesigning the company network so that all 20 employees can be connected to a LAN and to the Internet. The law firm would prefer a low cost and easy solution for the project. What type of switch should be selected?
+A: fixed configuration**
+Q: What are two advantages of modular switches over fixed-configuration switches? (Choose two.)
+A: increased scalability**
+A: need for fewer power outlets**
+Q: Refer to the exhibit. Consider that the main power has just been restored. PC3 issues a broadcast IPv4 DHCP request. To which port will SW1 forward this request?
+A: to Fa0/1, Fa0/2, and Fa0/3 only**
+Q: What is one function of a Layer 2 switch?
+A: determines which interface is used to forward a frame based on the destination MAC address**
+Q: Refer to the exhibit. How is a frame sent from PCA forwarded to PCC if the MAC address table on switch SW1 is empty?
+A: SW1 floods the frame on all ports on SW1, excluding the port through which the frame entered the switch.**
+Q: What two criteria are used by a Cisco LAN switch to decide how to forward Ethernet frames? (Choose two.)
+A: ingress port**
+A: destination MAC address**
+Q: Which network device can be used to eliminate collisions on an Ethernet network?
+A: switch**
+Q: Which type of address does a switch use to build the MAC address table?
+A: source MAC address**
+Q: What are two reasons a network administrator would segment a network with a Layer 2 switch? (Choose two.)
+A: to enhance user bandwidth**
+A: to isolate traffic between segments**
+Q: Refer to the exhibit. How many broadcast domains are displayed?
+A: 8**
+Q: Which statement describes the microsegmentation feature of a LAN switch?
+A: Each port forms a collision domain.*
+Q: What is the destination address in the header of a broadcast frame?
+A: FF-FF-FF-FF-FF-FF**
+Q: Fill in the blank.
+A: converged *
+Q: Match the functions to the corresponding layers. (Not all options are used.)
+Q: Match the borderless switched network guideline description to the principle. (Not all options are used.)
+Q: Match the forwarding characteristic to its type. (Not all options are used.)
+Q: 
+What is one advantage of using the cut-through switching method instead of the store-and-forward switching method?
+A: has a lower latency appropriate for high-performance computing applicationsâ€‹**
+Q: 
+Refer to the exhibit. Consider that the main power has just been restored. PC1 asks the DHCP server for IPv4 addressing. The DHCP server sends it an IPv4 address. While PC2 is still booting up, PC3 issues a broadcast IPv4 DHCP request. To which port will SW1 forward this request?â€‹
+A: to Fa0/1, Fa0/2, and Fa0/3 only**
+Q: 
+Refer to the exhibit. Fill in the blank.
+A: 12*
+Q: 
+ABC, Inc. has about fifty hosts in one LAN. The administrator would like to increase the throughput of that LAN. Which device will increase the number of collision domains and thereby increase the throughput of the LAN?
+A: switch**
+Q: 
+What does the term â€œport densityâ€ represent for an Ethernet switch?
+A: the number of available ports*
+Q: 
+Which type of transmission does a switch use when the destination MAC address is not contained in the MAC address table?
+A: broadcast**
+Q: 
+What information is added to the switch table from incoming frames?
+A: source MAC address and incoming port number**
+Q: 
+An administrator purchases new Cisco switches that have a feature called StackPower. What is the purpose of this feature?
+A: It enables the sharing of power among multiple stackable switches.*
+Q: 
+Which switch form factor should be used when large port density, fault tolerance, and low price are important factors?
+A: stackable switch**
+Q: 
+Refer to the exhibit. Fill in the blank.
+A: 5 *
+Q: 
+What tool is important to consider for use when making hardware improvement decisions about switches?
+A: traffic flow analysis**
+Q: 
+What is the maximum wire speed of a single port on a 48-port gigabit switch?
+A: 1000 Mb/s**
+Q: 
+When the installation of a network infrastructure is being planned, which technology will allow power to be provided via Ethernet cabling to a downstream switch and its connected devices?
+A: PoE pass-through**
+Q: 
+Match the function to the corresponding switch type. (Not all options are used.)
+Q: Layer 2 switches
+Q: [+] typically used in the access layer of a switched network
+Q: [+] forward traffic based on information in the Ethernet header
+Q: Multilayer switches
+Q: [#] can build a routing table
+Q: [#] supports a few routing protocols
+Q: 
+Refer to the exhibit. Fill in the blank.
+A: 2*
+Q: 
+Match the borderless switched network guidline description to the principle (not all options used)
+Q: Place the options in the following order:
+Q: allows intelligent traffic load sharing by using all network resources
+Q: flexibility</span>
+Q: facilitates understanding the role of each device at every tier, simplifies deployment, operation, management, and reduces fault domains at every tier
+Q: hierarchical</span>
+Q: allows seamless network expansion and integrated service enablement on an on-demand basis
+Q: modularity</span>
+Q: satisfies user expectations for keeping the network always on
+Q: resiliency</span>
+A: Download PDF File below:*
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-2-v5-1-v6-0-chapter-1-exam-answers-full-pdf?wpdmdl=20475&refresh=5cd113839707e1557205891';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

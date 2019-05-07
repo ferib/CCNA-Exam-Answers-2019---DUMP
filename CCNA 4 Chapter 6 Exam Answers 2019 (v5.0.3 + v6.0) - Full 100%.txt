@@ -1,0 +1,134 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: When QoS is implemented in a converged network, which two factors can be controlled to improve network performance for real-time traffic? (Choose two.)
+A: delay*
+A: jitter*
+Q: A network engineer performs a ping test and receives a value that shows the time it takes for a packet to travel from a source to a destination device and return. Which term describes the value?
+A: latency*
+Q: What are two characteristics of voice traffic? (Choose two.)
+A: Dropped voice packets are not retransmitted.*
+A: Voice traffic latency should not exceed 150 ms.*
+Q: How does a Cisco router using tail drop handle congestion when a traffic queue becomes full?
+A: The router will drop any packet that arrives at the end of the queue.*
+Q: For classifying packets into classes with CBWFQ, what is the purpose of configuring a maximum packet limit for a class?
+A: to control the maximum number of packets allowed in a single queue*
+Q: A network engineer is selecting a QoS method to control congestion on a VPN tunnel link between the headquarters site and a branch office. Which queuing method cannot be used to classify and control VPN traffic?
+A: WFQ*
+Q: An administrator has mastered the use of access control lists (ACLs) and wants to deploy QoS by defining different traffic classes through the use of ACLs. Which queuing method provides this functionality?
+A: CBWFQ*
+Q: Which queuing algorithm has only a single queue and treats all packets equally?
+A: FIFO*
+Q: A network administrator is deploying QoS with the ability to provide a special queue for voice traffic so that voice traffic is forwarded before network traffic in other queues. Which queuing method would be the best choice?
+A: LLQ*
+Q: What are two characteristics of DiffServ QoS model? (Choose two.)
+A: can divide network traffic into classes based on business requirements*
+A: groups all TCP flows into a single class*
+Q: What are two characteristics of the best-effort QoS model? (Choose two.)
+A: It treats all network packets in the same way.*
+A: It does not provide a delivery guarantee for packets.*
+Q: What role do network devices play in the IntServ QoS model?
+A: Network devices ensure that resources are available before traffic is allowed to be sent by a host through the network.*
+Q: Which QoS model is very resource intensive and provides the highest guarantee of QoS?
+A: IntServ*
+Q: In QoS models, which type of traffic is commonly provided the most preferential treatment over all other application traffic?
+A: voice traffic*
+Q: What are two approaches to prevent packet loss due to congestion on an interface? (Choose two.)
+A: Increase link capacity.*
+A: Drop lower-priority packets.*
+Q: What two fields are available in IPv4 and IPv6 headers to mark packets for QoS? (Choose two.)
+A: Type of Service*
+A: Traffic Class*
+Q: What is the benefit of deploying Layer 3 QoS marking across an enterprise network?
+A: Layer 3 marking can carry the QoS information end-to-end.*
+Q: Which QoS technology provides congestion avoidance by allowing TCP traffic to be throttled before buffers become full and tail drops occur?
+A: weighted random early detection*
+Q: Refer to the exhibit. As traffic is forwarded out an egress interface with QoS treatment, which congestion avoidance technique is used?
+A: traffic policing*
+Q: Which QoS model uses the DSCP bits to mark packets and provides 64 possible classes of service?
+A: DiffServ*
+Q: Which QoS technique retains excess packets in a separate queue for later transmission?
+A: shaping*
+Q: What are two disadvantages of employing teleworkers in an organization? (Choose two.)
+A: increased difficulty of tracking task progress*
+A: the need to implement a new management style*
+Q: Which technology provides a secure connection between a SOHO and the headquarters office?
+A:  VPN*
+Q: What functionality is required on routers to provide remote workers with VoIP and videoconferencing capabilities?
+A: QoS*
+Q: Which networking technology will ensure reliable and secure remote access when a teleworker connects to a corporate network?
+A:  an encrypted VPN tunnel*
+Q: In which layer of the TCP/IP protocol model does IPsec apply security to network data?
+A: internet*
+Q: What are two Layer 2 WAN technologies that can provide secure remote connections between corporate branch offices? (Choose two.)
+A: Frame Relay*
+A: leased lines*
+Q: Which two network components does a teleworker require to connect remotely and securely from home to the corporate network? (Choose two.)
+A: VPN client software or VPN-enabled router*
+A: broadband Internet connection*
+Q: Which two OSI Layer 1 specifications does DOCSIS define for a cable Internet connection? (Choose two.)
+A: channel bandwidth *
+A: modulation technique*
+Q: Which cable network communication technology is secure, extremely resistant to noise, and employs spread-spectrum technology?
+A: S-CDMA*
+Q: Which standard specifies the channel frequencies and the deterministic access method of cable networks?
+A: DOCSIS*
+Q: What advantage does DSL have compared to cable technology?
+A: DSL is not a shared medium.*
+Q: Which medium is used for delivering data via DSL technology through PSTN?
+A: copper*
+Q: How is voice traffic affected when the customer uses ADSL technology?
+A: ADSL signals can distort voice transmissions.*
+Q: Which DSL technology provides higher downstream bandwidth to the user than upstream bandwidth?
+A:  ADSL*
+Q: Which broadband wireless technology is based on the 802.11 standard?
+A: municipal Wi-Fi*
+Q: Which type of long distance telecommunication technology provides point-to-point connections and cellular access?
+A: WiMax*
+Q: A company is looking for the least expensive broadband solution that provides at least 10 Mb/s download speed. The company is located 5 miles from the nearest provider. Which broadband solution would be appropriate?
+A: cable*
+Q: Which broadband technology would be best for a user that needs remote access when traveling in mountains and at sea?
+A: satellite*
+Q: Why is the MTU for a PPPoE DSL configuration reduced from 1500 bytes to 1492?
+A: to accommodate the PPPoE headers*
+Q: What are two characteristics of a PPPoE configuration on a Cisco customer router? (Choose two.)
+A: The PPP configuration is on the dialer interface.*
+A: The Ethernet interface does not have an IP address.*
+Q: Fill in the blank.
+Q: MAC
+Q: Fill in the blank. Use only an acronym.
+Q: PPPoE
+Q: What are twcharacteristics of a PPPoE configuration on a Cisccustomer router? (Choose two.)
+A: The PPP configuration is on the dialer interface.*
+A: The Ethernet interface does not have an IP address.*
+Q: What functionality is required on routers tprovide remote workers with VoIP and videoconferencing capabilities?
+A: QoS*
+Q: What technology provides service providers the capability to use authentication, accounting, and link management features to customers over Ethernet networks?
+A: PPPoE*
+Q: Match each type of broadband wireless technology with the correct description. (Not all options are used.)
+Q: Place the options in the following order: 
+Q: WiMax
+Q: Cellular/Mobile
+Q: Satellite
+Q:  â€“ not scored â€“
+Q: What are two features of wavelengths in the electromagnetic spectrum? (Choose two.)
+A: They are calculated by the speed of propagation of the electromagnetic signal divided by its frequency in cycles per second.*
+A: They are the distance from the peak of one radio wave to the peak of the next radio wave.*
+Q: When PPPoE is configured on a customer router, which two commands must have the same value for the configuration to work? (Choose two.)
+A: pppoe-client dial-pool-number 2*
+A: dialer pool 2*
+Q: What mobile broadband communication Layer 2 technology uses a special coding scheme to assign each transmitter a specific code?
+A: CDMA*
+Q: What two layers of the OSI model are defined by DOCSIS? (Choose two.)
+A: Layer 1*
+A: Layer 2*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-4-v5-0-3-v6-0-chapter-6-exam-answers-full-pdf?wpdmdl=23746&refresh=5cd0efa6e67fc1557196710';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

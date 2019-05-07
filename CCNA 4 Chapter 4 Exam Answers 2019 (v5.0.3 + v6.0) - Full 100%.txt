@@ -1,0 +1,158 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: Which range represents all the IP addresses that are affected when network 10.120.160.0 with a wildcard mask of 0.0.7.255 is used in an ACE?
+A: 10.120.160.0 to 10.120.167.255*
+Q: What two functions describe uses of an access control list? (Choose two.)
+A: ACLs provide a basic level of security for network access.*
+A: ACLs can control which areas a host can access on a network.*
+Q: Which two statements describe the effect of the access control list wildcard mask 0.0.0.15? (Choose two.)
+A: The first 28 bits of a supplied IP address will be matched.*
+A: The last four bits of a supplied IP address will be ignored.*
+Q: Refer to the exhibit. A network administrator is configuring an ACL to limit the connection to R1 vty lines to only the IT group workstations in the network 192.168.22.0/28. The administrator verifies the successful Telnet connections from a workstation with IP 192.168.22.5 to R1 before the ACL is applied. However, after the ACL is applied to the interface Fa0/0, Telnet connections are denied. What is the cause of the connection failure?
+A: The IT group network is included in the deny statement.*
+Q: Refer to the exhibit. The network administrator that has the IP address of 10.0.70.23/25 needs to have access to the corporate FTP server (10.0.54.5/28). The FTP server is also a web server that is accessible to all internal employees on networks within the 10.x.x.x address. No other traffic should be allowed to this server.
+<p>Which extended ACL would be used to filter this traffic, and how would this ACL be applied? (Choose two.)
+A: access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20<br />
+access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21<br />
+access-list 105 permit tcp 10.0.0.0 0.255.255.255 host 10.0.54.5 eq www<br />
+access-list 105 deny ip any host 10.0.54.5<br />
+access-list 105 permit ip any any*
+A: R1(config)# interface gi0/0<br />
+R1(config-if)# ip access-group 105 out*
+Q: A network administrator is designing an ACL. The networks 192.168.1.0/25, 192.168.0.0/25, 192.168.0.128/25, 192.168.1.128/26, and 192.168.1.192/26 are affected by the ACL. Which wildcard mask, if any, is the most efficient to use when specifying all of these networks in a single ACL permit entry?
+A: 0.0.1.255*
+Q: The exhibit shows router R2 connected through int fa0/0 to a switch which in turn is connected to host with an IP address 192.168.1.1 /24. R2 is connected to another switch through interface fa0/1 and the switch is connected to a server with the IP address 192.168.2.1 /24.Refer to the exhibit. A network administrator wants to permit only host 192.168.1.1 /24 to be able to access the server 192.168.2.1 /24. Which three commands will achieve this using best ACL placement practices? (Choose three.)
+A: R2(config)# interface fastethernet 0/0*
+A: R2(config)# access-list 101 permit ip host 192.168.1.1 host 192.168.2.1*
+A: R2(config-if)# ip access-group 101 in*
+Q: Which two statements are correct about extended ACLs? (Choose two)
+A: Extended ACLs evaluate the source and destination addresses.*
+A: Port numbers can be used to add greater definition to an ACL.*
+Q: Which three values or sets of values are included when creating an extended access control list entry? (Choose three.)
+A: source address and wildcard mask*
+A: access list number between 100 and 199*
+A: destination address and wildcard mask*
+Q: Refer to the exhibit. This ACL is applied on traffic outbound from the router on the interface that directly connects to the 10.0.70.5 server. A request for information from a secure web page is sent from host 10.0.55.23 and is destined for the 10.0.70.5 server. Which line of the access list will cause the router to take action (forward the packet onward or drop the packet)?
+A: 3*
+Q: Which set of access control entries would allow all users on the 192.168.10.0/24 network to access a web server that is located at 172.17.80.1, but would not allow them to use Telnet?
+A: access-list 103 permit tcp 192.168.10.0 0.0.0.255 host 172.17.80.1 eq 80<br />
+access-list 103 deny tcp â€‹192.168.10.0 0.0.0.255 any eq 23*
+Q: Which two packet filters could a network administrator use on an IPv4 extended ACL? (Choose two.)
+A: destination UDP port number*
+A: ICMP message type*
+Q: Which two ACE commands will block traffic that is destined for a web server which is listening to default ports? (Choose two.)
+A: access-list 110 deny tcp any any eq https*
+A: access-list 110 deny tcp any any gt 75*
+Q: Which feature is unique to IPv6 ACLs when compared to those of IPv4 ACLs?
+A: an implicit permit of neighbor discovery packets*
+Q: What two ACEs could be used to deny IP traffic from a single source host 10.1.1.1 to the 192.168.0.0/16 network? (Choose two.)
+A: access-list 100 deny ip 10.1.1.1 0.0.0.0 192.168.0.0 0.0.255.255*
+A: access-list 100 deny ip host 10.1.1.1 192.168.0.0 0.0.255.255*
+Q: Refer to the exhibit. The IPv6 access list LIMITED_ACCESS is applied on the S0/0/0 interface of R1 in the inbound direction. Which IPv6 packets from the ISP will be dropped by the ACL on R1?
+A: ICMPv6 packets that are destined to PC1*
+Q: Which command is used to activate an IPv6 ACL named ENG_ACL on an interface so that the router filters traffic prior to accessing the routing table?
+A: ipv6 traffic-filter ENG_ACL in*
+Q: What is the wildcard mask that is associated with the network 192.168.12.0/24?
+Q: 0.0.0.255
+Q: Which IPv6 ACL command entry will permit traffic from any host to an SMTP server on network 2001:DB8:10:10::/64?
+A: permit tcp any host 2001:DB8:10:10::100 eq 25*
+Q: In applying an ACL to a router interface, which traffic is designated as outbound?
+A: traffic that is leaving the router and going toward the destination host*
+Q: Fill in the blanks. Use dotted decimal format.
+A: Correct Answer: 0.0.0.255*
+Q: Question as presented:
+Q: Question as presented:
+Q: What is a characteristic of Frame Relay that provides more flexibility than a dedicated line?
+A: One router WAN port can be used to connect to multiple destinations.*
+Q: What are the two major criteria that constitute the cost of a Frame Relay circuit? (Choose two.)
+A: local loop*
+A: required bandwidth*
+Q: A router interface connects to a Frame Relay network over a preconfigured logical circuit that does not have a direct electrical connection from end to end. Which type of circuit is being used?
+A: PVC*
+Q: Which Frame Relay topology provides a connection from every site to every other site and maintains a high amount of reliability?
+A: full mesh*
+Q: Which technology allows a Layer 3 IPv4 address to be dynamically obtained from a Layer 2 DLCI?
+A: Inverse Address Resolution Protocol*
+Q: A network administrator has statically configured the LMI type on the interface of a Cisco router that is running Cisco IOS Release 11.2. If the service provider modifies its own LMI type in the future, what step must the network administrator take?
+A: The network administrator must statically set the LMI type to be compatible with the service provider.*
+Q: Which two functions are provided by the Local Management Interface (LMI) that is used in Frame Relay networks? (Choose two.)
+A: simple flow control*
+A: exchange of information about the status of virtual circuits*
+Q: Which parameter would be specified in a Frame Relay provider contract for a particular company?
+A:  CIR*
+Q: Which three notification mechanisms are used when congestion is present in a Frame Relay network? (Choose three.)
+A:  BECN*
+A: DE*
+A: FECN*
+Q: Why would a customer request a Frame Relay circuit with a CIR of zero?
+A: to have a link with reduced costs*
+Q: Which provider-negotiated parameter would allow a customer to send data above the rate of the bandwidth specified by the CIR?
+A: Bc*
+Q: What is the purpose of applying the command frame-relay map ip 10.10.1.2 110 broadcast?
+A:  to configure a device with a static Frame Relay map that also allows the forwarding of routing updates*
+Q: Refer to the exhibit. Which two statements are correct? (Choose two.)
+A: The DLCI that is attached to the VC on RA to RB is 62. *
+A: The IPv4 address of interface S0/1/1 on RB is 192.168.1.2. *
+Q: Refer to the exhibit. Which statement is true about Frame Relay traffic on R1?
+A: Traffic that exits subinterface Serial 0/0/0.102 is marked with DLCI 201.*
+Q: Which three actions can be taken to solve Layer 3 routing protocol router reachability issues when using Frame Relay? (Choose three.)
+A: Use subinterfaces.*
+A: Disable split horizon.*
+A: Use a full mesh topology.*
+Q: When would the multipoint keyword be used in Frame Relay PVCs configuration?
+A: when participating routers are in the same subnet*
+Q: A network engineer has issued the interface serial 0/0/1.102 point-to-point command on a router that will be communicating with another router over a Frame Relay virtual circuit that is identified by the DLCI 102. Which two commands would be appropriate for the network engineer to issue next? (Choose two.)
+A: frame-relay interface-dlci 102 *
+A: ip address 10.1.1.10 255.255.255.252*
+Q: Which two Frame Relay router reachability issues are resolved by configuring logical subinterfaces? (Choose two.)
+A: Link-state routing protocols are unable to complete neighbor discovery.*
+A: Distance vector routing protocols are unable to forward routing updates back out the incoming interface to other remote routers.*
+Q: Refer to the exhibit. A network administrator has implemented the show interfaces serial 0/1/0 command. What can be verified from the displayed output?
+A: Router R1 is forwarding traffic on interface serial 0/1/0 using the local DLCI 1023.*
+Q: The show frame-relay pvc command is best utilized to display the number for which type of packets that are received by the router?
+A: FECN and BECN messages*
+Q: Refer to the exhibit. A network administrator is configuring Frame Relay subinterfaces on R1. A distance vector routing protocol has also been configured. Data is routing successfully from R1 to networks that are connected to R2, R3, and R4, but routing updates between R2 and R3 are failing. What is the possible cause of this failure?
+A: Split horizon is preventing successful routing table updates on the multipoint link.*
+Q: Refer to the exhibit. A network administrator issues the show frame-relay map command to troubleshoot the Frame Relay connection problem. Based on the output, what is the possible cause of the problem?
+A: The Frame Relay map statement on the R3 router for the PVC to R2 is configured with an incorrect DLCI number.*
+Q: Fill in the blank. Use an acronym.
+Q:  DLCI
+Q: Fill in the blank.
+Q: ietf
+Q: Match the characteristics with the type of WAN link. (Not all options are use.)
+Q: Place the options in the following order:
+Q: Leased line
+Q: [+] customers pay for an end-to-end connection
+Q: [+] customers do not share the line
+Q: [+] requires more equipment to purchase and maintain
+Q: [+] used in one-to-one network link only
+Q: Frame Relay
+Q: [#] used in one-to-many networks
+Q: [#] uses virtual circuits 
+Q: [#] customers share bandwidth
+Q: A network administrator uses the following command to configure a Frame Relay connection on a router towards the service provider:<br />
+R1(config-if)# frame-relay map ip 209.165.200.225 102 broadcast<br />
+What is the purpose of using the broadcast keyword?
+A: to support dynamic routing protocol updates across the link*
+Q: What is an advantage of Frame Relay WAN technology compared with leased lines?
+A: It uses one interface to connect to several remote sites.*
+Q: A network administrator of a large organization is designing a Frame Relay network. The organization needs redundancy between some key sites but not all. What WAN topology should the administrator choose to meet their needs?
+A: partial mesh*
+Q: Match the descriptions to the Frame Relay transmission rate term. (Not all options are use.)
+Q: Place the options in the following order:
+Q: port speed
+Q: â€“ not scored â€“
+Q: excess burst size (Be)
+Q: committed burst size (Bc)
+Q: committed information rate (CIR)
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-4-v5-0-3-v6-0-chapter-4-exam-answers-full-pdf?wpdmdl=23739&refresh=5cd0efabb069d1557196715';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

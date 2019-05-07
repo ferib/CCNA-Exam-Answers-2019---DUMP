@@ -1,0 +1,138 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: What is an example of an M2M connection in the IoT?
+A: Sensors in a warehouse communicate with each other and send data to a server block in the cloud.*
+Q: What is the term for the extension of the existing Internet structure to billions of connected devices?
+A: IoT*
+Q: Which statement describes the Cisco IoT System?
+A: It is an infrastructure to manage large scale systems of very different endpoints and platforms.*
+Q: Which three network models are described in the fog computing pillar of the Cisco IoT System? (Choose three.)
+A: fog computing*
+A: client/server*
+A: cloud computing*
+Q: Which IoT pillar extends cloud connectivity closer to the network edge?
+A: fog computing pillar*
+Q: Which cybersecurity solution is described in the security pillar of the Cisco IoT System to address the security of power plants and factory process lines?
+A: operational technology specific security*
+Q: Which cloud computing opportunity would provide the use of network hardware such as routers and switches for a particular company?
+A: infrastructure as a service (IaaS)*
+Q: What technology allows users to access data anywhere and at any time?
+A: Cloud computing*
+Q: The exhibit is not required to answer the question. The exhibit shows a fog covering trees on the side of a mountain.What statement describes Fog computing?
+A: It creates a distributed computing infrastructure that provides services close to the network edge.*
+Q: Which Cloud computing service would be best for a new organization that cannot afford physical servers and networking equipment and must purchase network services on-demand?
+A: IaaS*
+Q: Which cloud model provides services for a specific organization or entity?
+A: a private cloud*
+Q: How does virtualization help with disaster recovery within a data center?
+A: support of live migration*
+Q: What is a difference between the functions of Cloud computing and virtualization?
+A: Cloud computing separates the application from the hardware whereas virtualization separates the OS from the underlying hardware.*
+Q: Which two business and technical challenges does implementing virtualization within a data center help businesses to overcome? (Choose two.)
+A: physical footprint*
+A: power and air conditioning*
+Q: When preparing an IoT implementation, what type of network will devices be connected to in order to share the same infrastructure and facilitate communications, analytics, and management?
+A: converged*
+Q: Which type of Hypervisor is implemented when a user with a laptop running the Mac OS installs a Windows virtual OS instance?
+A: type 2*
+Q: Which statement describes the concept of cloud computing?
+A: separation of application from hardware*
+Q: Which is a characteristic of a Type 2 hypervisor?
+A: does not require management console software*
+Q: Which is a characteristic of a Type 1 hypervisor?
+A: installed directly on a serverâ€‹*
+Q: How is the control plane modified to operate with network virtualization?
+A: The control plane function is consolidated into a centralized controller.*
+Q: Which technology virtualizes the network control plane and moves it to a centralized controller?
+A: SDN*
+Q: Which two layers of the OSI model are associated with SDN network control plane functions that make forwarding decisions? (Choose two.)
+A: Layer 2*
+A: Layer 3*
+Q: What pre-populates the FIB on Cisco devices that use CEF to process packets?
+A: the routing table*
+Q: Which type of hypervisor would most likely be used in a data center?
+A: Type 1*
+Q: What component is considered the brains of the ACI architecture and translates application policiesâ€‹?
+A: the Application Policy Infrastructure Controller*
+Q: Fill in the blank.
+Q: Correct Answer: converged
+Q: Fill in the blank.
+Q: Correct Answer: 2
+Q: A network design engineer is planning the implementation of a cost-effective method to interconnect multiple networks securely over the Internet. Which type of technology is required?
+A: a VPN gateway*
+Q: What is one benefit of using VPNs for remote access?
+A: potential for reduced connectivity costs*
+Q: How is â€œtunnelingâ€ accomplished in a VPN?
+A: New headers from one or more VPN protocols encapsulate the original packets.*
+Q: Two corporations have just completed a merger. The network engineer has been asked to connect the two corporate networks without the expense of leased lines. Which solution would be the most cost effective method of providing a proper and secure connection between the two corporate networks?
+A: site-to-site VPN*
+Q: Which two scenarios are examples of remote access VPNs? (Choose two.)
+A: A mobile sales agent is connecting to the company network via the Internet connection at a hotel.*
+A: An employee who is working from home uses VPN client software on a laptop in order to connect to the company network.*
+Q: Which statement describes a feature of site-to-site VPNs?
+A: Internal hosts send normal, unencapsulated packets.*
+Q: What is the purpose of the generic routing encapsulation tunneling protocol?
+A: to manage the transportation of IP multicast and multiprotocol traffic between remote sites*
+Q: Which remote access implementation scenario will support the use of generic routing encapsulation tunneling?
+A: a central site that connects to a SOHO site without encryption*
+Q: Refer to the exhibit. A tunnel was implemented between routers R1 and R2. Which two conclusions can be drawn from the R1 command output? (Choose two.)
+A: The data that is sent across this tunnel is not secure.*
+A: A GRE tunnel is being used.*
+Q: Refer to the exhibit. Which IP address would be configured on the tunnel interface of the destination router?
+A: 172.16.1.2*
+Q: Which statement correctly describes IPsec?
+A:  IPsec works at Layer 3, but can protect traffic from Layer 4 through Layer 7.*
+Q: Which function of IPsec security services allows the receiver to verify that the data was transmitted without being changed or altered in any way?
+A: data integrity*
+Q: Which statement describes a characteristic of IPsec VPNs?
+A: IPsec works with all Layer 2 protocols.*
+Q: What is an IPsec protocol that provides data confidentiality and authentication for IP packets?
+A: ESP*
+Q: What two encryption algorithms are used in IPsec VPNs? (Choose two.)
+A: AES *
+A: 3DES*
+Q: Which algorithm is an asymmetrical key cryptosystem?
+A:  RSA*
+Q: Which two algorithms use Hash-based Message Authentication Code for message authentication? (Choose two.)
+A: MD5 *
+A: SHA*
+Q: Which three statements describe the building blocks that make up the IPsec protocol framework? (Choose three.)
+A:  IPsec uses encryption algorithms and keys to provide secure transfer of data.*
+A: IPsec uses secret key cryptography to encrypt messages that are sent through a VPN.*
+A: IPsec uses ESP to provide confidential transfer of data by encrypting IP packets.*
+Q: A network design engineer is planning the implementation of an IPsec VPN. Which hashing algorithm would provide the strongest level of message integrity?
+A: 512-bit SHA*
+Q: What is the purpose of utilizing Diffie-Hellman (DH) algorithms as part of the IPsec standard?
+A: DH algorithms allow two parties to establish a shared secret key that is used by encryption and hash algorithms.*
+Q: What is the purpose of a message hash in a VPN connection?
+A: It ensures that the data has not changed while in transit.*
+Q: Which Cisco VPN solution provides limited access to internal network resources by utilizing a Cisco ASA and provides browser-based access only?
+A:  clientless SSL VPN*
+Q: What key question would help determine whether an organization should use an SSL VPN or an IPsec VPN for the remote access solution of the organization?
+Q: Do users need to be able to connect without requiring special VPN software?
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. What problem is preventing the hosts from communicating across the VPN tunnel?
+A: The tunnel IP addresses are incorrect.*
+Q: Which critical function that is provided by IPsec ensures that data has not been changed in transit between the source and destination?
+A: integrity*
+Q: Which service of IPsec verifies that secure connections are formed with the intended sources of data?
+A: authentication*
+Q: Fill in the blank.
+Q: <span style="color: red;">GRE</span>
+Q: What is an advantage of using the Cisco Secure Mobility Clientless SSL VPN?
+A: Clients do not require special software.*
+Q: How can the use of VPNs in the workplace contribute to lower operating costs?
+A: VPNs can be used across broadband connections rather than dedicated WAN links.*
+Q: Which two characteristics describe IPsec VPNs? (Choose two.)
+A: Specific PC client configuration is required to connect to the VPN.*
+A: IPsec authenticates by using shared secrets or digital certificates.*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-4-v5-0-3-v6-0-chapter-7-exam-answers-full-pdf?wpdmdl=23754&refresh=5cd11397d36251557205911';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

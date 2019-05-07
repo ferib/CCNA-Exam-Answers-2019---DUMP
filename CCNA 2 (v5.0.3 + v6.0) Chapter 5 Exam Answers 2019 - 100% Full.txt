@@ -1,0 +1,160 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: Which statement describes the port speed LED on the Cisco Catalyst 2960 switch?
+A: If the LED is green, the port is operating at 100 Mb/s.*
+Q: Which command is used to set the BOOT environment variable that defines where to find the IOS image file on a switch?
+A: boot system*
+Q: What is a function of the switch boot loader?
+A: to provide an environment to operate in when the switch operating system cannot be found*
+Q: Which interface is the default location that would contain the IP address used to manage a 24-port Ethernet switch?
+A: VLAN 1*
+Q: A production switch is reloaded and finishes with a Switch&gt; prompt. What two facts can be determined? (Choose two.)
+A: POST occurred normally.*
+A: A full version of the Cisco IOS was located and loaded.*
+Q: Which two statements are true about using full-duplex Fast Ethernet? (Choose two.)
+A: Performance is improved with bidirectional data flow.*
+A: Full-duplex Fast Ethernet offers 100 percent efficiency in both directions.*
+Q: In which situation would a technician use the show interfaces switch command?
+A: when packets are being dropped from a particular directly attached host*
+Q: Refer to the exhibit. A network technician is troubleshooting connectivity issues in an Ethernet network with the command show interfaces fastEthernet 0/0. What conclusion can be drawn based on the partial output in the exhibit?
+A: A malfunctioning NIC can cause frames to be transmitted that are longer than the allowed maximum length.*
+Q: Refer to the exhibit. What media issue might exist on the link connected to Fa0/1 based on the show interface command?
+A: There could be too much electrical interference and noise on the link.*
+Q: If one end of an Ethernet connection is configured for full duplex and the other end of the connection is configured for half duplex, where would late collisions be observed?
+A: on the half-duplex end of the connection*
+Q: What is one difference between using Telnet or SSH to connect to a network device for management purposes?
+A: Telnet sends a username and password in plain text, whereas SSH encrypts the username and password.*
+Q: Refer to the exhibit. The network administrator wants to configure Switch1 to allow SSH connections and prohibit Telnet connections. How should the network administrator change the displayed configuration to satisfy the requirement?
+A: Modify the transport input command.*
+Q: What is the effect of using the switchport port-security command?
+A: enables port security on an interface*
+Q: Where are dynamically learned MAC addresses stored when sticky learning is enabled with the switchport port-security mac-address sticky command?
+A: RAM*
+Q: A network administrator configures the port security feature on a switch. The security policy specifies that each access port should allow up to two MAC addresses. When the maximum number of MAC addresses is reached, a frame with the unknown source MAC address is dropped and a notification is sent to the syslog server. Which security violation mode should be configured for each access port?
+A: restrict*
+Q: Which two statements are true regarding switch port security? (Choose two.)
+A: Dynamically learned secure MAC addresses are lost when the switch reboots.*
+A: If fewer than the maximum number of MAC addresses for a port are configured statically, dynamically learned addresses are added to CAM until the maximum number is reached.*
+Q: Which action will bring an error-disabled switch port back to an operational state?
+A: Issue the shutdown and then no shutdown interface commands.*
+Q: Refer to the exhibit. Port Fa0/2 has already been configured appropriately. The IP phone and PC work properly. Which switch configuration would be most appropriate for port Fa0/2 if the network administrator has the following goals?
+Q: No one is allowed to disconnect the IP phone or the PC and connect some other wired device.<br />
+If a different device is connected, port Fa0/2 is shut down.<br />
+The switch should automatically detect the MAC address of the IP phone and the PC and add those addresses to the running configuration.
+Q: SWA(config-if)# switchport port-security
+Q:  SWA(config-if)# switchport port-security maximum 2
+A:  SWA(config-if)# switchport port-security mac-address sticky*
+Q: The following words are displayed:
+Q: Refer to the exhibit. What can be determined about port security from the information that is shown?
+A: The port violation mode is the default for any port that has port security enabled.*
+Q: Refer to the exhibit. Which event will take place if there is a port security violation on switch S1 interface Fa0/1?
+A: Packets with unknown source addresses will be dropped.*
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.<br />
+Which event will take place if there is a port security violation on switch S1 interface Fa0/1?
+Q: Packets with unknown source addresses will be dropped.
+Q: Fill in the blank.
+Q:  ip address 192.168.99.2 255.255.255.0
+Q: Match the step to each switch boot sequence description. (Not all options are used.)
+Q: Place the options in the following order:
+Q: step 3
+Q: step 1 
+Q: step 4 
+Q: step 2 
+Q: step 5 
+Q: step 6
+Q: Identify the steps needed to configure a switch for SSH. The answer order does not matter. (Not all options are used.)
+Q: Place the options in the following order:
+Q: [+] Create a local user.
+Q: [+] Generate RSA keys.
+Q: [+] Configure a domain name.
+Q: [+] Use the login local command.
+Q: [+] Use the transport input ssh command.
+Q: [+] Order does not matter within this group.
+Q: What is a disadvantage of using router-on-a-stick inter-VLAN routing?
+A: does not scale well beyond 50 VLANs*
+Q: How is traffic routed between multiple VLANs on a multilayer switch?
+A: Traffic is routed via internal VLAN interfaces. *
+Q: Refer to the exhibit. In this network design, which connection or connections if any, add the VLAN ID number if host H1 sends information to host H2?
+A: no link*
+Q: What is a characteristic of legacy inter-VLAN routing?
+A: The router requires one Ethernet link for each VLAN.*
+Q: Refer to the exhibit. A network administrator needs to configure router-on-a-stick for the networks that are shown. How many subinterfaces will have to be created on the router if each VLAN that is shown is to be routed and each VLAN has its own subinterface?
+A: 4*
+Q: Refer to the exhibit. In what switch mode should port G0/1 be assigned if Cisco best practices are being used?
+A: trunk*
+Q: Refer to the exhibit. What is the problem with this configuration, based on the output of the router?
+A: The encapsulation has not been configured on the subinterface.*
+Q: Refer to the exhibit. Communication between the VLANs is not occurring. What could be the issue?
+A: The Gi1/1 switch port is not in trunking mode.*
+Q: Refer to the exhibit. A network administrator is verifying the configuration of inter-VLAN routing. Users complain that PCs on different VLANs cannot communicate. Based on the output, what are two configuration errors on switch interface Gi1/1? (Choose two.)
+A: Gi1/1 is in the default VLAN.*
+A: Gi1/1 is configured as trunk mode.*
+Q: Refer to the exhibit. A network administrator is verifying the configuration of inter-VLAN routing. Users complain that PC2 cannot communicate with PC1. Based on the output, what is the possible cause of the problem?
+A: The encapsulation dot1Q 5 command contains the wrong VLAN. *
+Q: Refer to the exhibit. A network administrator is verifying the configuration of inter-VLAN routing. Based on the partial output that is displayed by the use of the show vlan command, which conclusion can be drawn for the Gi1/1 interface?
+A: It is configured as trunk mode.*
+Q: Inter-VLAN communication is not occurring in a particular building of a school. Which two commands could the network administrator use to verify that inter-VLAN communication was working properly between a router and a Layer 2 switch when the router-on-a-stick design method is implemented? (Choose two.)
+A: From the router, issue the show ip route command.*
+A: From the switch, issue the show interfaces trunk command.*
+Q: How are IP addressing designs affected by VLAN implementations?
+A: Each VLAN must have a different network number.*
+Q: While configuring inter-VLAN routing on a multilayer switch, a network administrator issues the no switchport command on an interface that is connected to another switch. What is the purpose of this command?
+A:  to create a routed port for a single network*
+Q: What is a disadvantage of using multilayer switches for inter-VLAN routing?
+A: Multilayer switches are more expensive than router-on-a-stick implementations.*
+Q: What is a characteristic of a routed port on a Layer 3 switch?
+A: It is not assigned to a VLAN.*
+Q: An administrator is attempting to configure a static route on a Cisco 2960 series switch. After the administrator types the command ip route 0.0.0.0 0.0.0.0 10.1.1.1, an error message appears stating that the command is not recognized. What must the administrator do so that this command is accepted?
+A: Enter the command sdm prefer lanbase-routing and reload.*
+Q: Which statement describes a disadvantage of using router subinterfaces for inter-VLAN routing?
+A: Routed traffic must contend for bandwidth on a single router interface.*
+Q: Refer to the exhibit. Router RA receives a packet with a source address of 192.168.1.35 and a destination address of 192.168.1.85. What will the router do with this packet?
+A: The router will forward the packet out interface FastEthernet 0/1.2.*
+Q: Refer to the exhibit. After attempting to enter the configuration that is shown in router RTA, an administrator receives an error and users on VLAN 20 report that they are unable to reach users on VLAN 30. What is causing the problem?
+A: RTA is using the same subnet for VLAN 20 and VLAN 30.*
+Q: Refer to the exhibit. A network administrator is configuring RT1 for inter-VLAN routing. The switch is configured correctly and is functional. Host1, Host2, and Host3 cannot communicate with each other. Based on the router configuration, what is causing the problem?
+A: IP addresses on the subinterfaces are incorrectly matched to the VLANs.*
+Q: What condition is required to enable Layer 3 switching?
+A: The Layer 3 switch must have IP routing enabled.*
+Q: Refer to the exhibit. Which command can the administrator issue to change the VLAN10 status to up?â€‹
+Q: Switch1(config)# vlan 10 
+Q: Fill in the blank. Do not use abbreviations.
+Q: show vlan
+Q: Refer to the exhibit. The switch does the routing for the hosts that connect to VLAN 5. If the PC accesses a web server from the Internet, at what point will a VLAN number be added to the frame?
+A: No VLAN number is added to the frame in this design.*
+Q: Which type of inter-VLAN communication design requires the configuration of multiple subinterfaces?
+A: router on a stick*
+Q: A small college uses VLAN 10 for the classroom network and VLAN 20 for the office network. What is needed to enable communication between these two VLANs while using legacy inter-VLAN routing?
+A: A router with at least two LAN interfaces should be used.*
+Q: Refer to the exhibit. A network administrator has configured router CiscoVille with the above commands to provide inter-VLAN routing. What command will be required on a switch that is connected to the Gi0/0 interface on router CiscoVille to allow inter-VLAN routing??
+A: switchport mode trunk*
+Q: Refer to the exhibit. A router-on-a-stick configuration was implemented for VLANs 15, 30, and 45, according to the show running-config command output. PCs on VLAN 45 that are using the 172.16.45.0 /24 network are having trouble connecting to PCs on VLAN 30 in the 172.16.30.0 /24 network. Which error is most likely causing this problem??
+A: There is an incorrect IP address configured on GigabitEthernet 0/0.30.*
+Q: Match the link state to the interface and protocol status. (Not all options are used.)
+Q: Place the options in the following order:
+Q: <span style="color: red;">disable</span> -&gt; administratively down
+Q: <span style="color: red;">Layer 1 problem</span> -&gt; down/down
+Q: â€“ not scored â€“
+Q: <span style="color: red;">Layer 2 problem</span> -&gt; up/down
+Q: <span style="color: red;">operational</span> -&gt; up/up
+Q: Match the inter-VLAN routing method to the corresponding characteristic (not all options are used).
+Q: Place the options in the following order:
+Q: router-on-a-stick -&gt; creation of subinterfaces
+Q: Layer 3 with SVIs -&gt; routing at wire speeds
+Q: â€“ not scored â€“
+Q: Layer 3 with routed ports -&gt; need to issue the no switchport command
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. Fill in the blank. Do not use abbreviations.Which command is missing on the Layer 3 switch to restore the full connectivity between PC1 and the web server? (Note that typing no shutdown will not fix this problem.)
+Q: Correct Answer: ip address 192.168.20.1 255.255.255.0
+Q: Packet Tracer activity<br />
+What the missing command on layer 3 switch which allow communication between PC1 and Web Server?
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-2-v5-1-v6-0-chapter-5-exam-answers-full-pdf?wpdmdl=20488&refresh=5cd0f126b28b21557197094';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

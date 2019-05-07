@@ -1,0 +1,137 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: By default, what is the OSPF cost for any link with a bandwidth of 100 Mb/s or greater?
+A: 1*
+Q: Which command will verify that a router that is running OSPFv3 has formed an adjacency with other routers in its OSPF area?
+A: show ipv6 ospf neighbor*
+Q: Which OSPF component is identical in all routers in an OSPF area after convergence?
+A: link-state database*
+Q: Which OPSF packet contains the different types of link-state advertisements?
+A: LSU*
+Q: Which three addresses could be used as the destination address for OSPFv3 messages? (Choose three.)
+A: FE80::1*
+A: FF02::6*
+A: FF02::5*
+Q: Fill in the blank.
+A: Correct Answer: cost*
+Q: What are the two purposes of an OSPF router ID? (Choose two.)
+A: to uniquely identify the router within the OSPF domain*
+A: to facilitate router participation in the election of the designated router*
+Q: A network administrator enters the command ipv6 router ospf 64 in global configuration mode. What is the result of this command?
+A: The OSPFv3 process will be assigned an ID of 64.*
+Q: What happens immediately after two OSPF routers have exchanged hello packets and have formed a neighbor adjacency?
+A: They exchange abbreviated lists of their LSDBs.*
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then complete the task. What message is displayed on www.ciscoville.com?
+A: Completion!*
+Q: What are two reasons that will prevent two routers from forming an OSPFv2 adjacency? (Choose two.)
+A: mismatched OSPF Hello or Dead timers*
+A: mismatched subnet masks on the link interfaces*
+Q: What does a Cisco router use automatically to create link-local addresses on serial interfaces when OSPFv3 is implemented?
+A: an Ethernet interface MAC address available on the router, the FE80::/10 prefix, and the EUI-64 process*
+Q: Single area OSPFv3 has been enabled on a router via the ipv6 router ospf 20 command. Which command will enable this OSPFv3 process on an interface of that router?
+A: ipv6 ospf 20 area 0*
+Q: Fill in the blank.
+A: Correct Answer: multiaccess*
+Q: Which command will provide information specific to OSPFv3 routes in the routing table?
+A: show ipv6 route ospf*
+Q: Which command should be used to check the OSPF process ID, the router ID, networks the router is advertising, the neighbors the router is receiving updates from, and the default administrative distance?
+A: show ip protocols*
+Q: What is the metric that is used by OSPF?
+A: cost*
+Q: What function is performed by the OSPF designated router?
+A: dissemination of LSAs*
+Q: What is used to create the OSPF neighbor table?
+A: adjacency database*
+Q: When a network engineer is configuring OSPFv3 on a router, which command would the engineer issue immediately before configuring the router ID?
+A: ipv6 router ospf 10*
+Q: What will an OSPF router prefer to use first as a router ID?
+A: any IP address that is configured using the router-id command*
+Q: Match the OSPF state with the order in which it occurs. (Not all options are used.)
+Q: Match each OSPF packet type to how it is used by a router. (Not all options are used.)
+Q: By order of precedence, match the selection of router ID for an OSPF-enabled router to the possible router ID options. (Not all options are used.)
+Q: Match the information to the command that is used to obtain the information. (Not all options are used.)
+Q: Refer to the exhibit. All networks are active in the same EIGRP routing domain. When the auto-summary command is issued on R3, which two summary networks will be advertised to the neighbors? (Choose two.)
+A: 192.168.10.0/24*
+A: 172.16.0.0/16*
+Q: Refer to the exhibit. Router R3 is receiving multiple routes through the EIGRP routing protocol. Which statement is true about the implementation of summarization in this network?
+A: Automatic summarization is disabled on R3.*
+Q: Refer to the exhibit. Which statement is supported by the output?
+A: A default route is being learned through an external process.*
+Q: Which three statements are advantages of using automatic summarization? (Choose three.)
+A: It reduces the frequency of routing updates. *
+A: It ensures that traffic for multiple subnets uses one path through the internetwork.*
+A: It decreases the number of entries in the routing table.*
+Q: Refer to the exhibit. Which two routes will be advertised to the router ISP if autosummarization is disabled? (Choose two.)
+A: 10.1.2.0/24*
+A: 10.1.4.0/30*
+Q: Which address best summarizes the IPv6 addresses 2001:DB8:ACAD::/48, 2001:DB8:9001::/48, and 2001:DB8:8752::/49?
+A: 2001:DB8:8000::/34*
+Q: What is a characteristic of manual route summarization?
+A: reduces total number of routes in routing tables*
+Q: Refer to the exhibit. Which statement accurately reflects the configuration of routing on the HQ router?
+A:  A static default route was configured on this router.*
+Q: Refer to the exhibit. A network administrator has attempted to implement a default route from R1 to the ISP and propagate the default route to EIGRP neighbors. Remote connectivity from the EIGRP neighbor routers to the ISP connected to R1 is failing. Based on the output from the exhibit, what is the most likely cause of the problem?
+A: The command redistribute static has not been issued on R1.*
+Q: In which IOS CLI mode must a network administrator issue the maximum-paths command to configure load balancing in EIGRP?
+A: router configuration mode*
+Q: Two routers, R1 and R2, share a 64 kb/s link. An administrator wants to limit the bandwidth used by EIGRP between these two routers to 48 kb/s. Which command is used on both routers to configure the new bandwidth setting?
+A: ip bandwidth-percent eigrp 100 75*
+Q: Refer to the exhibit. A network administrator has issued the shown commands. The EIGRP routing domain has completely converged and a network administrator is planning on configuring EIGRP authentication throughout the complete network. On which two interfaces should EIGRP authentication be configured between R2 and R3? (Choose two.)
+A: serial 0/1/0 of R2*
+A: serial 0/0/1 of R3*
+Q: Refer to the exhibit. A network administrator has configured EIGRP authentication between routers R1 and R2. After the routing tables are reviewed, it is noted that neither router is receiving EIGRP updates. What is a possible cause for this failure?
+A: The same autonomous system numbers must be used in the interface configurations of each router.*
+Q: Two routers, R1 and R2, have established an EIGRP neighbor relationship, but there is still a connectivity problem. Which issue could be causing this problem?
+A: an access list that is blocking advertisements from other networks*
+Q: Refer to the exhibit. Remote users are experiencing connectivity problems when attempting to reach hosts in the 172.21.100.0 /24 network. Using the output in the exhibit, what is the most likely cause of the connectivity problem?
+A: The GigabitEthernet 0/1 interface is not participating in the EIGRP process.*
+Q: Refer to the exhibit. After the configuration shown is applied on router R1, the exhibited status message is displayed. Router R1 is unable to form a neighbor relationship with R2 on the serial 0/1/0 interface. What is the most likely cause of this problem?
+A: The IPv4 address configured on the neighbor that is connected to R1 serial 0/1/0 is incorrect.*
+Q: Refer to the exhibit. Routers R1 and R2 are directly connected via their serial interfaces and are both running the EIGRP routing protocol. R1 and R2 can ping the directly connected serial interface of their neighbor, but they cannot form an EIGRP neighbor adjacency. What action should be taken to solve this problem?
+A: Configure both routers with the same EIGRP process ID.*
+Q: Fill in the blank. Do not use abbreviations.
+Q: passive-interface
+Q: What is the purpose of a Null0 route in the routing table?
+A: to prevent routing loops*
+Q: Which administrative distance is used to advertise routes learned from other protocols that are redistributed into EIGRP?
+A: 170*
+Q: Refer to the exhibit. Which two conclusions can be drawn from the exhibited configuration? (Choose two.)
+A: The configuration supports unequal-cost load balancing. *
+A: Any EIGRP-learned route with a metric less than 3 times the successor metric will be installed in the local routing table.*
+Q: Which command would limit the amount of bandwidth that is used by EIGRP for protocol control traffic to approximately 128 Kb/s on a 1.544 Mb/s link?
+A: ip bandwidth-percent eigrp 100 8*
+Q: By default, how many equal-cost routes to the same destination network will EIGRP install in the routing table?
+A: 4*
+Q: Refer to the exhibit. Router CiscoVille has been partially configured for EIGRP authentication. What is missing that would allow successful authentication between EIGRP neighbors?
+A: The keychain for EIGRP authentication must be configured on the interfaces.*
+Q: What two statements are correct regarding EIGRP authentication? (Choose two.)
+A:  EIGRP authentication uses the MD5 algorithm. *
+A: EIGRP authentication uses a pre-shared key.*
+Q: Which EIGRP parameter must match between all routers forming an EIGRP adjacency?
+A: autonomous system number*
+Q: Which command can be issued on a router to verify that automatic summarization is enabled?
+A: show ip protocols*
+Q: Fill in the blank. Do not use abbreviations.
+Q: show ip eigrp neighbors
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.
+Q: R1 and R2 could not establish an EIGRP adjacency. What is the problem?â€‹
+A: EIGRP is down on R1.*
+Q: Refer to the exhibit. Considering that R2, R3, and R4 are correctly configured, why did R1 not establish an adjacency with R2, R3, and R4?
+A: because the Fa0/0 interface of R1 is declared as passive for EIGRP*
+Q: In which scenario will the use of EIGRP automatic summarization cause inconsistent routing in a network?
+A: when the routers in an IPv4 network are connected to discontiguous networks with automatic summarization enabled*
+Q: Which OSPF data structure is identical on all OSPF routers that share the same area? 
+Q: link-state database* 
+Q: Which command will selectively display IPv6 routes that are learned from a remote network? 
+Q: show ipv6 route ospf* 
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-3-v5-0-3-v6-0-chapter-8-answers-full-pdf?wpdmdl=23672&refresh=5cd0ef6ea4ae41557196654';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

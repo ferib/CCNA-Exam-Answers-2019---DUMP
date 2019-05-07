@@ -1,0 +1,151 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: A small company with 10 employees uses a single LAN to share information between computers. Which type of connection to the Internet would be appropriate for this company?
+A: a broadband service, such as DSL, through their local service provider*
+Q: Which network scenario will require the use of a WAN?
+A: Employees need to connect to the corporate email server through a VPN while traveling.*
+Q: Which statement describes a characteristic of a WAN?
+A: WAN networks are owned by service providers.*
+Q: What are two common types of circuit-switched WAN technologies? (Choose two.)
+A: ISDN*
+A: PSTN*
+Q: Which two devices are needed when a digital leased line is used to provide a connection between the customer and the service provider? (Choose two.)
+A: DSU*
+A: CSU*
+Q: What is a requirement of a connectionless packet-switched network?
+A: Full addressing information must be carried in each data packet.*
+Q: What is an advantage of packet-switched technology over circuit-switched technology?
+A: Packet-switched networks can efficiently use multiple routes inside a service provider network.*
+Q: A new corporation needs a data network that must meet certain requirements. The network must provide a low cost connection to sales people dispersed over a large geographical area. Which two types of WAN infrastructure would meet the requirements? (Choose two.)
+A: public infrastructure*
+A: Internet*
+Q: What is a long distance fiber-optic media technology that supports both SONET and SDH, and assigns incoming optical signals to specific wavelengths of light?
+A: DWDM*
+Q: What are two common high-bandwidth fiber-optic media standards? (Choose two.)
+A: SONET*
+A: SDH*
+Q: Which WAN technology is cell-based and well suited to carry voice and video traffic?
+A: ATM*
+Q: Which two technologies use the PSTN network to provide an Internet connection? (Choose two.)
+A: dialup*
+A: ISDN*
+Q: A company needs to interconnect several branch offices across a metropolitan area. The network engineer is seeking a solution that provides high-speed converged traffic, including voice, video, and data on the same network infrastructure. The company also wants easy integration to their existing LAN infrastructure in their office locations. Which technology should be recommended?
+A: Ethernet WAN*
+Q: Which solution can provide Internet access to remote locations where no regular WAN services are available?
+A: VSAT*
+Q: Which WAN technology establishes a dedicated constant point-to-point connection between two sites?
+A: leased lines*
+Q: A customer needs a metropolitan area WAN connection that provides high-speed, dedicated bandwidth between two sites. Which type of WAN connection would best fulfill this need?
+A: Ethernet WAN*
+Q: Which feature is used when connecting to the Internet using DSL?
+A: DSLAM*
+Q: Which connectivity method would be best for a corporate employee who works from home two days a week, but needs secure access to internal corporate databases?
+A: VPN*
+Q: Which wireless technology provides Internet access through cellular networks?
+A: LTE*
+Q: A home user lives within 10 miles (16 kilometers) of the Internet provider network. Which type of technology provides high-speed broadband service with wireless access for this home user?
+A: WiMAX*
+Q: What is the recommended technology to use over a public WAN infrastructure when a branch office is connected to the corporate site?
+A: VPN*
+Q: What can cause a reduction in available bandwidth on a cable broadband connection?
+A: number of subscribers*
+Q: Which equipment is needed for an ISP to provide Internet connections through cable service?
+A: CMTS*
+Q: Which geographic scope requirement would be considered a distributed WAN scope?
+A: many-to-many*
+Q: A corporation is looking for a solution to connect multiple, newly established remote branch offices. Which consideration is important when selecting a private WAN connection rather than a public WAN connection?
+A: data security and confidentiality during transmission*
+Q: &#8212;&gt;Â municipal Wi-Fi<br />
+
+Q: &#8212;&gt;Â satellite Internet<br />
+
+Q: &#8212;&gt;Â DSL<br />
+
+Q: &#8212;&gt;Â cable<br />
+<img class="alignnone size-full wp-image-21375" src="https://itexamanswers.net/wp-content/uploads/2015/06/2018-09-14_094211.png" alt="" width="708" height="611" srcset="https://itexamanswers.net/wp-content/uploads/2015/06/2018-09-14_094211.png 708w, https://itexamanswers.net/wp-content/uploads/2015/06/2018-09-14_094211-300x259.png 300w" sizes="(max-width: 708px) 100vw, 708px" /><br />
+<img class="alignnone size-full wp-image-21376" src="https://itexamanswers.net/wp-content/uploads/2015/06/2018-09-14_094211a.png" alt="" width="708" height="611" srcset="https://itexamanswers.net/wp-content/uploads/2015/06/2018-09-14_094211a.png 708w, https://itexamanswers.net/wp-content/uploads/2015/06/2018-09-14_094211a-300x259.png 300w" sizes="(max-width: 708px) 100vw, 708px" />
+Q: Older Version
+Q: What are two structured engineering principles necessary for successful implementation of a network design? (Choose two.)
+A: resiliency *
+A: modularity *
+Q: What is an important first consideration when starting to design a network?
+A: size of the network*
+Q: Which two devices would commonly be found at the access layer of the hierarchical enterprise LAN design model? (Choose two.)
+A:  access point*
+A: Layer 2 switch*
+Q: In which layer of the hierarchical enterprise LAN design model would PoE for VoIP phones and access points be considered?
+A: access*
+Q: Refer to the exhibit. Which type of Cisco hierarchical LAN design model is used at school site 1?
+A: two-tier collapsed core*
+Q: In a hierarchical network design, which layers may be combined into a collapsed core for smaller networks?
+A: core and distribution*
+Q: The network design for a college with users at five sites is being developed. Where in the campus network architecture would servers used by all users be located?
+A: data center*
+Q: What is one advantage to designing networks in building block fashion for large companies?
+A: failure isolation*
+Q: A network engineer wants to redesign the wireless network and make use of wireless network controllers that manage the many deployed wireless access points. In which network design module of the campus network architecture would the centralized wireless network controllers be found?
+A: services*
+Q: Which network module is the fundamental component of a campus design?
+A: access-distribution module*
+Q: Which approach in networking allows for network changes, upgrades, or the introduction of new services in a controlled and staged fashion?
+A: modular*
+Q: Refer to the exhibit. Which type of ISP connectivity to the service provider edge is being used by company A?
+A: multihomed*
+Q: Which three network architectures have been introduced by Cisco to address the emerging technology challenges created by the evolving business models? (Choose three.)
+A:  Cisco Borderless*
+A: Cisco Data Center*
+A: Cisco Collaboration*
+Q: Which layer of the Cisco Collaboration Architecture contains unified communications and conference software such as Cisco WebEx Meetings, WebEx Social, Cisco Jabber, and TelePresence?
+A: applications and devices*
+Q: Which Cisco technology allows diverse network devices to connect securely, reliably, and seamlessly to enterprise network resources?
+A: Cisco AnyConnect*
+Q: What is creating a new challenge for IT departments by changing the border of the enterprise network?
+A: tablets*
+Q: Which network architecture functions through a combination of technologies that include wired, wireless, security, and more?
+A: Cisco Borderless*
+Q: Which network architecture combines individual components to provide a comprehensive solution allowing people to cooperate and contribute to the production of something?
+A: Cisco Collaboration Architecture*
+Q: Fill in the blank.
+Q: hierarchical
+Q: Fill in the blank. Use the abbreviation.
+Q: VPN
+Q: Fill in the blank.
+Q: hierarchical
+Q: Match the layer to the corresponding device. (Not all options are used.)
+Q: Place the options in the following order:
+Q: â€“ not scored â€“ 
+Q: core -&gt; high-speed switches
+Q: access -&gt; Layer 2 switches
+Q: distribution -&gt; Layer 3 switches
+Q: Match the submodule to the correct Cisco Enterprise Architecture module. (Not all options are used.)
+Q: Place the options in the following order:
+Q: Cisco Enterprise Campus
+Q: [+] campus core 
+Q: [+] building distribution 
+Q: [+] data center
+Q: Cisco Enterprise Edge
+Q: [#] VPN and remote access 
+Q: [#] DMZ 
+Q: [#] e-commerce
+Q: What are two of the top trends that affect network architecture design? (Choose two.)
+A: cloud computing*
+A: BYOD*
+Q: Why would a company want network engineers to adhere to structured engineering principles when designing networks?
+A: The network can be easily designed because of the separation of the various functions that exist on a network into modules.*
+Q: Refer to the exhibit. Which Cisco Enterprise Architecture module is shown?
+A: enterprise campus*
+Q: What feature is more important at the core layer than at any other hierarchical network design layer?
+A: packet switching speed*
+Q: Which product corresponds to a layer of the Cisco Collaboration Architecture?
+A: Network and Computer Infrastructure*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-4-v5-0-3-v6-0-chapter-1-exam-answers-full-pdf?wpdmdl=23701&refresh=5cd17dfd039751557233149';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

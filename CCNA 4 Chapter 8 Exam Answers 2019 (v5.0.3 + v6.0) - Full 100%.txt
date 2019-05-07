@@ -1,0 +1,143 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: When should a network performance baseline be measured?
+A: during normal work hours of an organization*
+Q: What is a purpose of establishing a network baseline?
+A: It creates a point of reference for future network evaluations.*
+Q: Which three pieces of information are typically recorded in a logical topology diagram? (Choose three.)
+A: static routes*
+A: routing protocols*
+A: IP address and prefix lengths*
+Q: In which step of gathering symptoms does the network engineer determine if the problem is at the core, distribution, or access layer of the network?
+A: Narrow the scope.*
+Q: A team of engineers has identified a solution to a significant network problem. The proposed solution is likely to affect critical network infrastructure components. What should the team follow while implementing the solution to avoid interfering with other processes and infrastructure?
+A: change-control procedures*
+Q: Refer to the exhibit. What action occurs at stage 3 of the general troubleshooting process?
+A: Correct the problem.*
+Q: After which step in the network troubleshooting process would one of the layered troubleshooting methods be used?
+A: gathering symptoms from suspect devices*
+Q: A network technician is troubleshooting an email connection problem. Which question to the end-user will provide clear information to better define the problem?
+A: When did you first notice your email problem?*
+Q: A network engineer is troubleshooting a network problem and can successfully ping between two devices. However, Telnet between the same two devices does not work. Which OSI layers should the administrator investigate next?
+A: from the network layer to the application layer*
+Q: A network administrator is having issues with a newly installed network not appearing in other routers. At which layer of the OSI model is the network administrator going to start the troubleshooting process when using a top-down approach?
+A: network*
+Q: Which troubleshooting method begins by examining cable connections and wiring issues?
+A: bottom-up*
+Q: Refer to the exhibit. On the basis of the information presented, which two IP SLA related statements are true? (Choose two.)
+A: IP SLA 99 will run forever unless explicitly disabled.*
+A: IP SLA 99 is sending echo requests every 10 seconds.*
+Q: A company is setting up a web site with SSL technology to protect the authentication credentials required to access the web site. A network engineer needs to verify that the setup is correct and that the authentication is indeed encrypted. Which tool should be used?
+A: protocol analyzer*
+Q: Which category of software troubleshooting tools provides device-level monitoring, configuration, and fault-management?
+A: network management system tools*
+Q: Which two specialized troubleshooting tools can monitor the amount of traffic that passes through a switch? (Choose two.)
+A: portable network analyzer*
+A: NAM*
+Q: Which number represents the most severe level of syslog logging?
+A: 0*
+Q: A user in a large office calls technical support to complain that a PC has suddenly lost connectivity to the network. The technician asks the caller to talk to nearby users to see if other machines are affected. The caller reports that several immediate neighbors in the same department have a similar problem and that they cannot ping each other. Those who are seated in other departments have connectivity. What should the technician check as the first step in troubleshooting the issue?
+A: the status of the departmental workgroup switch in the wiring closet*
+Q: A user reports that after an OS patch of the networking subsystem has been applied to a workstation, it performs very slowly when connecting to network resources. A network technician tests the link with a cable analyzer and notices that the workstation sends an excessive number of frames smaller than 64 bytes and also other meaningless frames. What is the possible cause of the problem?
+A: corrupted NIC driver*
+Q: An administrator is troubleshooting an Internet connectivity problem on a router. The output of the show interfaces gigabitethernet 0/0 command reveals higher than normal framing errors on the interface that connects to the Internet. At what layer of the OSI model is the problem likely occurring?
+A: Layer 2*
+Q: A group of Windows PCs in a new subnet has been added to an Ethernet network. When testing the connectivity, a technician finds that these PCs can access local network resources but not the Internet resources. To troubleshoot the problem, the technician wants to initially confirm the IP address and DNS configurations on the PCs, and also verify connectivity to the local router. Which three Windows CLI commands and utilities will provide the necessary information? (Choose three.)
+A: ping*
+A: nslookup*
+A: ipconfig*
+Q: Users report that the new web site http://www.company1.biz cannot be accessed. The helpdesk technician checks and verifies that the web site can be accessed with http://www.company1.biz:90. Which layer in the TCP/IP model is involved in troubleshooting this issue?
+A: transport*
+Q: Where are IPv4 address to Layer 2 Ethernet address mappings maintained on a host computer?
+A: ARP cache*
+Q: A networked PC is having trouble accessing the Internet, but can print to a local printer and ping other computers in the area. Other computers on the same network are not having any issues. What is the problem?
+A: The PC has a missing or incorrect default gateway.*
+Q: The newly configured ASBR that connects a company to the Internet has a default route configured and has the default-information originate command entered. Devices connected through this router can access the Internet. The problem is that no other OSPF routers have a default route in the routing table and no other users throughout the organization can access the Internet. What could be the problem?
+A: The ASBR does not have an OSPF neighbor.*
+Q: An internal corporate server can be accessed by internal PCs, but not by external Internet users that should have access. What could be the issue?
+A: Static NAT has not been configured properly or at all.*
+Q: Fill in the blank.
+Q: Correct Answer: ARP
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question.<br />
+A user reports that PC0 cannot visit the web server www.server.com. Troubleshoot the network configuration to identify the problem. What is the cause of the problem?
+A: A serial interface encapsulation is configured incorrectly.*
+Q: What are the most common syslog messages?
+A: link up and link down messages*
+Q: When logging is used, which severity level indicates that a device is unusable?
+A: Emergency â€“ Level 0*
+Q: Refer to the exhibit. Which two conclusions can be drawn from the syslog message that was generated by the router? (Choose two.)
+A: This message is a level 5 notification message. *
+A: This message indicates that service timestamps have been configured.*
+Q: A network technician has issued the service timestamps log datetime command in the configuration of the branch router. Which additional command is required to include the date and time in logged events?
+A: Branch1# clock set 08:00:00 05 AUG 2013*
+Q: Refer to the exhibit. From what location have the syslog messages been retrieved?
+A: router RAM*
+Q: Refer to the exhibit. What does the number 17:46:26.143 represent?
+A: the time when the syslog message was issued*
+Q: Which destination do Cisco routers and switches use by default when sending syslog messages for all severity levels?
+A: console*
+Q: A network administrator has issued the logging trap 4 global configuration mode command. What is the result of this command?
+A: The syslog client will send to the syslog server any event message that has a severity level of 4 and lower.*
+Q: Which statement describes SNMP operation?
+A: A set request is used by the NMS to change configuration variables in the agent device.*
+Q: What are SNMP trap messages?
+A: unsolicited messages that are sent by the SNMP agent and alert the NMS to a condition on the network*
+Q: Which SNMP feature provides a solution to the main disadvantage of SNMP polling?
+A: SNMP trap messages*
+Q: When SNMPv1 or SNMPv2 is being used, which feature provides secure access to MIB objects?
+A: community strings*
+Q: A network administrator has issued the snmp-server user admin1 admin v3 encrypted auth md5 abc789 priv des 256 key99 command. What are two features of this command? (Choose two.)
+A: It adds a new user to the SNMP group.*
+A: It uses the MD5 authentication of the SNMP messages.*
+Q: How can SNMP access be restricted to a specific SNMP manager?
+A: Define an ACL and reference it by using the snmp-server community command.*
+Q: A network administrator issues two commands on a router:
+Q: R1(config)# snmp-server host 10.10.50.25 version 2c campus 
+Q: R1(config)# snmp-server enable traps
+Q: What can be concluded after the commands are entered?
+A: If an interface comes up, a trap is sent to the server.*
+Q: Refer to the exhibit. What can be concluded from the produced output?
+A:  An ACL was configured to restrict SNMP access to an SNMP manager.*
+Q: What is a difference between SNMP and NetFlow?
+A: NetFlow collects more detailed traffic statistics on IP networks than SNMP does.*
+Q: How does NetFlow function on a Cisco router or multilayer switch?
+A: One user connection to an application exists as two NetFlow flows.*
+Q: Which type of information can an administrator obtain with the show ip cache flow command?
+A: the protocol that uses the largest volume of traffic*
+Q: Which two statements describe items to be considered in configuring NetFlow? (Choose two.)
+A: NetFlow consumes additional memory.*
+A: Netflow can only be used in a unidirectional flow.*
+Q: What is the most common purpose of implementing NetFlow in a networked environment?
+A: to support accounting and monitoring with consumer applications*
+Q: Refer to the exhibit. While planning an upgrade, a network administrator uses the Cisco NetFlow utility to analyze data flow in the current network. Which protocol used the greatest amount of network time?
+A: UDP-other *
+Q: Fill in the blank.
+Q: syslog
+Q: When SNMPvl or SNMPv2 is being used, which feature provides secure access to MIB objects?
+A: community strings*
+Q: A network administrator has issued the snmp-server user adminl admin v3 encrypted auth md5 abc789 priv des 256 key99 command. What are two features of this command? (Choose two.)
+A: It uses the MD5 authentication of the SNMP messages.*
+Q: It adds a new user to the SNMP group.
+Q: Which SNMP version uses weak community string-based access control and supports bulk retrieval?
+A: SNMPv2c*
+Q: Which protocol or service can be configured to send unsolicited messages to alert the network administrator about a network event such as an extremely high CPU utilization on a router?
+A: SNMP*
+Q: Which protocol or service allows network administrators to receive system messages that are provided by network devices?
+A: syslog*
+Q: The command ntp server 10.1.1.1 is issued on a router. What impact does this command have?
+A: synchronizes the clock of the device to the timeserver that is located at IP address 10.1.1.1*
+Q: Which syslog message type is accessible only to an administrator and only via the Cisco CLI?
+A: debugging*
+Q: Which protocol is used by network administrators to track and gather statistics on TCP/IP packets that are entering or exiting network devices?
+A: NetFlow*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-4-v5-0-3-v6-0-chapter-8-exam-answers-full-pdf?wpdmdl=23750&refresh=5cd0f118741c91557197080';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

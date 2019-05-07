@@ -1,0 +1,151 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: What happens to runt frames received by a Cisco Ethernet switch?
+A: The frame is dropped.*
+Q: Explain:
+Q: What are the two sizes (minimum and maximum) of an Ethernet frame? (Choose two.)
+A: 64 bytes*
+A: 1518 bytes*
+Q: Explain:
+Q: What statement describes Ethernet?
+A: It defines the most common LAN type in the world.*
+Q: Explain:
+Q: Which two statements describe features or functions of the logical link control sublayer in Ethernet standards? (Choose two.)
+A:  Logical link control is implemented in software.*
+A: The data link layer uses LLC to communicate with the upper layers of the protocol suite.*
+Q: Explain:
+Q: What statement describes a characteristic of MAC addresses?
+A: They must be globally unique.*
+Q: Explain:
+Q: Which statement is true about MAC addresses?
+A: The first three bytes are used by the vendor assigned OUI.*
+Q: Explain:
+Q: Which destination address is used in an ARP request frame?
+A: FFFF.FFFF.FFFF*
+Q: Explain:
+Q: What addressing information is recorded by a switch to build its MAC address table?
+A: the source Layer 2 address of incoming frames*
+Q: Explain:
+Q: Refer to the exhibit. The exhibit shows a small switched network and the contents of the MAC address table of the switch. PC1 has sent a frame addressed to PC3. What will the switch do with the frame?
+A: The switch will forward the frame to all ports except port 4.*
+Q: Explain:
+Q: Which switching method uses the CRC value in a frame?
+A: store-and-forward*
+Q: Explain:
+Q: What is auto-MDIX?
+A: a feature that detects Ethernet cable type*
+Q: Explain:
+Q: Refer to the exhibit. PC1 issues an ARP request because it needs to send a packet to PC2. In this scenario, what will happen next?
+A:  PC2 will send an ARP reply with its MAC address.*
+Q: Explain:
+Q: What is the aim of an ARP spoofing attack?
+A: to associate IP addresses to the wrong MAC address*
+Q: What is a characteristic of port-based memory buffering?
+A: Frames are buffered in queues linked to specific ports.*
+Q: Explain:
+Q: What is the minimum Ethernet frame size that will not be discarded by the receiver as a runt frame?
+A: 64 bytes*
+Q: What are two potential network problems that can result from ARP operation? (Choose two.)
+A: On large networks with low bandwidth, multiple ARP broadcasts could cause data communication delays. *
+A: Network attackers could manipulate MAC address and IP address mappings in ARP messages with the intent of intercepting network traffic.*
+Q: Explain:
+Q: Fill in the blank.
+Q: RUNT 
+Q: Explain:
+Q: Fill in the blank.
+Q: port-based
+Q: Fill in the blank.
+Q: spoofing
+Q: Explain:
+Q: Which statement describes the treatment of ARP requests on the local link?
+A: They are received and processed by every device on the local network.*
+Q: Refer to the exhibit. The switches are in their default configuration. Host A needs to communicate with host D, but host A does not have the MAC address for its default gateway. Which network hosts will receive the ARP request sent by host A?
+A: only hosts B, C, and router R1*
+Q: Explain:
+Q: Refer to the exhibit.
+Q: A switch with a default configuration connects four hosts. The ARP table for host A is shown. What happens when host A wants to send an IP packet to host D?
+A: Host A sends out a broadcast of FF:FF:FF:FF:FF:FF. Every other host connected to the switch receives the broadcast and host D responds with its MAC address.*
+Q: Explain:
+Q: True or False?
+Q: When a device is sending data to another device on a remote network, the Ethernet frame is sent to the MAC address of the default gateway.
+A: true*
+Q: Explain:
+Q: The ARP table in a switch maps which two types of address together?
+A: Layer 3 address to a Layer 2 address*
+Q: Explain:
+Q: Match the characteristic to the forwarding method. (Not all options are used.)
+Q: Sort elements
+Q: cut-through (A) -&gt; <span style="color: #ff0000;">low latency (A)*</span>
+Q: cut-through (B) -&gt; <span style="color: #ff0000;">may forward runt frames (B)*</span>
+Q: cut-through (C) -&gt; <span style="color: #ff0000;">begins forwarding when the destination address is received (C)*</span>
+Q: store-and-forward (D) -&gt; <span style="color: #ff0000;">always stores the entire frame (D)*</span>
+Q: store-and-forward (E) -&gt; <span style="color: #ff0000;">checks the CRC before forwarding (E)*</span>
+Q: store-and-forward (F) -&gt; <span style="color: #ff0000;">checks the frame length before forwarding (F)</span>
+Q: Explain:
+Q: What is a characteristic of a contention-based access method?
+A: It is a nondeterministic method.*
+Q: What is the purpose of the preamble in an Ethernet frame?
+A: is used for timing synchronization*
+Q: What is the Layer 2 multicast MAC address that corresponds to the Layer 3 IPv4 multicast address 224.139.34.56?
+A: 01-00-5E-0B-22-38*
+Q: Which two statements are correct about MAC and IP addresses during data transmission if NAT is not involved? (Choose two.)
+A: Destination and source MAC addresses have local significance and change every time a frame goes from one LAN to another. *
+A: Destination IP addresses in a packet header remain constant along the entire path to a target host.*
+Q: What are two features of ARP? (Choose two.)
+A: If a host is ready to send a packet to a local destination device and it has the IP address but not the MAC address of the destination, it generates an ARP broadcast.*
+A: If a device receiving an ARP request has the destination IPv4 address, it responds with an ARP reply.*
+Q: A host is trying to send a packet to a device on a remote LAN segment, but there are currently no mappings in its ARP cache. How will the device obtain a destination MAC address?
+A: It will send an ARP request for the MAC address of the default gateway. *
+A: <span style="color: #000000;">It will send the frame and use its own MAC address as the destination.</span> *
+Q: A network administrator is connecting two modern switches using a straight-through cable. The switches are new and have never been configured. Which three statements are correct about the final result of the connection? (Choose three.)
+A: The link between the switches will work at the fastest speed that is supported by both switches. *
+A: The link between switches will work as full-duplex.*
+A: The auto-MDIX feature will configure the interfaces eliminating the need for a crossover cable.*
+Q: A Layer 2 switch is used to switch incoming frames from a 1000BASE-T port to a port connected to a 100Base-T network. Which method of memory buffering would work best for this task?
+A: shared memory buffering*
+Q: When would a switch record multiple entries for a single switch port in its MAC address table?
+A: when another switch is connected to the switch port*
+Q: Which two statements describe a fixed configuration Ethernet switch? (Choose two.)
+A: A fixed configuration switch may be stackable. *
+A: The number of ports on the switch cannot be increased.*
+Q: How does adding an Ethernet line card affect the form factor of a switch?
+A: by expanding the port density*
+Q: Which address or combination of addresses does a Layer 3 switch use to make forwarding decisions?
+A: MAC and IP addresses*
+Q: What statement illustrates a drawback of the CSMA/CD access method?
+A: Collisions can decrease network performance.*
+Q: Open the PT Activity. Perform the tasks in the activity instruction and then answer the question.
+Q: What destination address will PC1 include in the destination address field of the Ethernet frame that it sends to PC2?
+A: 0030.a3e5.0401*
+Q: Which address or combination of addresses does a Layer 3 switch use to make forwarding decisions?
+A: MAC and IP addresses*
+Q: Launch PT. Hide and Save PT
+Q: Open the PT Activity. Perform the tasks in the activity instruction and then answer the question. What destination address will PC1 include in the destination address field of the Ethernet frame that it sends to PC2?
+A: 0030.a3e5.0401*
+Q: How does adding an Ethernet line card affect the form factor of a switch?
+A: by expanding the port density*
+Q: What statement illustrates a drawback of the CSMA/CD access method?
+A: Collisions can decrease network performance.*
+Q: A network administrator issues the following commands on a Layer 3 switch:
+Q: What is the administrator configuring?
+A: a routed port*
+Q: A
+Q: Sort elements
+Q: Start Frame Delimiter -&gt; <span style="color: #ff0000;">Field 2*</span>
+Q: Source MAC Address -&gt; <span style="color: #ff0000;">Field 4*</span>
+Q: Encapsulated Data -&gt; <span style="color: #ff0000;">Field 6*</span>
+Q: Preamble -&gt; <span style="color: #ff0000;">Beginning of frame â€“ Field 1*</span>
+Q: Destination MAC Address -&gt; <span style="color: #ff0000;">Field 3*</span>
+Q: Length/Type -&gt; <span style="color: #ff0000;">Field 5*</span>
+Q: Frame Check Sequence -&gt; <span style="color: #ff0000;">End of frame â€“ Field 7</span>
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-1-v5-1-v6-0-chapter-5-exam-answers-full-pdf?wpdmdl=20439&refresh=5cd0f0c2dcaf51557196994';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

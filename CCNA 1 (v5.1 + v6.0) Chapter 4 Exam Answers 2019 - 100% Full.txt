@@ -1,0 +1,138 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: What are two reasons for physical layer protocols to use frame encoding techniques? (Choose two.)
+A: to distinguish data bits from control bits*
+A: to identify where the frame starts and ends*
+Q: Explain:
+Q: What is indicated by the term throughput?
+A: the measure of the bits transferred across the media over a given period of time*
+Q: Explain:
+Q: A network administrator notices that some newly installed Ethernet cabling is carrying corrupt and distorted data signals. The new cabling was installed in the ceiling close to fluorescent lights and electrical equipment. Which two factors may interfere with the copper cabling and result in signal distortion and data corruption? (Choose two.)
+A: EMI*
+A: RFI*
+Q: Explain:
+Q: Which characteristic describes crosstalk?
+A: the distortion of the transmitted messages from signals carried in adjacent wires*
+Q: Explain:
+Q: What technique is used with UTP cable to help protect against signal interference from crosstalk?
+A: twisting the wires together into pairs*
+Q: Explain:
+Q: Refer to the exhibit. The PC is connected to the console port of the switch. All the other connections are made through FastEthernet links. Which types of UTP cables can be used to connect the devices?
+A: 1 â€“ rollover, 2 â€“ straight-through, 3 â€“ crossover*
+Q: Explain:
+Q: Refer to the exhibit. What is wrong with the displayed termination?
+A: The untwisted length of each wire is too long.*
+Q: Explain:
+Q: Which type of connector does a network interface card use?
+A: RJ-45*
+Q: What is one advantage of using fiber optic cabling rather than copper cabling?
+A: It is able to carry signals much farther than copper cabling.*
+Q: Explain:
+Q: Why are two strands of fiber used for a single fiber optic connection?
+A: They allow for full-duplex connectivity.*
+Q: Explain:
+Q: A network administrator is designing the layout of a new wireless network. Which three areas of concern should be accounted for when building a wireless network? (Choose three.)
+A: security *
+A: interference *
+A: coverage area*
+Q: Explain:
+Q: Which layer of the OSI model is responsible for specifying the encapsulation method used for specific types of media?
+A: data link*
+Q: Explain:
+Q: What are two services performed by the data link layer of the OSI model? (Choose two.)
+A: It accepts Layer 3 packets and encapsulates them into frames. *
+A: It provides media access control and performs error detection.*
+Q: Explain:
+Q: What is true concerning physical and logical topologies?
+A: Logical topologies refer to how a network transfers data between devices.*
+Q: Explain:
+Q: Which method of data transfer allows information to be sent and received at the same time?
+A:  full duplex*
+Q: Which statement describes an extended star topology?
+A: End devices connect to a central intermediate device, which in turn connects to other central intermediate devices.*
+Q: Explain:
+Q: Refer to the exhibit. Which statement describes the media access control methods that are used by the networks in the exhibit?
+A: Network 1 uses CSMA/CD and Network 3 uses CSMA/CA.*
+Q: Explain:
+Q: What is contained in the trailer of a data-link frame?
+A: error detection*
+Q: Explain:
+Q: As data travels on the media in a stream of 1s and 0s how does a receiving node identify the beginning and end of a frame?
+A: The transmitting node inserts start and stop bits into the frame.*
+Q: Explain:
+Q: What is a role of the Logical Link Control sublayer?
+A: to mark frames to identify the network layer protocol being carried*
+Q: Explain:
+Q: What is the definition of bandwidth?
+A: the amount of data that can flow from one place to another in a given amount of time*
+Q: Explain:
+Q: What is the function of the CRC value that is found in the FCS field of a frame?
+A: to verify the integrity of the received frame*
+Q: Explain:
+Q: Fill in the blank.
+Q: bandwidth 
+Q: Explain:
+Q: Fill in the blank.
+Q: LLC
+Q: Explain:
+Q: Match the characteristics to the correct type of fiber. (Not all options are used.)
+Q: Multimode Fiber
+A: LED as light source*
+A: several paths of light into the fiber*
+A: generally used with LANs*
+Q: Single-mode Fiber
+A: only one ray of light into the fiber*
+A: generally used for campus backbone*
+A: laser as light source*
+Q: Explain:
+Q: Fill in the blank.
+Q: hybrid
+Q: Explain:
+Q: What are two examples of hybrid topologies? (Choose two.)
+A: partial mesh*
+A: extended star*
+Q: Explain:
+Q: Which statement describes signaling at the physical layer?
+A:  Sending the signals asynchronously means that they are transmitted without a clock signal.*
+Q: The throughput of a FastEthernet network is 80 Mb/s. The traffic overhead for establishing sessions, acknowledgments, and encapsulation is 15 Mb/s for the same time period. What is the goodput for this network?
+A: 65 Mb/s*
+Q: How is the magnetic field cancellation effect enhanced in UTP cables?
+A: by increasing and varying the number of twists in each wire pair*
+Q: Which statement is correct about multimode fiber?
+A: SC-SC patch cords are used with multimode fiber cables.*
+Q: A network administrator is required to upgrade wireless access to end users in a building. To provide data rates up to 1.3 Gb/s and still be backward compatible with older devices, which wireless standard should be implemented?
+A: 802.11ac*
+Q: What is one main characteristic of the data link layer?
+A: It shields the upper layer protocol from being aware of the physical medium to be used in the communication.*
+Q: What are two characteristics of 802.11 wireless networks? (Choose two.)
+A: They use CSMA/CA technology.*
+A: Collisions can exist in the networks.*
+Q: What is the purpose of the FCS field in a frame?
+A: to determine if errors occurred in the transmission and reception*
+Q: Fill in the blank with a number.
+Q: Match the steps to the physical layer operations that occur when data is sent from one node and received at another node.
+Q: Sort elements
+Q: The physical layer encodes the frames
+A: Step 1*
+Q: The physical layer creates the signals that represent the bits in each frame
+A: Step 2*
+Q: The signals are sent on the media one at a time.
+Q: Step 3
+Q: The physical layer retrieves the individual signals from the media
+Q: Step 4
+Q: The physical layer restores the individual signals to their bit representations
+A: Step 5*
+Q: Refer to the exhibit.
+Q: Which statement describes the media access control methods that are used by the networks in the exhibit?
+A: Network 1 uses CSMA/CD and Network 3 uses CSMA/CA.**
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-1-v5-1-v6-0-chapter-4-exam-answers-full-pdf?wpdmdl=20436&refresh=5cd0ef8138ef61557196673';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

@@ -1,0 +1,586 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: Which statement best describes a WAN?
+A: A WAN interconnects LANs over long distances.*
+Q: Connecting offices at different locations using the Internet can be economical for a business. What are two important business policy issues that should be addressed when using the Internet for this purpose? (Choose two.)
+A: privacy*
+A: security*
+Q: What is a disadvafntage of a packet-switched network compared to a circuit-switched network?
+A: higher latency*
+Q: A company is considering updating the campus WAN connection. Which two WAN options are examples of the private WAN architecture? (Choose two.)
+A: leased line*
+A: Ethernet WAN*
+Q: Which statement describes a characteristic of dense wavelength division multiplexing (DWDM)?
+A: It can be used in long-range communications, like connections between ISPs.*
+Q: Which WAN technology can serve as the underlying network to carry multiple types of network traffic such as IP, ATM, Ethernet, and DSL?
+A: MPLS*
+Q: Which two WAN technologies are more likely to be used by a business than by teleworkers or home users? (Choose two.)
+A: Frame Relay*
+A: MetroE*
+Q: The security policy in a company specifies that the staff in the sales department must use a VPN to connect to the corporate network to access the sales data when they travel to meet customers. What component is needed by the sales staff to establish a remote VPN connection?
+A: VPN client software*
+Q: How many DS0 channels are bundled to produce a 1.544 Mbps T1 line?
+A: 24*
+Q: What function is provided by Multilink PPP?
+A: spreading traffic across multiple physical WAN links*
+Q: Refer to the exhibit. A network administrator is configuring the PPP link between the routers R1 and R2. However, the link cannot be established. Based on the partial output of the show running-config command, what is the cause of the problem?
+A: The usernames do not match the host names.*
+Q: Refer to the exhibit. A network administrator has configured routers RTA and RTB, but cannot ping from serial interface to serial interface. Which layer of the OSI model is the most likely cause of the problem?
+A: data link*
+Q: What advantage does DSL have compared to cable technology?
+A: DSL is not a shared medium.*
+Q: Which broadband technology would be best for a user that needs remote access when traveling in mountains and at sea?
+A: satellite*
+Q: Which technology requires the use of PPPoE to provide PPP connections to customers?
+A: DSL*
+Q: Refer to the exhibit. What is the network administrator verifying when issuing the show ip interface brief command on R1 in respect to the PPPoE connection to R2?
+A: that the Dialer1 interface has been assigned an IP address by the ISP router*
+Q: Which technology creates a mapping of public IP addresses for remote tunnel spokes in a DMVPN configuration?
+A: NHRP*
+Q: What is the purpose of the generic routing encapsulation tunneling protocol?
+A: to manage the transportation of IP multicast and multiprotocol traffic between remote sites*
+Q: Refer to the exhibit. What is used to exchange routing information between routers within each AS?
+A: IGP routing protocols*
+Q: Which IPv4 address range covers all IP addresses that match the ACL filter specified by 172.16.2.0 with wildcard mask 0.0.1.255?
+A: 172.16.2.0 to 172.16.3.255*
+Q: Refer to the exhibit. A named access list called chemistry_block has been written to prevent users on the Chemistry Network and public Internet from access to Records Server. All other users within the school should have access to this server. The list contains the following statements:
+<p>deny 172.16.102.0 0.0.0.255 172.16.104.252 0.0.0.0<br />
+permit 172.16.0.0 0.0.255.255 172.16.104.252 0.0.0.0
+<p>Which command sequence will place this list to meet these requirements?
+A: Athena(config)# interface fa0/0<br />
+Athena(config-if)# ip access-group chemistry_block out*
+Q: What guideline is generally followed about the placement of extended access control lists?
+A: They should be placed as close as possible to the source of the traffic to be denied.*
+Q: In the creation of an IPv6 ACL, what is the purpose of the implicit final command entries, permit icmp any any nd-na and permit icmp any any nd-ns?
+A: to allow IPv6 to MAC address resolution*
+Q: A network administrator is testing IPv6 connectivity to a web server. The network administrator does not want any other host to connect to the web server except for the one test computer. Which type of IPv6 ACL could be used for this situation?
+A: only a named ACL*
+Q: Refer to the exhibit. The IPv6 access list LIMITED_ACCESS is applied on the S0/0/0 interface of R1 in the inbound direction. Which IPv6 packets from the ISP will be dropped by the ACL on R1?
+A: ICMPv6 packets that are destined to PC1*
+Q: What is a secure configuration option for remote access to a network device?
+A: Configure SSH.*
+Q: What protocol should be disabled to help mitigate VLAN attacks?
+A: DTP*
+Q: Which term describes the role of a Cisco switch in the 802.1X port-based access control?
+A: authenticator*
+Q: What two protocols are supported on Cisco devices for AAA communications? (Choose two.)
+A: RADIUS*
+A: TACACS+*
+Q: In configuring SNMPv3, what is the purpose of creating an ACL?
+A: to specify the source addresses allowed to access the SNMP agent*
+Q: Refer to the exhibit. What feature does an SNMP manager need in order to be able to set a parameter on switch ACSw1?
+A: a manager who is using host 192.168.0.5*
+Q: Which Cisco feature sends copies of frames entering one port to a different port on the same switch in order to perform traffic analysis?
+A: SPAN*
+Q: What are two characteristics of video traffic? (Choose two.)
+A: Video traffic is unpredictable and inconsistent.*
+A: Video traffic latency should not exceed 400 ms.*
+Q: Which QoS mechanism allows delay-sensitive data, such as voice, to be sent first before packets in other queues are sent?
+A: LLQ*
+Q: Refer to the exhibit. As traffic is forwarded out an egress interface with QoS treatment, which congestion avoidance technique is used?
+A: traffic shaping*
+Q: Which type of QoS marking is applied to Ethernet frames?
+A: CoS*
+Q: What is the function of a QoS trust boundary?
+A: A trust boundary identifies which devices trust the marking on packets that enter a network.*
+Q: A vibration sensor on an automated production line detects an unusual condition. The sensor communicates with a controller that automatically shuts down the line and activates an alarm. What type of communication does this scenario represent?
+A: machine-to-machine*
+Q: Which pillar of the Cisco IoT System allows data to be analyzed and managed at the location where it is generated?
+A: fog computing*
+Q: Which Cloud computing service would be best for a new organization that cannot afford physical servers and networking equipment and must purchase network services on-demand?
+A: IaaS*
+Q: A data center has recently updated a physical server to host multiple operating systems on a single CPU. The data center can now provide each customer with a separate web server without having to allocate an actual discrete server for each customer. What is the networking trend that is being implemented by the data center in this situation?
+A: virtualization*
+Q: What is used to pre-populate the adjacency table on Cisco devices that use CEF to process packets?
+A: the ARP table*
+Q: What is the wildcard mask that is associated with the network 128.165.216.0/23?
+A: 0.0.1.255*
+Q: What two features are added in SNMPv3 to address the weaknesses of previous versions of SNMP? (Choose two.)
+A: encryption*
+A: authentication*
+Q: Which component of the ACI architecture translates application policies into network programming?
+A: the Application Policy Infrastructure Controller*
+Q: Which two pieces of information should be included in a logical topology diagram of a network? (Choose two.)
+A: connection type*
+A: interface identifier*
+Q: Which network performance statistics should be measured in order to verify SLA compliance?
+A: latency, jitter, and packet loss*
+Q: Which feature sends simulated data across the network and measures performance between multiple network locations?
+A: IP SLA*
+Q: Which troubleshooting tool would a network administrator use to check the Layer 2 header of frames that are leaving a particular host?
+A: protocol analyzer*
+Q: Refer to the exhibit. A network administrator is troubleshooting the OSPF network. The 10.10.0.0/16 network is not showing up in the routing table of Router1. What is the probable cause of this problem?
+A: There is an incorrect wildcard mask statement for network 10.10.0.0/16 on Router2.*
+Q: Refer to the exhibit. A user turns on a PC after it is serviced and calls the help desk to report that the PC seems unable to reach the Internet. The technician asks the user to issue the arp â€“a and ipconfig commands. Based on the output, what are two possible causes of the problem? (Choose two.)
+A: The IP configuration is incorrect.*
+A: The default gateway device cannot be contacted.*
+Q: Match OoS techniques with the description. (Not all options are used.) Which circumstance would result in an enterprise deciding to implement a corporate WAN?
+A: when its employees become distributed across many branch locations*
+Q: What are two types of WAN providers? (Choose two.)
+A: satellite service*
+A: telephone company*
+Q: Which two types of devices are specific to WAN environments and are not found on a LAN? (Choose two.)
+A: broadband modem*
+A: CSU/DSU*
+Q: What is a feature of dense wavelength-division multiplexing (DWDM) technology?
+A: It enables bidirectional communications over one strand of fiber.*
+Q: What is a disadvantage of ATM compared to Frame Relay?
+A: less efficient*
+Q: Which WAN solution uses labels to identify the path in sending packets through a provider network?
+A: MPLS*
+Q: An intercity bus company wants to offer constant Internet connectivity to the users traveling on the buses. Which two types of WAN infrastructure would meet the requirements? (Choose two.)
+A: public infrastructure*
+A: cellular*
+Q: What device is needed at a central office to aggregate many digital subscriber lines from customers?
+A: DSLAM*
+Q: A corporation is searching for an easy and low cost solution to provide teleworkers with a secure connection to headquarters. Which solution should be selected?
+A: remote access VPN over the Internet*
+Q: What is the maximum number of DS0 channels in a 1.544 Mbps T1 line?
+A: 24*
+Q: Refer to the exhibit. What type of Layer 2 encapsulation will be used for RtrA connection D if it is left to the default and the router is a Cisco router?
+A: HDLC*
+Q: Which two functions are provided by the NCP during a PPP connection? (Choose two.)
+A: bringing the network layer protocol or protocols up and down*
+A: negotiating options for the IP protocol*
+Q: What PPP information will be displayed if a network engineer issues the show ppp multilink command on Cisco router?
+A: the serial interfaces participating in the multilink*
+Q: Refer to the exhibit. Which statement describes the status of the PPP connection?
+A: Both the link-establishment and network-layer phase completed successfully.*
+Q: A network administrator is configuring a PPP link with the commands:<br />
+R1(config-if)# encapsulation ppp<br />
+R1(config-if)# ppp quality 70<br />
+What is the effect of these commands?
+A: The PPP link will be closed down if the link quality drops below 70 percent.*
+Q: How does virtualization help with disaster recovery within a data center?
+A: Hardware does not have to be identical.*
+Q: Which broadband solution is appropriate for a home user who needs a wired connection not limited by distance?
+A: cable*
+Q: What is the protocol that provides ISPs the ability to send PPP frames over DSL networks?
+A: PPPoE*
+Q: In software defined network architecture, what function is removed from network devices and performed by an SDN controller?
+A: control plane*
+Q: What would a network administrator expect the routing table of stub router R1 to look like if connectivity to the ISP was established via a PPPoE configuration?
+Q: S* 0.0.0.0/0 is directly connected, Dialer1
+Q: What is a benefit of implementing a Dynamic Multipoint VPN network design?
+A: A DMVPN will support remote peers by providing a mapping database of public IP addresses to each one.*
+Q: Which remote access implementation scenario will support the use of generic routing encapsulation tunneling?
+A: a central site that connects to a SOHO site without encryption*
+Q: Refer to the exhibit. All routers are successfully running the BGP routing protocol. How many routers must use EBGP in order to share routing information across the autonomous systems?
+A: 4*
+Q: Which statement describes a characteristic of standard IPv4 ACLs?
+A: They filter traffic based on source IP addresses only.*
+Q: Which three values or sets of values are included when creating an extended access control list entry? (Choose three.)
+A: access list number between 100 and 199*
+A: destination address and wildcard mask*
+A: source address and wildcard mask*
+Q: Refer to the exhibit. A router has an existing ACL that permits all traffic from the 172.16.0.0 network. The administrator attempts to add a new ACE to the ACL that denies packets from host 172.16.0.1 and receives the error message that is shown in the exhibit. What action can the administrator take to block packets from host 172.16.0.1 while still permitting all other traffic from the 172.16.0.0 network?
+A: Manually add the new deny ACE with a sequence number of 5.*
+Q: Which three implicit access control entries are automatically added to the end of an IPv6 ACL? (Choose three.)
+A: deny ipv6 any any*
+A: permit icmp any any nd-ns*
+A: permit icmp any any nd-na*
+Q: The computers used by the network administrators for a school are on the 10.7.0.0/27 network. Which two commands are needed at a minimum to apply an ACL that will ensure that only devices that are used by the network administrators will be allowed Telnet access to the routers? (Choose two.)
+A: access-class 5 in*
+A: access-list 5 permit 10.7.0.0 0.0.0.31*
+Q: A network administrator is adding ACLs to a new IPv6 multirouter environment. Which IPv6 ACE is automatically added implicitly at the end of an ACL so that two adjacent routers can discover each other?
+A: permit icmp any any nd-na*
+Q: What would be the primary reason an attacker would launch a MAC address overflow attack?
+A: so that the attacker can see frames that are destined for other hosts*
+Q: What are three of the six core components in the Cisco IoT system? (Choose three.)
+A: fog computing*
+A: data analytics*
+A: cyber and physical security*
+Q: What security countermeasure is effective for preventing CAM table overflow attacks?
+A: port security*
+Q: Which SNMP feature provides a solution to the main disadvantage of SNMP polling?
+A: SNMP trap messages*
+Q: When SNMPv1 or SNMPv2 is being used, which feature provides secure access to MIB objects?
+A: community strings*
+Q: What two are added in SNMPv3 to address the weaknesses of previous versions of SNMP? (Choose two.)
+A: encryption*
+A: authentication*
+Q: Which queuing mechanism supports user-defined traffic classes?
+A: CBWFQ*
+Q: Which field is used to mark Layer 2 Ethernet frames for QoS treatment?
+A: Priority field*
+Q: What is an example of cloud computing?
+A: a service that offers on-demand access to shared resources*
+Q: Which type of resources are required for a Type 1 hypervisor?
+A: a management console*
+Q: A network technician made a configuration change on the core router in order to solve a problem. However, the problem is not solved. Which step should the technician take next?
+A: Restore the previous configuration.*
+Q: A user reports that when the corporate web page URL is entered on a web browser, an error message indicates that the page cannot be displayed. The help-desk technician asks the user to enter the IP address of the web server to see if the page can be displayed. Which troubleshooting method is being used by the technician?
+A: divide-and-conquer*
+Q: What is a primary function of the Cisco IOS IP Service Level Agreements feature?
+A: to measure network performance and discover a network failure as early as possible*
+Q: Which IOS log message level indicates the highest severity level?
+A: level 0*
+Q: Which symptom is an example of network issues at the network layer?
+A: Neighbor adjacency is formed with some routers, but not all routers.*
+Q: Refer to the exhibit. H1 can only ping H2, H3, and the Fa0/0 interface of router R1. H2 and H3 can ping H4 and H5. Why might H1 not be able to successfully ping H4 and H5?
+A: Host H1 does not have a default gateway configured.*
+Q: Refer to the exhibit. On the basis of the output, which two statements about network connectivity are correct? (Choose two.)
+A: There is connectivity between this device and the device at 192.168.100.1.*
+A: There are 4 hops between this device and the device at 192.168.100.1.*
+Q: Fill in the blanks. Use dotted decimal format.
+Q: 0.0.1.255
+Q: Match the characteristic to the appropriate authentication protocol. (Not all options are used.)
+Q: Match the term to the description. (Not all options are used.)
+Q: What is a primary difference between a company LAN and the WAN services that it uses?
+A: The company must subscribe to an external WAN service provider.*
+Q: To which two layers of the OSI model do WAN technologies provide services? (Choose two.)
+A: physical layer*
+A: data link layer*
+Q: Which two technologies are private WAN technologies? (Choose two.)
+A: Frame Relay*
+Q: Which WAN technology can switch any type of payload based on labels?
+A: MPLS*
+Q: What technology can be used to create a private WAN via satellite communications?
+A: VSAT*
+Q: Which public WAN access technology utilizes copper telephone lines to provide access to subscribers that are multiplexed into a single T3 link connection?
+A: DSL*
+Q: How many DS0 channels are bounded to produce a 1.544 Mb/s DS1 line?
+A: 24*
+Q: Refer to the exhibit. Communication between two peers has failed. Based on the output that is shown, what is the most likely cause?
+A: PPP issue*
+Q: Refer to the exhibit. Which type of Layer 2 encapsulation used for connection D requires Cisco routers?
+A: HDLC*
+Q: Which three statements are true about PPP? (Choose three.)
+A: PPP can use synchronous and asynchronous circuits.*
+A: PPP uses LCPs to establish, configure, and test the data-link connection.*
+A: PPP uses LCPs to agree on format options such as authentication, compression, and error detection.*
+Q: A network administrator is evaluating authentication protocols for a PPP link. Which three factors might lead to the selection of CHAP over PAP as the authentication protocol? (Choose three.)
+A: uses a three-way authentication periodically during the session to reconfirm identities*
+A: transmits login information in encrypted format*
+A: uses an unpredictable variable challenge value to prevent playback attacks*
+Q: Which cellular or mobile wireless standard is considered a fourth generation technology?
+A: LTE*
+Q: A company is looking for the least expensive broadband solution that provides at least 10 Mb/s download speed. The company is located 5 miles from the nearest provider. Which broadband solution would be appropriate?
+A: cable*
+Q: Which technology can ISPs use to periodically challenge broadband customers over DSL networks with PPPoE?
+A: CHAP*
+Q: What are the three core components of the Cisco ACI architecture? (Choose three.)
+A: Application Network Profile*
+A: Application Policy Infrastructure Controller*
+A: Cisco Nexus Switches*
+Q: Which statement describes a feature of site-to-site VPNs?
+A: Internal hosts send normal, unencapsulated packets.*
+Q: What are three features of a GRE tunnel? (Choose three.)
+A: creates nonsecure tunnels between remote sites*
+A: transports multiple Layer 3 protocols*
+A: creates additional packet overhead*
+Q: Refer to the exhibit. What two commands are needed to complete the GRE tunnel configuration on router R1? (Choose two.)
+A: R1(config-if)# tunnel source 209.165.202.129*
+A: R1(config-if)# tunnel destination 206.165.202.130*
+Q: What does BGP use to exchange routing updates with neighbors?
+A: TCP connections*
+Q: Refer to the exhibit. The network administrator that has the IP address of 10.0.70.23/25 needs to have access to the corporate FTP server (10.0.54.5/28). The FTP server is also a web server that is accessible to all internal employees on networks within the 10.x.x.x address. No other traffic should be allowed to this server. Which extended ACL would be used to filter this traffic, and how would this ACL be applied? (Choose two.)
+A: access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20<br />
+access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21<br />
+access-list 105 permit tcp 10.0.0.0 0.255.255.255 host 10.0.54.5 eq www<br />
+access-list 105 deny ip any host 10.0.54.5<br />
+access-list 105 permit ip any any*
+A: R1(config)# interface gi0/0<br />
+R1(config-if)# ip access-group 105 out*
+Q: Refer to the exhibit. What can be determined from this output?
+A: The router has not had any Telnet packets from 10.35.80.22 that are destined for 10.23.77.101.*
+Q: What is the only type of ACL available for IPv6?
+A: named extended*
+Q: Which IPv6 ACL command entry will permit traffic from any host to an SMTP server on network 2001:DB8:10:10::/64?
+A: permit tcp any host 2001:DB8:10:10::100 eq 25*
+Q: Refer to the exhibit. Considering how packets are processed on a router that is configured with ACLs, what is the correct order of the statements?
+A: C-B-D-A*
+Q: Which two hypervisors are suitable to support virtual machines in a data center? (Choose two.)
+A: VMware ESX/ESXi*
+A: Microsoft Hyper-V 2012*
+Q: How can DHCP spoofing attacks be mitigated?
+A: by implementing DHCP snooping on trusted ports*
+Q: What action can a network administrator take to help mitigate the threat of VLAN attacks?
+A: Disable automatic trunking negotiation.*
+Q: Which SNMP message type informs the network management system (NMS) immediately of certain specified events?
+A: Trap*
+Q: Refer to the exhibit. A SNMP manager is using the community string of snmpenable and is configured with the IP address 172.16.10.1. The SNMP manager is unable to read configuration variables on the R1 SNMP agent. What could be the problem?
+A: The ACL is not permitting access by the SNMP manager.*
+Q: Refer to the exhibit. Which SNMP authentication password must be used by the member of the ADMIN group that is configured on router R1?
+A: cisco123456*
+Q: A network administrator has noticed an unusual amount of traffic being received on a switch port that is connected to a college classroom computer. Which tool would the administrator use to make the suspicious traffic available for analysis at the college data center?
+A: RSPAN*
+Q: What network monitoring tool copies traffic moving through one switch port, and sends the copied traffic to another switch port for analysis?
+A: SPAN*
+Q: Voice packets are being received in a continuous stream by an IP phone, but because of network congestion the delay between each packet varies and is causing broken conversations. What term describes the cause of this condition?
+A: jitter*
+Q: What mechanism compensates for jitter in an audio stream by buffering packets and then replaying them outbound in a steady stream?
+A: playout delay buffer*
+Q: Which type of network traffic cannot be managed using congestion avoidance tools?
+A: UDP*
+Q: A network administrator has moved the company intranet web server from a switch port to a dedicated router interface. How can the administrator determine how this change has affected performance and availability on the company intranet?
+A: Conduct a performance test and compare with the baseline that was established previously.*
+Q: In which stage of the troubleshooting process would ownership be researched and documented?
+A: Gather symptoms.*
+Q: Which troubleshooting approach is more appropriate for a seasoned network administrator rather than a less-experienced network administrator?
+A: a less-structured approach based on an educated guess*
+Q: A router has been configured to use simulated network traffic in order to monitor the network performance between the router and a distant network device. Which command would display the results of this analysis?
+A: show ip sla statistics*
+Q: Which type of tool would an administrator use to capture packets that are going to and from a particular device?
+A: protocol analyzer*
+Q: Refer to the exhibit. Which two statements describe the results of entering these commands? (Choose two.)
+A: R1 will send system messages of levels 0 (emergencies) to level 4 (warnings) to a server.*
+A: The syslog server has the IPv4 address 192.168.10.10.*
+Q: Refer to the exhibit. A network administrator discovers that host A is having trouble with Internet connectivity, but the server farm has full connectivity. In addition, host A has full connectivity to the server farm. What is a possible cause of this problem?
+A: NAT is required for the host A network.*
+Q: Match the operation to the appropriate QoS model.
+Q: Match the cloud model with the description.
+Q: Match the cloud model with the description.
+Q: Which two factors allow businesses to safely communicate and perform transactions using the Internet? (Choose two.)
+A: security*
+A: WAN technology*
+Q: Which two statements about DSL are true? (Choose two.)
+A: local loop can be up to 3.5 miles (5.5km)*
+A: user connections are aggregated at a DSLAM located at the CO*
+Q: Which two statements are true regarding a PPP connection between two Cisco routers? (Choose two.)
+A: LCP tests the quality of the link.*
+A: LCP manages compression on the link.*
+Q: A network administrator is asked to design a system to allow simultaneous access to the Internet for 250 users. The ISP can only supply five public IP addresses for this network. What technology can the administrator use to accomplish this task?
+A: port-based Network Address Translation*
+Q: Refer to the exhibit. An administrator is configuring NAT to provide Internet access to the inside network. After the configuration is completed, users are unable to access the Internet. What is the cause of the problem?
+A: The NAT inside source command is referring to the wrong ACL.*
+Q: What is the expected behavior of an ADSL service?
+A: The download rate is faster than the upload rate.*
+A: The upload rate is faster than the download rate.*
+Q: A network administrator is troubleshooting the dynamic NAT that is configured on router R2. Which command can the administrator use to see the total number of active NAT translations and the number of addresses that are allocated from the NAT pool?
+A: R2# show ip nat statistics*
+Q: Which type of traffic would most likely have problems when passing through a NAT device?
+A: IPsec*
+Q: Refer to the exhibit. The inside local IP address of PC-A is 192.168.0.200. What will be the inside global address of packets from PC-A after they are translated by R1?
+A: 209.165.200.225*
+Q: Refer to the exhibit. What kind of NAT is being configured on R1?
+A: port forwarding*
+Q: What benefit does NAT64 provide?
+A: It allows sites to connect IPv6 hosts to an IPv4 network by translating the IPv6 addresses to IPv4 addresses.*
+Q: What are three benefits of using Frame Relay for WAN connectivity? (Choose three.)
+A: one physical interface that can be used for several circuits*
+A: mature technology*
+A: reasonable cost*
+Q: The DLCI number assigned to a Frame Relay circuit is to be manually added on a point-to-point link. Which three subinterface commands could be used to complete the configuration? (Choose three.)
+A: bandwidth kilobits*
+A: frame-relay interface-dlci dlci*
+A: ip address ip-address mask*
+Q: Which command can be used to check the information about congestion on a Frame Relay link?
+A: show frame-relay pvc*
+Q: Refer to the exhibit. A network administrator has implemented the configuration in the displayed output. What is missing from the configuration that would be preventing OSPF routing updates from passing to the Frame Relay service provider?
+A: The broadcast keyword has not been issued.*
+Q: What is a characteristic of Frame Relay that allows customer data transmissions to dynamically â€œburstâ€ over their CIR for short periods of time?
+A: The physical circuits of the Frame Relay network are shared between subscribers and there may be times when unused bandwidth is available.*
+Q: Which broadband technology would be best for a small office that requires fast upstream connections?
+A: fiber-to-the-home*
+Q: Which technology requires the use of PPPoE to provide PPP connections to customers?
+A: DSL*
+Q: Why is it useful to categorize networks by size when discussing network design?
+A: The complexity of networking infrastructure will vary according to the number of connected devices.*
+Q: A company connects to one ISP via multiple connections. What is the name given to this type of connection?
+A: dual-homed*
+Q: What is one advantage to designing networks in building block fashion for large companies?
+A: failure isolation*
+Q: Which network module maintains the resources that employees, partners, and customers rely on to effectively create, collaborate, and interact with information?
+A: data center*
+Q: A group of Windows PCs in a new subnet has been added to an Ethernet network. When testing the connectivity, a technician finds that these PCs can access local network resources but not the Internet resources. To troubleshoot the problem, the technician wants to initially confirm the IP address and DNS configurations on the PCs, and also verify connectivity to the local router. Which three Windows CLI commands and utilities will provide the necessary information? (Choose three.)
+A: ipconfig*
+A: nslookup*
+A: ping*
+Q: A team of engineers has identified a solution to a significant network problem. The proposed solution is likely to affect critical network infrastructure components. What should the team follow while implementing the solution to avoid interfering with other processes and infrastructure?
+A: change-control procedures*
+Q: Which two specialized troubleshooting tools can monitor the amount of traffic that passes through a switch? (Choose two.)
+A: NAM*
+A: portable network analyzer*
+Q: Which statement is a characteristic of SNMP MIBs?
+A: The NMS must have access to the MIB in order for SNMP to operate properly.*
+Q: Refer to the exhibit. Router R1 was configured by a network administrator to use SNMP version 2. The following commands were issued:
+Q: R1(config)# snmp-server community batonaug ro SNMP_ACL
+Q: R1(config)# snmp-server contact Wayne World
+Q: R1(config)# snmp-server host 192.168.1.3 version 2c batonaug
+Q: R1(config)# ip access-list standard SNMP_ACL
+Q: R1(config-std-nacl)# permit 192.168.10.3
+Q: Why is the administrator not able to get any information from R1?
+A: There is a problem with the ACL configuration.*
+Q: What is used as the default event logging destination for Cisco routers and switches?
+A: console line*
+Q: In the data gathering process, which type of device will listen for traffic, but only gather traffic statistics?
+A: NetFlow collector*
+Q: Which three flows associated with consumer applications are supported by NetFlow collectors? (Choose three.)
+A: accounting*
+A: billing*
+A: network monitoring*
+Q: Which algorithm is considered insecure for use in IPsec encryption?
+A: 3DES*
+Q: Two corporations have just completed a merger. The network engineer has been asked to connect the two corporate networks without the expense of leased lines. Which solution would be the most cost effective method of providing a proper and secure connection between the two corporate networks?
+A: site-to-site VPN*
+Q: Refer to the exhibit. Which IP address is configured on the physical interface of the CORP router?
+A: 209.165.202.133*
+Q: What are three characteristics of the generic routing encapsulation (GRE) protocol? (Choose three.)
+A: GRE tunnels support multicast traffic.*
+A: By default, GRE does not include any flow control mechanisms.*
+A: <span style="color: #000000;">Developed by the IETF, GRE is a secure tunneling protocol that was designed for Cisco routers.</span>*
+A: GRE creates additional overhead for packets that are traveling through the VPN.*
+Q: Which two statements describe remote access VPNs? (Choose two.)
+A: Client software is usually required to be able to access the network.*
+A: Remote access VPNs support the needs of telecommuters and mobile users.*
+Q: Under which two categories of WAN connections does Frame Relay fit? (Choose two.)
+A: private infrastructure*
+A: packet-switched*
+Q: What term is used to identify the point where the customer network ends and the service provider network begins?
+A: the demarcation point*
+Q: Which two characteristics describe time-division multiplexing? (Choose two.)
+A: Traffic is allocated bandwidth across a single wire based on preassigned time slots.*
+A: Data capacity across a single link increases as bits from multiple sources are transmitted using interleaved slices of time.*
+Q: A branch office uses a leased line to connect to the corporate network. The lead network engineer confirms connectivity between users in the branch office, but none of the users can access corporate headquarters. System logs indicate that nothing has changed in the branch office network. What should the engineer consider next to resolve this network outage?
+A: The service provider for the branch office should troubleshoot the issue starting from the point of demarcation.*
+Q: Refer to the exhibit. Which three steps are required to configure Multilink PPP on the HQ router? (Choose three.)
+A: Assign the serial interfaces to the multilink bundle.*
+A: Enable PPP encapsulation on the serial interfaces.*
+A: Create and configure the multilink interface.*
+Q: What is required for a host to use an SSL VPN to connect to a remote network device?
+A: A web browser must be installed on the host.*
+Q: What type of information is collected by Cisco NetFlow?
+A: traffic statistics*
+Q: What is a disadvantage of a packet-switched network compared to a circuit-switched network?
+A: higher latency*
+Q: Which three parts of a Frame Relay Layer 2 PDU are used for congestion control? (Choose three.)
+A: the FECN bit*
+A:  the BECN bit*
+A: the DE bit*
+Q: Which two statements correctly describe asymmetric encryption used with an IPsec VPN? (Choose two.)
+A: Public key encryption is a type of asymmetric encryption.*
+A:  Encryption and decryption use a different key.*
+Q: What are two examples of network problems that are found at the data link layer? (Choose two.)
+A: framing errors*
+A: encapsulation errors*
+Q: Which IEEE standard defines the WiMax technology?
+A: 802.16*
+Q: Place the options in the following order:
+A: Outside global*
+Q: â€“ not scored â€“
+A: Outside local*
+A: Inside global*
+Q: â€“ not scored â€“
+A: Inside local*
+Q: What is the default location for Cisco routers and switches to send critical logging events?
+A: syslog server*
+A: console port*
+Q: What is a type of VPN that is generally transparent to the end user?
+A: remote access*
+A: site-to-site*
+Q: Refer to the exhibit. Which three events will occur as a result of the configuration shown on R1? (Choose three.)
+A:  Messages that are sent to the syslog server will be limited to levels 3 or lower.*
+A:  Messages that are sent to the syslog server will use 192.168.1.5 as the destination IP address.*
+A: The syslog messages will contain the IP address the GigabitEthernet 0/1 interface.*
+Q: Which two technologies are implemented by organizations to support teleworker remote connections? (Choose two.)
+A: VPN*
+A:  CDMA*
+A: IPsec*
+Q: How many 64 kb/s voice channels are combined to produce a T1 line?
+A: 24*
+Q: What is the purpose of a message hash in a VPN connection?
+A: It ensures that the data has not changed while in transit.*
+A: It ensures that the data cannot be read in plain text.*
+Q: Users are reporting longer delays in authentication and in accessing network resources during certain time periods of the week. What kind of information should network engineers check to find out if this situation is part of a normal network behavior?
+A: the network performance baseline*
+Q: Which structured engineering desing principle ensures that the network reamins available even under abnormal conditions?
+A: resiliency*
+Q: A team of engineers has identified a solution to a significant network problem. The proposed solution is likely to affect critical network infrastruture components. What should the team follow while implementing the solution to avoid interfering with other processes and infrastructure?
+A: change-control procedures*
+Q: What is a Frame Relay feauture that supports the IP address-to-DLCI dynamic mapping?
+A: Inverse ARP*
+Q: A small remote office needs to connect to headquarters through a secure IPsec VPN connection. The company is implementing the Cisco Easy VPN solution. Which Cisco Easy VPN component needs to be added on the Cisco router at the remote office?
+A: Cisco Easy VPN Server*
+Q: Which scenario would require the use of static NAT?
+A: when an internal corporate web server needs to be accessed from a home network*
+Q: An organization has purchased a Frame Relay service from a provider. The service agreement specifies that the access rate is 512 kbps, the CIR is 384 kbps, and the Bc is 32 kbps. What will happen when the customer sends a short burst of frames above 450 kbps?
+A: The frames are marked with the DE bit set to 1 and are most likely dropped.*
+Q: What is a Frame Relay feature that supports the IP address-to-DLCI dynamic mapping?
+A: Inverse ARP*
+Q: An administrator wants to configure a router so that users on the outside network can only establish HTTP connections to the internal web site by navigating to http://www.netacad.com:8888. Which feature would the administrator configure to accomplish this?
+A: port forwarding*
+Q: Which two components are needed to provide a DSL connection to a SOHO? (Choose two.)
+A: transceiver*
+A: DSLAM*
+Q: A network engineer is troubleshooting an unsuccessful PPP multilink connection between two routers. That multilink interface has been created and assigned a number, the interface has been enabled for multilink PPP, and the interface has been assigned a multilink group number that matches the group assigned to the member physical serial interfaces. The physical serial interfaces have also been enabled for PPP multilink. Which additional command should to be issued on the multilink interface?
+A: clock rate 4000000 *
+Q: What is the international standard defining cable-related technologies?
+A: DOCSIS*
+Q: Which three statements describe characteristics of converging corporate network architecture?
+A: Server applications are housed within the phisical corporate
+network.*
+A:  Users connect their own devices to the corporate network.*
+A:  Data types include data, and video.*
+Q: Which inefficient feature of time-division multiplexing does statistical TDM overcome?
+A: the unused high speed time slots*
+Q: What are three characteristics of SSL VPNs?
+A: authentication can be one way*
+A: authentication uses shared secret or digital cerificates*
+A: an ssl vpn supports web enable applications, e-mail and file sharing*
+Q: A network engineer is designing an IPsec VPN between Cisco routers for a national bank. Which algorithm assures the highest level of confidentiality for data crossing the VPN?
+A: 256bit AES*
+Q: By the use of sequence numbers, which function of the IPsec security services prevents spoofing by verifying that each packet is non-duplicated and unique?
+A: anti-replay protection*
+Q: A small law firm wants to connect to the Internet at relatively high speed but with low cost. In addition, the firm prefers that the connection be through a dedicated link to the service provider. Which connection type should be selected?
+A: leased line*
+Q: How can an administrator configure a Cisco Easy VPN Server to enable the company to manage many remote VPN connections efficiently?
+A: by pushing the IPsec security policies to the clients when establishing the tunnel*
+Q: How does QoS improve the effectiveness of teleworking?
+A: It provides better service for VoIP and video conferencing applications.*
+Q: Which two networking technologies enable businesses to use the Internet, instead of an enterprise WAN, to securely interconnect their distributed networks? (Choose two.)
+A: remote access VPNs*
+A: site-to-site VPNs*
+Q: What are two benefits of using SNMP traps? (Choose two.)
+A: They eliminate the need for some periodic polling requests.*
+A: They reduce the load on network and agent resources.*
+Q: A network engineer has issued the show interfaces serial 0/0/0 command on a router to examine the open NCPs on a PPP link to another router. The command output displays that the encapsulation is PPP and that the LCP is open. However, the IPV6CP NCP is not shown as open. What does the engineer need to configure to open the IPV6CP NCP on the link?
+A: Configure an IPv6 address on each interface on the link.*
+Q: What address translation is performed by static NAT?
+A: An inside local address is translated to a specified inside global address*
+Q: What are two advantages of using IPv4 NAT? (Choose two.)
+A: conserves public IP addresses*
+A: provides consistency when an internal corporate IP addressing scheme is being designed*
+Q: Which network design module would not commonly connect to the service provider edge?
+A: Remote Access and VPN **
+Q: Whichtwo types of devices are specific to WAN environments and are not found ona LAN?(Choose two.)
+A: Broadband modem*
+A: CSU/DSU*
+Q: What is a plausible reason that an employee would become a teleworker for a company?
+A: to keep employment without having to adhere to company regulations*
+Q: Connecting offices at different locations using the Internet can be economical for a business. What are two important business policy issues that should be addressed when using the Internet for this purpose? (Choose two.)
+A: security*
+A: addressing*
+Q: A technician at a remote location is troubleshooting a router and has emailed partial debug command output to a network engineer at the central office. The message that is received by the engineer only contains a number of LCP messages that relate to a serial interface. Which WAN protocol is being used on the link?
+A: PPP*
+Q: What is a feature of physical point-to-point WAN links?
+A: The MAC address is not used in the address field of the point-to-point frame.*
+Q: Which PPP protocol allows a device to specify an IP address for routing over the PPP link?
+A: IPCP*
+Q: Which two statements describe benefits of NAT? (Choose two.)
+A: NAT can provide application port-level multiplexing in order to conserve public IP addresses.*
+A: NAT provides stateful packet filtering features similar to a firewall.*
+Q: What is one drawback to using the top-down method of troubleshooting?
+A: the need to check every possible application problem and document it*
+Q: What are three functions provided by syslog service? (Choose three.)
+Q: <span style="color: red;">to specify the destination of captured messages *</span>
+Q: <span style="color: red;">to gather logging information for monitoring and troubleshooting *</span>
+Q: <span style="color: red;">to select the type of logging information that is captured *</span>
+Q: Which two types of equipment are needed to send digital modem signals upstream and downstream on a cable system? (Choose two.)
+A: CMTS*
+A: cable modem*
+Q: What two advantages are associated with Frame Relay WAN technology when compared with leased lines? (Choose two.)
+A: Flexibility*
+A: Cost effectieness*
+Q: Which statement describes an advantage of deploying the Cisco SSL VPN solution rather than the Cisco Easy VPN solution?
+A: It supports clientless remote access.*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/ccna-4-v5-0-3-v6-0-final-exam-answers-full-pdf?wpdmdl=23765&refresh=5cd17663980771557231203';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

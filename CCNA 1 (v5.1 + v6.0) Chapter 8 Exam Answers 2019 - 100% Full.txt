@@ -1,0 +1,172 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+Q: What is a result of connecting two or more switches together?
+A: The size of the broadcast domain is increased.*
+Q: Explain:
+Q: Refer to the exhibit. How many broadcast domains are there?
+A: 4*
+Q: Explain:
+Q: What are two reasons a network administrator might want to create subnets? (Choose two.)
+A: improves network performance *
+A: easier to implement security policies*
+Q: Explain:
+Q: Refer to the exhibit. A company uses the address block of 128.107.0.0/16 for its network. What subnet mask would provide the maximum number of equal size subnets while providing enough host addresses for each subnet in the exhibit?
+A: 255.255.255.128*
+Q: Explain:
+Q: Refer to the exhibit. The network administrator has assigned the LAN of LBMISS an address range of 192.168.10.0. This address range has been subnetted using a /29 prefix. In order to accommodate a new building, the technician has decided to use the fifth subnet for configuring the new network (subnet zero is the first subnet). By company policies, the router interface is always assigned the first usable host address and the workgroup server is given the last usable host address. Which configuration should be entered into the properties of the workgroup server to allow connectivity to the Internet?
+A: IP address: 192.168.10.38 subnet mask: 255.255.255.248, default gateway: 192.168.10.33*
+Q: Explain:
+Q: If a network device has a mask of /28, how many IP addresses are available for hosts on this network?
+A: 14*
+Q: Explain:
+Q: Which subnet mask would be used if 5 host bits are available?
+A: 255.255.255.224*
+Q: Explain:
+Q: How many host addresses are available on the network 172.16.128.0 with a subnet mask of 255.255.252.0?
+A: 1022*
+Q: Explain:
+Q: How many bits must be borrowed from the host portion of an address to accommodate a router with five connected networks?
+A: three*
+Q: Explain:
+Q: A network administrator wants to have the same network mask for all networks at a particular small site. The site has the following networks and number of devices:<br />
+IP phones â€“ 22 addresses<br />
+PCs â€“ 20 addresses needed<br />
+Printers â€“ 2 addresses needed<br />
+Scanners â€“ 2 addresses needed
+Q: The network administrator has deemed that 192.168.10.0/24 is to be the network used at this site. Which single subnet mask would make the most efficient use of the available addresses to use for the four subnetworks?
+A: 255.255.255.224*
+Q: Explain:
+Q: A company has a network address of 192.168.1.64 with a subnet mask of 255.255.255.192. The company wants to create two subnetworks that would contain 10 hosts and 18 hosts respectively. Which two networks would achieve that? (Choose two.)
+A: 192.168.1.64/27*
+A: 192.168.1.96/28*
+Q: Explain:
+Q: A network administrator is variably subnetting a network. The smallest subnet has a mask of 255.255.255.248. How many usable host addresses will this subnet provide?
+A: 6*
+Q: Explain:
+Q: Refer to the exhibit. Given the network address of 192.168.5.0 and a subnet mask of 255.255.255.224, how many total host addresses are unused in the assigned subnets?
+A: 72*
+Q: Explain:
+Q: Refer to the exhibit. Considering the addresses already used and having to remain within the 10.16.10.0/24 network range, which subnet address could be assigned to the network containing 25 hosts?
+A: 10.16.10.64/27*
+Q: Explain:
+Q: Refer to the exhibit. Given the network address of 192.168.5.0 and a subnet mask of 255.255.255.224 for all subnets, how many total host addresses are unused in the assigned subnets?
+A: 72*
+Q: A network administrator needs to monitor network traffic to and from servers in a data center. Which features of an IP addressing scheme should be applied to these devices?
+A: predictable static IP addresses for easier identification*
+Q: Explain:
+Q: Which two reasons generally make DHCP the preferred method of assigning IP addresses to hosts on large networks? (Choose two.)
+A: It eliminates most address configuration errors.*
+A: It reduces the burden on network support staff.*
+Q: Explain:
+Q: A DHCP server is used to assign IP addresses dynamically to the hosts on a network. The address pool is configured with 192.168.10.0/24. There are 3 printers on this network that need to use reserved static IP addresses from the pool. How many IP addresses in the pool are left to be assigned to other hosts?
+A: 251*
+Q: Explain:
+Q: Refer to the exhibit. A company is deploying an IPv6 addressing scheme for its network. The company design document indicates that the subnet portion of the IPv6 addresses is used for the new hierarchical network design, with the site subsection to represent multiple geographical sites of the company, the sub-site section to represent multiple campuses at each site, and the subnet section to indicate each network segment separated by routers. With such a scheme, what is the maximum number of subnets achieved per sub-site?
+A: 16*
+Q: Explain:
+Q: What is the prefix for the host address 2001:DB8:BC15:A:12AB::1/64?
+A: 2001:DB8:BC15:A*
+Q: Explain:
+Q: Consider the following range of addresses:
+Q: /60
+Q: Explain:
+Q: Match the subnetwork to a host address that would be included within the subnetwork. (Not all options are used.)
+Q: Question
+Q: Answer
+Q: Explain:
+Q: Refer to the exhibit. Match the network with the correct IP address and prefix that will satisfy the usable host addressing requirements for each network. (Not all options are used.) From right to left, network A has 100 hosts connected to the router on the right. The router on the right is connected via a serial link to the router on the left. The serial link represents network D with 2 hosts. The left router connects network B with 50 hosts and network C with 25 hosts.
+Q: Explain:
+Q: How many bits are in an IPv4 address?
+A:  32*
+Q:  Which two parts are components of an IPv4 address? (Choose two.)
+A: network portion*
+A: host portion*
+Q: What is the prefix length notation for the subnet mask 255.255.255.224?
+A: /27*
+Q: A message is sent to all hosts on a remote network. Which type of message is it?
+A: directed broadcast*
+Q: What two statements describe characteristics of Layer 3 broadcasts? (Choose two.)
+A: Routers create broadcast domains. *
+A: A limited broadcast packet has a destination IP address of 255.255.255.255.*
+Q: Which network migration technique encapsulates IPv6 packets inside IPv4 packets to carry them over IPv4 network infrastructures?
+A: tunneling*
+Q: Which two statements are correct about IPv4 and IPv6 addresses? (Choose two.)
+A: IPv6 addresses are represented by hexadecimal numbers.*
+A: IPv4 addresses are 32 bits in length.*
+Q: Which IPv6 address is most compressed for the full FE80:0:0:0:2AA:FF:FE9A:4CA3 address?
+A: FE80::2AA:FF:FE9A:4CA3*
+Q: What are two types of IPv6 unicast addresses? (Choose two.)
+A: loopback *
+A: link-local*
+Q: What are three parts of an IPv6 global unicast address? (Choose three.)
+A: a global routing prefix that is used to identify the network portion of the address that has been provided by an ISP *
+A: a subnet ID that is used to identify networks inside of the local enterprise site*
+A: an interface ID that is used to identify the local host on the network*
+Q: An IPv6 enabled device sends a data packet with the destination address of FF02::1. What is the target of this packet?
+Q:  all IPv6 enabled nodes on the local link
+Q: When a Cisco router is being moved from an IPv4 network to a complete IPv6 environment, which series of commands would correctly enable IPv6 forwarding and interface addressing?
+Q: Router# configure terminal
+Q: Router(config)# interface fastethernet 0/0
+Q: Router(config-if)# ipv6 address 2001:db8:bced:1::9/64
+Q: Router(config-if)# no shutdown
+Q: Router(config-if)# exit
+A: Router(config)# ipv6 unicast-routing*
+Q: Which two ICMP messages are used by both IPv4 and IPv6 protocols? (Choose two.)?
+A: route redirection*
+A: protocol unreachable*
+Q: When an IPv6 enabled host needs to discover the MAC address of an intended IPv6 destination, which destination address is used by the source host in the NS message?
+A: solicited-node multicast address*
+Q: When will a router drop a traceroute packet?
+A: when the value in the TTL field reaches zero*
+Q: What is indicated by a successful ping to the ::1 IPv6 address?
+A: IP is properly installed on the host.*
+Q: Which two things can be determined by using the ping command? (Choose two.)
+A: the average time it takes a packet to reach the destination and for the response to return to the source *
+A: whether or not the destination device is reachable through the network*
+Q: Fill in the blank.
+Q: 149
+Q: <span style="color: #000000;">20. Fill in the blank.</span>
+A: 63*
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. Which message is displayed on the web server?
+A: Correct configuration!*
+Q: Match each IPv4 address to the appropriate address category. (Not all options are used.)
+Q: Place the options in the following order:
+Q: Host address [A] 192.168.100.161/25 [A]
+Q: Host address [B] 203.0.113.100/24 [B]
+Q: Host address [C] 10.0.50.10/30 [C]
+Q: Network address [D] 192.168.1.80/29 [D]
+Q: Network address [E] 172.110.12.64/28 [E]
+Q: Network address [F] 10.10.10.128/25 [F]
+Q: Broadcast address [G] 10.0.0.159/27 [G]
+Q: Broadcast address [H] 192.168.1.191/26 [H]
+Q: Match each description with an appropriate IP address. (Not all options are used)
+Q: 169.254.1.5 -&gt; <span style="color: #ff0000;">a link-local address</span>
+Q: 192.0.2.153 -&gt; <span style="color: #ff0000;">a TEST-NET address</span>
+Q: 240.2.6.255 -&gt; <span style="color: #ff0000;">an experimental address</span>
+Q: 172.19.20.5 -&gt; <span style="color: #ff0000;">a private address</span>
+Q: 127.0.0.1 -&gt; <span style="color: #ff0000;">a loopback address</span>
+Q: Match each description with an appropriate IP address. (Not all options are used.)
+Q: 192.31.18.123 -&gt; <span style="color: #ff0000;">a legacy class C address</span>
+Q: 198.256.2.6 -&gt; <span style="color: #ff0000;">an invalid IPv4 address</span>
+Q: 64.100.3.5 -&gt; <span style="color: #ff0000;">a legacy class A address</span>
+Q: 224.2.6.255 -&gt; <span style="color: #ff0000;">a legacy class D address</span>
+Q: 128.107.5.1 -&gt; <span style="color: #ff0000;">a legacy class B address</span>
+Q: Which three addresses could be used as the destination address for OSPFv3 messages? (Choose three.)
+A: FE80::1*
+A: FF02::5*
+A: FF02::6*
+Q: What is the result of connecting multiple switches to each other?
+A: The size of the broadcast domain is increasing.*
+Q: Which wildcard mask would be used to advertise the 192.168.5.96/27 network as part of an OSPF configuration?
+A: 0.0.0.31*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-1-v5-1-v6-0-chapter-8-exam-answers-full-pdf?wpdmdl=20450&refresh=5cd0f21ad622c1557197338';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam

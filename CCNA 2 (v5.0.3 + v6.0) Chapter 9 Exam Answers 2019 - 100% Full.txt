@@ -1,0 +1,147 @@
+Q: How to find:
+Q: &#8220;Ctrl + F&#8221;
+Q: <div class="message_box note"><p>NOTE: If you have the new question on this test, please comment Question and Multiple-Choice list in form below this article. We will update answers for you in the shortest time. Thank you! We truly value your contribution to the website.</div>
+A: conserve IPv4 addresses*
+Q: Which method is used by a PAT-enabled router to send incoming packets to the correct inside hosts?â€‹
+A: It uses the destination TCP or UDP port number on the incoming packet. *
+Q: What are two benefits of NAT? (Choose two.)
+A: It saves public IP addresses. *
+A: It adds a degree of privacy and security to a network.*
+Q: What is a disadvantage of NAT?
+A: There is no end-to-end addressing.*
+Q: What is an advantage of deploying IPv4 NAT technology for internal hosts in an organization?
+A: provides flexibility in designing the IPv4 addressing scheme *
+Q: Refer to the exhibit. Which address or addresses represent the inside global address?
+A: 209.165.20.25 *
+Q: Refer to the exhibit. A technician is configuring R2 for static NAT to allow the client to access the web server. What is a possible reason that the client PC cannot access the web server?
+A: Interface S0/0/0 should be identified as the outside NAT interface. *
+Q: A network administrator configures the border router with the command R1(config)# ip nat inside source list 4 pool corp. What is required to be configured in order for this particular command to be functional?
+A: a NAT pool named corp that defines the starting and ending public IP addresses *
+Q: When dynamic NAT without overloading is being used, what happens if seven users attempt to access a public server on the Internet when only six addresses are available in the NAT pool?
+A: The request to the server for the seventh user fails. *
+Q: What is defined by the ip nat pool command when configuring dynamic NAT?
+A: the pool of global address *
+Q: Refer to the exhibit. What is the purpose of the command marked with an arrow shown in the partial configuration output of a Cisco broadband router?
+A: defines which addresses can be translated *
+Q: A network engineer has configured a router with the command ip nat inside source list 4 pool corp overload. Why did the engineer use the overload option?
+A: The company has more private IP addresses than available public IP addresses. *
+Q: What are two of the required steps to configure PAT? (Choose two.)
+A: Define a pool of global addresses to be used for overload translation. *
+A: Identify the inside interface. *
+Q: What is the major benefit of using NAT with Port Address Translation?
+A: It allows many internal hosts to share the same public IPv4 address. *
+Q: What is the purpose of port forwarding?
+A: Port forwarding allows an external user to reach a service on a private IPv4 address that is located inside a LAN. *
+Q: A network administrator is configuring a static NAT on the border router for a web server located in the DMZ network. The web server is configured to listen on TCP port 8080. The web server is paired with the internal IP address of 192.168.5.25 and the external IP address of 209.165.200.230. For easy access by hosts on the Internet, external users do not need to specify the port when visiting the web server. Which command will configure the static NAT?
+A: R1(config)# ip nat inside source static tcp 192.168.5.25 8080 209.165.200.230 80 *
+Q: What is a characteristic of unique local addresses?
+A: They allow sites to be combined without creating any address conflicts. *
+Q: Which statement describes IPv6 ULAs?
+A: They are not routable across the Internet. *
+Q: Refer to the exhibit. Based on the output that is shown, what type of NAT has been implemented?
+A: PAT using an external interface *
+Q: Match the steps with the actions that are involved when an internal host with IP address 192.168.10.10 attempts to send a packet to an external server at the IP address 209.165.200.254 across a router R1 that is running dynamic NAT. (Not all options are used.)
+Q: Answer:
+Q: Fill in the blank. Do not use abbreviations.
+Q: Port Address Translation
+Q: A technician is required to configure an edge router to use a different TCP port number for each session with a server on the Internet. What type of Network Address Translation (NAT) should be implemented?
+A: a many-to-one address mapping between local and global addresses*
+Q: Which three statements describe ACL processing of packets? (Choose three.)
+A: An implicit deny any rejects any packet that does not match any ACE. *
+A: A packet can either be rejected or forwarded as directed by the ACE that is matched.*
+A: Each statement is checked only until a match is detected or until the end of the ACE list.*
+Q: What two functions describe uses of an access control list? (Choose two.)
+A: ACLs provide a basic level of security for network access.*
+A: ACLs can control which areas a host can access on a network.*
+Q: In which configuration would an outbound ACL placement be preferred over an inbound ACL placement?
+A:  when the ACL is applied to an outbound interface to filter packets coming from multiple inbound interfaces before the packets exit the interface*
+Q: Which two characteristics are shared by both standard and extended ACLs? (Choose two.)
+A: Both include an implicit deny as a final entry.*
+A: Both can be created by using either a descriptive name or number.*
+Q: A network administrator needs to configure a standard ACL so that only the workstation of the administrator with the IP address 192.168.15.23 can access the virtual terminal of the main router. Which two configuration commands can achieve the task? (Choose two.)
+A: Router1(config)# access-list 10 permit host 192.168.15.23 *
+A: Router1(config)# access-list 10 permit 192.168.15.23 0.0.0.0*
+Q: What single access list statement matches all of the following networks?<br />
+192.168.16.0<br />
+192.168.17.0<br />
+192.168.18.0<br />
+192.168.19.0
+A: access-list 10 permit 192.168.16.0 0.0.3.255*
+Q: If a router has two interfaces and is routing both IPv4 and IPv6 traffic, how many ACLs could be created and applied to it?
+A: 8*
+Q: Which three statements are generally considered to be best practices in the placement of ACLs? (Choose three.)
+A: Filter unwanted traffic before it travels onto a low-bandwidth link. *
+A: Place extended ACLs close to the source IP address of the traffic. *
+A: Place standard ACLs close to the destination IP address of the traffic.*
+Q: Refer to the exhibit. A router has an existing ACL that permits all traffic from the 172.16.0.0 network. The administrator attempts to add a new ACE to the ACL that denies packets from host 172.16.0.1 and receives the error message that is shown in the exhibit. What action can the administrator take to block packets from host 172.16.0.1 while still permitting all other traffic from the 172.16.0.0 network?
+A: Manually add the new deny ACE with a sequence number of 5.*
+Q: Refer to the exhibit. What will happen to the access list 10 ACEs if the router is rebooted before any other commands are implemented?
+A: The ACEs of access list 10 will be renumbered.*
+Q: An administrator has configured an access list on R1 to allow SSH administrative access from host 172.16.1.100. Which command correctly applies the ACL?
+A: R1(config-line)# access-class 1 in*
+Q: Consider the following access list that allows IP phone configuration file transfers from a particular host to a TFTP server:
+Q: Which method would allow the network administrator to modify the ACL and include FTP transfers from any source IP address?
+A: R1(config)# interface gi0/0 *
+A: R1(config-if)# no ip access-group 105 out *
+A: R1(config)# no access-list 105 *
+A: R1(config)# access-list 105 permit udp host 10.0.70.23 host 10.0.54.5 range 1024 5000 *
+A: R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 20 *
+A: R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 21 *
+A: R1(config)# access-list 105 deny ip any any *
+A: R1(config)# interface gi0/0 *
+A: R1(config-if)# ip access-group 105 out*
+Q: R1(config)# access-list 105 permit udp host 10.0.70.23 host 10.0.54.5 range 1024 5000<br />
+R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 20<br />
+R1(config)# access-list 105 permit tcp any host 10.0.54.5 eq 21<br />
+R1(config)# access-list 105 deny ip any any
+Q: Refer to the exhibit. What is the result of adding the established argument to the end of the ACE?
+A: Any TCP traffic is allowed to reach the 192.168.254.0 255.255.254.0 network if it is in response to an originated request. *
+Q: What packets would match the access control list statement that is shown below? access-list 110 permit tcp 172.16.0.0 0.0.0.255 any eq 22
+A: SSH traffic from the 172.16.0.0 network to any destination network*
+Q: Which statement describes a difference between the operation of inbound and outbound ACLs?
+A: Inbound ACLs are processed before the packets are routed while outbound ACLs are processed after the routing is completed.*
+Q: What is a limitation when utilizing both IPv4 and IPv6 ACLs on a router?
+A: Both IPv4 and IPv6 ACLs can be configured on a single device, but cannot share the same name.*
+Q: What method is used to apply an IPv6 ACL to a router interface?
+A: the use of the ipv6 traffic-filter command*
+Q: Which IPv6 ACL command entry will permit traffic from any host to an SMTP server on network 2001:DB8:10:10::/64?
+A: permit tcp any host 2001:DB8:10:10::100 eq 25*
+Q: Refer to the exhibit. The IPv6 access list LIMITED_ACCESS is applied on the S0/0/0 interface of R1 in the inbound direction. Which IPv6 packets from the ISP will be dropped by the ACL on R1?
+A: ICMPv6 packets that are destined to PC1*
+Q: Which feature is unique to IPv6 ACLs when compared to those of IPv4 ACLs?
+A: an implicit permit of neighbor discovery packets*
+Q: Which three implicit access control entries are automatically added to the end of an IPv6 ACL? (Choose three.)
+A: deny ipv6 any any*
+A: permit icmp any any nd-ns *
+A: permit icmp any any nd-na *
+Q: What is the only type of ACL available for IPv6?
+A: named extended*
+Q: Match each statement with the example subnet and wildcard that it describes. (Not all options are used.)
+Q: Which statement describes a characteristic of standard IPv4 ACLs?
+A: They filter traffic based on source IP addresses only.*
+Q: Which IPv4 address range covers all IP addresses that match the ACL filter specified by 172.16.2.0 with wildcard mask 0.0.1.255?
+A: 172.16.2.0 to 172.16.3.255*
+Q: Refer to the exhibit. The network administrator that has the IP address of 10.0.70.23/25 needs to have access to the corporate FTP server (10.0.54.5/28). The FTP server is also a web server that is accessible to all internal employees on networks within the 10.x.x.x address. No other traffic should be allowed to this server. Which extended ACL would be used to filter this traffic, and how would this ACL be applied? (Choose two.)
+Q: access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 20
+Q: access-list 105 permit tcp host 10.0.70.23 host 10.0.54.5 eq 21
+Q: access-list 105 permit tcp 10.0.0.0 0.255.255.255 host 10.0.54.5 eq www
+Q: access-list 105 deny ip any host 10.0.54.5 
+A: access-list 105 permit ip any any*
+Q: R1(config)# interface gi0/0 
+A: R1(config-if)# ip access-group 105 out*
+Q: Launch PT â€“ Hide and Save PT
+Q: Open the PT Activity. Perform the tasks in the activity instructions and then answer the question. Why is the ACL not working?
+Q: <span style="color: red;">The ACL is applied to the wrong interface.*</span>
+Q: What are two possible uses of access control lists in an enterprise network? (Choose two.)
+A: limiting debug outputs*
+A: controlling virtual terminal access to routers*
+Q: Download PDF File below:
+Q: <a class='wpdm-download-link btn btn-primary ' rel='nofollow' href='#' onclick="location.href='https://itexamanswers.net/download/itexamanswers-net-ccna-2-v5-1-v6-0-chapter-9-exam-answers-full-pdf?wpdmdl=20499&refresh=5cd0ef8966ff11557196681';return false;">Download</a>
+Q: CCNA 1: Introduction to Networking
+Q: CCNA 2: Routing & Switching Essentials
+Q: CCNA 3: Scaling Networks
+Q: CCNA 4: Connecting Networks
+Q: CCNA 1 &#8211; Final Exam
+Q: CCNA 2 &#8211; Final Exam
+Q: CCNA 3 &#8211; Final Exam
+Q: CCNA 4 &#8211; Final Exam
